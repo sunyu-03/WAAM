@@ -1,0 +1,195 @@
+{
+  "case": "collision",
+  "expected_status": "FAIL",
+  "actual_status": "FAIL",
+  "elapsed_s": 0.13790420000441372,
+  "input_sha256": {
+    "config.yaml": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e",
+    "target.stl": "fc5bb5ca0ef7ecdeb8499b69f077c66d7564575e036aa903e53f62c7a66eb451"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "reward": -1.104051355127438,
+      "terminated": false,
+      "truncated": false,
+      "makespan_s": 10.405135512743808,
+      "delta_makespan_s": 10.405135512743808,
+      "finished": [
+        false,
+        false,
+        false
+      ],
+      "collision_pass": 0,
+      "validation_pass": null,
+      "shape_pass": null,
+      "success": null,
+      "reward_makespan": -0.10405135512743809,
+      "reward_collision": -1.0,
+      "reward_terminal": 0.0,
+      "episode_collision_free": false,
+      "upstream_success": null
+    },
+    {
+      "step": 2,
+      "reward": -11.001,
+      "terminated": true,
+      "truncated": false,
+      "makespan_s": 10.505135512743808,
+      "delta_makespan_s": 0.09999999999999964,
+      "finished": [
+        true,
+        true,
+        true
+      ],
+      "collision_pass": 0,
+      "validation_pass": 1,
+      "shape_pass": 0,
+      "success": 0,
+      "reward_makespan": -0.0009999999999999966,
+      "reward_collision": -1.0,
+      "reward_terminal": -10.0,
+      "episode_collision_free": false,
+      "upstream_success": 0
+    }
+  ],
+  "validation": {
+    "schema_version": "4.0",
+    "validator_version": "1.0.1",
+    "status": "FAIL",
+    "input": {
+      "directory": "C:\\Users\\User\\Desktop\\WAAM\\TEAM_PROJECT\\week1\\results\\validation_controls\\collision\\input",
+      "trajectory_rows": 11,
+      "target_watertight": true
+    },
+    "schedule": {
+      "makespan_s": 10.505135512743808,
+      "robot_completion_s": {
+        "1": 10.505135512743808,
+        "2": 10.505135512743808,
+        "3": 10.505135512743808
+      },
+      "workload_imbalance_s": 0.0,
+      "normalized_imbalance": 0.0
+    },
+    "reach": {
+      "distance_basis": "XY",
+      "passed": true,
+      "robots": [
+        {
+          "robot_id": 1,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1166.1903743691096,
+          "minimum_xy_margin_mm": 1333.8096256308904,
+          "xy_utilization_ratio": 0.46647614974764384,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 2,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1166.1903743691096,
+          "minimum_xy_margin_mm": 1333.8096256308904,
+          "xy_utilization_ratio": 0.46647614974764384,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 3,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1200.0000089406967,
+          "minimum_xy_margin_mm": 1299.9999910593033,
+          "xy_utilization_ratio": 0.4800000035762787,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        }
+      ]
+    },
+    "collision": {
+      "passed": false,
+      "collision_event_count": 6,
+      "arm_envelope": {
+        "enabled": true,
+        "passed": false,
+        "event_count": 3,
+        "minimum_safety_margin_mm": -250.0,
+        "centerline_distance_at_worst_mm": 0.0,
+        "required_distance_at_worst_mm": 250.0,
+        "capsule_surface_clearance_at_worst_mm": -200.0,
+        "pair": [
+          1,
+          2
+        ],
+        "time_s": 10.232853368073604,
+        "closest_points_xy_mm": [
+          [
+            0.0,
+            -8.940696716308594e-06
+          ],
+          [
+            0.0,
+            -8.940696716308594e-06
+          ]
+        ],
+        "tcp_positions_xy_mm": [
+          [
+            0.0,
+            -8.940696716308594e-06
+          ],
+          [
+            0.0,
+            -8.940696716308594e-06
+          ],
+          [
+            0.0,
+            19.86888885498047
+          ]
+        ]
+      },
+      "tcp_radius": {
+        "enabled": true,
+        "passed": false,
+        "event_count": 3,
+        "minimum_distance_mm": 0.0,
+        "required_distance_at_minimum_mm": 40.0,
+        "pair": [
+          1,
+          2
+        ],
+        "time_s": 10.232853368073604
+      }
+    },
+    "shape": {
+      "passed": false,
+      "target_volume_mm3": 664.9713817999999,
+      "deposited_volume_mm3": 0.0,
+      "intersection_volume_mm3": 0.0,
+      "underfill_volume_mm3": 664.9713817999998,
+      "overfill_volume_mm3": 0.0,
+      "coverage": 0.0,
+      "underfill_ratio": 0.9999999999999998,
+      "overfill_ratio": 0.0,
+      "iou": 0.0,
+      "failed_layer_count": 1,
+      "evaluated_layer_count": 1,
+      "failed_layer_ratio": 1.0,
+      "target_mesh_volume_mm3": 664.9716800538608,
+      "target_volume_discrepancy_ratio": 4.4852114741024074e-07
+    },
+    "failure_reasons": [
+      "ARM_ENVELOPE: 3 event(s) detected; worst safety margin -250.000 mm.",
+      "TCP_RADIUS: 3 event(s) detected.",
+      "Overall coverage 0.00% is below minimum 95.00%.",
+      "Overall IoU 0.00% is below minimum 90.00%.",
+      "Failed-layer ratio 100.00% exceeds maximum 5.00%."
+    ],
+    "issues": [],
+    "output_directory": "C:\\Users\\User\\Desktop\\WAAM\\TEAM_PROJECT\\week1\\results\\validation_controls\\collision\\validation"
+  }
+}

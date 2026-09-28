@@ -1,0 +1,7 @@
+Date: 2026-09-25
+Command: python -B -m pytest test_assignment.py test_week1.py -q
+Execution: existing WAAM venv, through Codex temporary-directory ACL compatibility runner.
+Result: 14 passed, 1 warning, 3 subtests passed in 7.12s
+Warning: SB3 recommends flattening the reference wrapper's (3,5) observation.
+The individual AssignmentEnv already has a one-dimensional observation.
+Upstream environment/test_gym_wrapper.py is not included in this test count.

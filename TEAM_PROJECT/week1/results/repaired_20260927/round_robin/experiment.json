@@ -1,0 +1,184 @@
+{
+  "policy": "round_robin",
+  "seed": 42,
+  "planning_s": 0.30779240000993013,
+  "observation_size": 76,
+  "steps": [
+    {
+      "action": 0,
+      "robot_id": 1,
+      "reward": -0.2435101538716252,
+      "makespan_s": 22.70764668124454,
+      "completed_tasks": 1,
+      "total_tasks": 4,
+      "schedule_complete": false
+    },
+    {
+      "action": 1,
+      "robot_id": 2,
+      "reward": -0.11159708756248318,
+      "makespan_s": 33.114223962456066,
+      "completed_tasks": 2,
+      "total_tasks": 4,
+      "schedule_complete": false
+    },
+    {
+      "action": 2,
+      "robot_id": 3,
+      "reward": -0.11343828934367062,
+      "makespan_s": 43.69249576585217,
+      "completed_tasks": 3,
+      "total_tasks": 4,
+      "schedule_complete": false
+    },
+    {
+      "action": 0,
+      "robot_id": 1,
+      "reward": 0.8893015552461148,
+      "makespan_s": 54.0152734064087,
+      "completed_tasks": 4,
+      "total_tasks": 4,
+      "schedule_complete": true
+    }
+  ],
+  "schedule_complete": true,
+  "input_sha256": {
+    "config.yaml": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e",
+    "target.stl": "fc5bb5ca0ef7ecdeb8499b69f077c66d7564575e036aa903e53f62c7a66eb451"
+  },
+  "validation": {
+    "schema_version": "4.0",
+    "validator_version": "1.0.1",
+    "status": "PASS",
+    "input": {
+      "directory": "C:\\Users\\User\\Desktop\\WAAM\\TEAM_PROJECT\\week1\\results\\repaired_20260927\\round_robin\\input",
+      "trajectory_rows": 18,
+      "target_watertight": true
+    },
+    "schedule": {
+      "makespan_s": 54.0152734064087,
+      "robot_completion_s": {
+        "1": 54.0152734064087,
+        "2": 33.114223962456066,
+        "3": 43.69249576585217
+      },
+      "workload_imbalance_s": 20.901049443952637,
+      "normalized_imbalance": 0.3869470267547106
+    },
+    "reach": {
+      "distance_basis": "XY",
+      "passed": true,
+      "robots": [
+        {
+          "robot_id": 1,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1200.6664815842908,
+          "minimum_xy_margin_mm": 1299.3335184157092,
+          "xy_utilization_ratio": 0.4802665926337163,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 2,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1183.3849753989612,
+          "minimum_xy_margin_mm": 1316.6150246010388,
+          "xy_utilization_ratio": 0.47335399015958446,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 3,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1200.1666550941998,
+          "minimum_xy_margin_mm": 1299.8333449058002,
+          "xy_utilization_ratio": 0.4800666620376799,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        }
+      ]
+    },
+    "collision": {
+      "passed": true,
+      "collision_event_count": 0,
+      "arm_envelope": {
+        "enabled": true,
+        "passed": true,
+        "event_count": 0,
+        "minimum_safety_margin_mm": 514.0489463717353,
+        "centerline_distance_at_worst_mm": 764.0489463717353,
+        "required_distance_at_worst_mm": 250.0,
+        "capsule_surface_clearance_at_worst_mm": 564.0489463717353,
+        "pair": [
+          1,
+          2
+        ],
+        "time_s": 16.554456668931913,
+        "closest_points_xy_mm": [
+          [
+            -405.6934509277344,
+            -236.13885498046875
+          ],
+          [
+            358.23358154296875,
+            -222.4903564453125
+          ]
+        ],
+        "tcp_positions_xy_mm": [
+          [
+            -405.6934509277344,
+            -236.13885498046875
+          ],
+          [
+            358.23358154296875,
+            -222.4903564453125
+          ],
+          [
+            0.0,
+            1200.0
+          ]
+        ]
+      },
+      "tcp_radius": {
+        "enabled": true,
+        "passed": true,
+        "event_count": 0,
+        "minimum_distance_mm": 764.0489463717353,
+        "required_distance_at_minimum_mm": 40.0,
+        "pair": [
+          1,
+          2
+        ],
+        "time_s": 16.554456668931913
+      }
+    },
+    "shape": {
+      "passed": true,
+      "target_volume_mm3": 664.9713817999999,
+      "deposited_volume_mm3": 664.9716764799999,
+      "intersection_volume_mm3": 664.9713817999998,
+      "underfill_volume_mm3": 0.0,
+      "overfill_volume_mm3": 7.958999999894967e-05,
+      "coverage": 0.9999999999999998,
+      "underfill_ratio": 0.0,
+      "overfill_ratio": 1.1968936134290294e-07,
+      "iou": 0.9999995568533057,
+      "failed_layer_count": 0,
+      "evaluated_layer_count": 1,
+      "failed_layer_ratio": 0.0,
+      "target_mesh_volume_mm3": 664.9716800538608,
+      "target_volume_discrepancy_ratio": 4.4852114741024074e-07
+    },
+    "failure_reasons": [],
+    "issues": [],
+    "output_directory": "C:\\Users\\User\\Desktop\\WAAM\\TEAM_PROJECT\\week1\\results\\repaired_20260927\\round_robin\\validation"
+  },
+  "status": "PASS",
+  "makespan_s": 54.0152734064087
+}
