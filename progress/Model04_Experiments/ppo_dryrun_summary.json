@@ -1,0 +1,12 @@
+{
+  "model": "04",
+  "evaluation": "dry_run",
+  "retrained": false,
+  "layer_count": 50,
+  "task_count": 13508,
+  "greedy_makespan_s": 113437.75470285861,
+  "safety_filter_count": 120,
+  "ppo_status": "REACH_FEASIBLE",
+  "ppo_estimated_makespan_s": 113062.00213654393,
+  "improvement_percent": 0.3312411879968317
+}

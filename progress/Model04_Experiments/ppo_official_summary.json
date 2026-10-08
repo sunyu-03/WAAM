@@ -1,0 +1,12 @@
+{
+  "algorithm": "Constrained PPO",
+  "training_model": "01",
+  "evaluation_model": "04",
+  "retrained": false,
+  "estimated_makespan_s": 113062.00213654393,
+  "validator_status": "PASS",
+  "validator_makespan_s": 113062.002136544,
+  "coverage": 0.9613588259363238,
+  "iou": 0.9613014731195937,
+  "collisions": 0
+}
