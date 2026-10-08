@@ -1,0 +1,10 @@
+[
+  {
+    "layer": 0,
+    "strategy": "skeleton(pixel=0.500mm)",
+    "task_count": 1,
+    "coverage": 1.0000000929964834,
+    "overfill": 9.22856066509325e-07,
+    "iou": 0.999999501332218
+  }
+]

@@ -1,0 +1,179 @@
+{
+  "seed": 42,
+  "policy": "reach-aware greedy",
+  "status": "PASS",
+  "ppo": "NOT_CONNECTED",
+  "makespan_s": 30.469707263485695,
+  "validation": {
+    "schema_version": "4.0",
+    "validator_version": "1.0.1",
+    "status": "PASS",
+    "input": {
+      "directory": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\final_sample\\job",
+      "trajectory_rows": 8,
+      "target_watertight": true
+    },
+    "schedule": {
+      "makespan_s": 30.469707263485695,
+      "robot_completion_s": {
+        "1": 30.469707263485695,
+        "2": 30.469707263485695,
+        "3": 30.469707263485695
+      },
+      "workload_imbalance_s": 0.0,
+      "normalized_imbalance": 0.0
+    },
+    "reach": {
+      "distance_basis": "XY",
+      "passed": true,
+      "robots": [
+        {
+          "robot_id": 1,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1200.6664815842908,
+          "minimum_xy_margin_mm": 1299.3335184157092,
+          "xy_utilization_ratio": 0.4802665926337163,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 2,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 0.0,
+          "minimum_xy_margin_mm": 2500.0,
+          "xy_utilization_ratio": 0.0,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 3,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 0.0,
+          "minimum_xy_margin_mm": 2500.0,
+          "xy_utilization_ratio": 0.0,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        }
+      ]
+    },
+    "collision": {
+      "passed": true,
+      "collision_event_count": 0,
+      "arm_envelope": {
+        "enabled": true,
+        "passed": true,
+        "event_count": 0,
+        "minimum_safety_margin_mm": 882.0777358467924,
+        "centerline_distance_at_worst_mm": 1132.0777358467924,
+        "required_distance_at_worst_mm": 250.0,
+        "capsule_surface_clearance_at_worst_mm": 932.0777358467924,
+        "pair": [
+          1,
+          2
+        ],
+        "time_s": 20.061155224150177,
+        "closest_points_xy_mm": [
+          [
+            40.0,
+            0.0
+          ],
+          [
+            1000.0,
+            -600.0
+          ]
+        ],
+        "tcp_positions_xy_mm": [
+          [
+            40.0,
+            0.0
+          ],
+          [
+            1000.0,
+            -600.0
+          ],
+          [
+            0.0,
+            1200.0
+          ]
+        ]
+      },
+      "tcp_radius": {
+        "enabled": true,
+        "passed": true,
+        "event_count": 0,
+        "minimum_distance_mm": 1132.0777358467924,
+        "required_distance_at_minimum_mm": 40.0,
+        "pair": [
+          1,
+          2
+        ],
+        "time_s": 20.061155224150177
+      }
+    },
+    "shape": {
+      "passed": true,
+      "target_volume_mm3": 664.9713817999999,
+      "deposited_volume_mm3": 664.9716764799999,
+      "intersection_volume_mm3": 664.9713817999998,
+      "underfill_volume_mm3": 0.0,
+      "overfill_volume_mm3": 7.958999999894967e-05,
+      "coverage": 0.9999999999999998,
+      "underfill_ratio": 0.0,
+      "overfill_ratio": 1.1968936134290294e-07,
+      "iou": 0.9999995568533057,
+      "failed_layer_count": 0,
+      "evaluated_layer_count": 1,
+      "failed_layer_ratio": 0.0,
+      "target_mesh_volume_mm3": 664.9716800538608,
+      "target_volume_discrepancy_ratio": 4.4852114741024074e-07
+    },
+    "failure_reasons": [],
+    "issues": [],
+    "output_directory": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\final_sample\\validation"
+  },
+  "task_count": 1,
+  "trace": [
+    {
+      "task": 0,
+      "robot_id": 1,
+      "makespan_s": 30.469707263485695
+    }
+  ],
+  "elapsed_s": 2.4546187999999347,
+  "input_sha256": {
+    "target.stl": "fc5bb5ca0ef7ecdeb8499b69f077c66d7564575e036aa903e53f62c7a66eb451",
+    "config.yaml": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+  },
+  "source_commit": "d584b29a108d1b7d70f88fe730e72b090e018719",
+  "source_sha256": {
+    "algorithm\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "algorithm\\environment\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "algorithm\\environment\\waam_env.py": "9434117ff4bd00cbf1ee24fa0fbd8d7841232b11375242077c32879bf55665a6",
+    "algorithm\\preprocessing\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "algorithm\\preprocessing\\task_generator.py": "b343fc8a4f96abcd299c68f9a839e892edcfe09fad3292fa07b67c704c4f164b",
+    "audit_sources.py": "7eb958946e3b63c125c6e7954283c8b91a688c44942d723fef45e2f62a7ed500",
+    "originals\\gym_wrapper.py": "ffea2ffe702a15817fc12479c8bdf4b8f6f7a2c732075920804245e620811107",
+    "originals\\task_generater.py": "4895ae3e12c01420ecfeb34e60b85e835ab368e3ebc674755a44cacbcf73bd49",
+    "originals\\train.py": "1f1a53b0dd6d41f96d33923a032c4d50676e656a4a2359f85a3da36ce6585297",
+    "run_pipeline.py": "e19b12a677e8a5cf015265d0b2ffd0644689cc343400c613861584c7619c3195",
+    "test_pipeline.py": "bf5a67bea418b09dee762513385cb247e335a33a41511cab7fe85736c693f9c6",
+    "train.py": "9b285102fe389aeb01aabf55164e4524925c7658f4163802c2e3ef6eb7d745d4"
+  },
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "shapely": "2.1.2",
+    "trimesh": "5.0.0",
+    "polars": "1.44.1",
+    "pydantic": "2.13.4",
+    "PyYAML": "6.0.3",
+    "gymnasium": "1.4.0",
+    "scikit-image": "0.26.0"
+  }
+}

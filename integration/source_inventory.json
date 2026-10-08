@@ -1,0 +1,257 @@
+{
+  "checkpoints": [
+    {
+      "path": "C:\\Users\\User\\Desktop\\AInAlgorithm\\sample\\0929\\code_ver.1\\ppo_model_01.zip",
+      "bytes": 156774,
+      "sha256": "7b6e0bd4b99dcad32d44a35cfcb07871759a7edf8c706e90108c48991b147a32",
+      "contract": {
+        "observation_space": {
+          ":type:": "<class 'gymnasium.spaces.box.Box'>",
+          ":serialized:": "gAWV9wEAAAAAAACMFGd5bW5hc2l1bS5zcGFjZXMuYm94lIwDQm94lJOUKYGUfZQojAVkdHlwZZSMBW51bXB5lIwFZHR5cGWUk5SMAmY0lImIh5RSlChLA4wBPJROTk5K/////0r/////SwB0lGKMBl9zaGFwZZRLDYWUjANsb3eUjBNudW1weS5fY29yZS5udW1lcmljlIwLX2Zyb21idWZmZXKUk5QoljQAAAAAAAAAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwJRoC0sNhZSMAUOUdJRSlIwNYm91bmRlZF9iZWxvd5RoEyiWDQAAAAAAAAABAQEBAQEBAQEBAQEBlGgIjAJiMZSJiIeUUpQoSwOMAXyUTk5OSv////9K/////0sAdJRiSw2FlGgWdJRSlIwEaGlnaJRoEyiWNAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAlGgLSw2FlGgWdJRSlIwNYm91bmRlZF9hYm92ZZRoEyiWDQAAAAAAAAABAQEBAQEBAQEBAQEBlGgdSw2FlGgWdJRSlIwIbG93X3JlcHKUTowJaGlnaF9yZXBylE6MCl9ucF9yYW5kb22UTnViLg==",
+          "dtype": "float32",
+          "_shape": [
+            13
+          ],
+          "low": "[-2. -2. -2. -2. -2. -2. -2. -2. -2. -2. -2. -2. -2.]",
+          "bounded_below": "[ True  True  True  True  True  True  True  True  True  True  True  True\n  True]",
+          "high": "[2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.]",
+          "bounded_above": "[ True  True  True  True  True  True  True  True  True  True  True  True\n  True]",
+          "low_repr": null,
+          "high_repr": null,
+          "_np_random": null
+        },
+        "action_space": {
+          ":type:": "<class 'gymnasium.spaces.discrete.Discrete'>",
+          ":serialized:": "gAWVlQIAAAAAAACMGWd5bW5hc2l1bS5zcGFjZXMuZGlzY3JldGWUjAhEaXNjcmV0ZZSTlCmBlH2UKIwFZHR5cGWUjAVudW1weZSMBWR0eXBllJOUjAJpOJSJiIeUUpQoSwOMATyUTk5OSv////9K/////0sAdJRijAFulIwWbnVtcHkuX2NvcmUubXVsdGlhcnJheZSMBnNjYWxhcpSTlGgLQwgDAAAAAAAAAJSGlFKUjAVzdGFydJRoEWgLQwgAAAAAAAAAAJSGlFKUjAZfc2hhcGWUKYwKX25wX3JhbmRvbZSMFG51bXB5LnJhbmRvbS5fcGlja2xllIwQX19nZW5lcmF0b3JfY3RvcpSTlGgbjBRfX2JpdF9nZW5lcmF0b3JfY3RvcpSTlIwTbnVtcHkucmFuZG9tLl9wY2c2NJSMBVBDRzY0lJOUhZRSlH2UKIwNYml0X2dlbmVyYXRvcpSMBVBDRzY0lIwFc3RhdGWUfZQoaCiKEcgKhmidfLysKo95mGdPpM4AjANpbmOUihH/qyWN4vLKZm5BqMk2VFD6AHWMCmhhc191aW50MzKUSwCMCHVpbnRlZ2VylEsAdYwabnVtcHkucmFuZG9tLmJpdF9nZW5lcmF0b3KUjBtfX3B5eF91bnBpY2tsZV9TZWVkU2VxdWVuY2WUk5RoLYwMU2VlZFNlcXVlbmNllJOUSiKi6gNOh5RSlChLKksAjBNudW1weS5fY29yZS5udW1lcmljlIwLX2Zyb21idWZmZXKUk5QolhAAAAAAAAAABjYdY66QrgcovsRvdVztLJRoCIwCdTSUiYiHlFKUKEsDaAxOTk5K/////0r/////SwB0lGJLBIWUjAFDlHSUUpRLBCl0lGKGlGKFlFKUdWIu",
+          "dtype": "int64",
+          "n": "3",
+          "start": "0",
+          "_shape": [],
+          "_np_random": "Generator(PCG64)"
+        },
+        "num_timesteps": 30000,
+        "seed": 42
+      }
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\AInAlgorithm\\sample\\0929\\code_ver.1\\tensorboard_experiment\\ppo_model_01.zip",
+      "bytes": 156854,
+      "sha256": "5712a83467ad346e3a275fd71a3ad18737db4a0f9c20eb48e4b2161c9e317d0b",
+      "contract": {
+        "observation_space": {
+          ":type:": "<class 'gymnasium.spaces.box.Box'>",
+          ":serialized:": "gAWV9wEAAAAAAACMFGd5bW5hc2l1bS5zcGFjZXMuYm94lIwDQm94lJOUKYGUfZQojAVkdHlwZZSMBW51bXB5lIwFZHR5cGWUk5SMAmY0lImIh5RSlChLA4wBPJROTk5K/////0r/////SwB0lGKMBl9zaGFwZZRLDYWUjANsb3eUjBNudW1weS5fY29yZS5udW1lcmljlIwLX2Zyb21idWZmZXKUk5QoljQAAAAAAAAAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwJRoC0sNhZSMAUOUdJRSlIwNYm91bmRlZF9iZWxvd5RoEyiWDQAAAAAAAAABAQEBAQEBAQEBAQEBlGgIjAJiMZSJiIeUUpQoSwOMAXyUTk5OSv////9K/////0sAdJRiSw2FlGgWdJRSlIwEaGlnaJRoEyiWNAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAlGgLSw2FlGgWdJRSlIwNYm91bmRlZF9hYm92ZZRoEyiWDQAAAAAAAAABAQEBAQEBAQEBAQEBlGgdSw2FlGgWdJRSlIwIbG93X3JlcHKUTowJaGlnaF9yZXBylE6MCl9ucF9yYW5kb22UTnViLg==",
+          "dtype": "float32",
+          "_shape": [
+            13
+          ],
+          "low": "[-2. -2. -2. -2. -2. -2. -2. -2. -2. -2. -2. -2. -2.]",
+          "bounded_below": "[ True  True  True  True  True  True  True  True  True  True  True  True\n  True]",
+          "high": "[2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.]",
+          "bounded_above": "[ True  True  True  True  True  True  True  True  True  True  True  True\n  True]",
+          "low_repr": null,
+          "high_repr": null,
+          "_np_random": null
+        },
+        "action_space": {
+          ":type:": "<class 'gymnasium.spaces.discrete.Discrete'>",
+          ":serialized:": "gAWVlQIAAAAAAACMGWd5bW5hc2l1bS5zcGFjZXMuZGlzY3JldGWUjAhEaXNjcmV0ZZSTlCmBlH2UKIwFZHR5cGWUjAVudW1weZSMBWR0eXBllJOUjAJpOJSJiIeUUpQoSwOMATyUTk5OSv////9K/////0sAdJRijAFulIwWbnVtcHkuX2NvcmUubXVsdGlhcnJheZSMBnNjYWxhcpSTlGgLQwgDAAAAAAAAAJSGlFKUjAVzdGFydJRoEWgLQwgAAAAAAAAAAJSGlFKUjAZfc2hhcGWUKYwKX25wX3JhbmRvbZSMFG51bXB5LnJhbmRvbS5fcGlja2xllIwQX19nZW5lcmF0b3JfY3RvcpSTlGgbjBRfX2JpdF9nZW5lcmF0b3JfY3RvcpSTlIwTbnVtcHkucmFuZG9tLl9wY2c2NJSMBVBDRzY0lJOUhZRSlH2UKIwNYml0X2dlbmVyYXRvcpSMBVBDRzY0lIwFc3RhdGWUfZQoaCiKEcgKhmidfLysKo95mGdPpM4AjANpbmOUihH/qyWN4vLKZm5BqMk2VFD6AHWMCmhhc191aW50MzKUSwCMCHVpbnRlZ2VylEsAdYwabnVtcHkucmFuZG9tLmJpdF9nZW5lcmF0b3KUjBtfX3B5eF91bnBpY2tsZV9TZWVkU2VxdWVuY2WUk5RoLYwMU2VlZFNlcXVlbmNllJOUSiKi6gNOh5RSlChLKksAjBNudW1weS5fY29yZS5udW1lcmljlIwLX2Zyb21idWZmZXKUk5QolhAAAAAAAAAABjYdY66QrgcovsRvdVztLJRoCIwCdTSUiYiHlFKUKEsDaAxOTk5K/////0r/////SwB0lGJLBIWUjAFDlHSUUpRLBCl0lGKGlGKFlFKUdWIu",
+          "dtype": "int64",
+          "n": "3",
+          "start": "0",
+          "_shape": [],
+          "_np_random": "Generator(PCG64)"
+        },
+        "num_timesteps": 30000,
+        "seed": 42
+      }
+    }
+  ],
+  "originals": {
+    "originals\\gym_wrapper.py": "ffea2ffe702a15817fc12479c8bdf4b8f6f7a2c732075920804245e620811107",
+    "originals\\task_generater.py": "4895ae3e12c01420ecfeb34e60b85e835ab368e3ebc674755a44cacbcf73bd49",
+    "originals\\train.py": "1f1a53b0dd6d41f96d33923a032c4d50676e656a4a2359f85a3da36ce6585297"
+  },
+  "evidence": {
+    "progress\\Model02_Experiments\\ppo_comparison_summary.json": {
+      "sha256": "ce1919b3a9b2f1ca647b40cf6380d0b5c7ef4ce9081fb2d61c50d195d10837a8",
+      "data": {
+        "training_model": "01",
+        "evaluation_model": "02",
+        "retrained": false,
+        "task_count": 24,
+        "paths_per_layer": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "greedy": {
+          "status": "PASS",
+          "makespan_s": 2468.053086456,
+          "coverage": 0.9914352311210801,
+          "iou": 0.9833197523511147,
+          "collisions": 0
+        },
+        "ppo": {
+          "status": "PASS",
+          "makespan_s": 2338.045782464,
+          "coverage": 0.9914352311210801,
+          "iou": 0.9833197523511147,
+          "collisions": 0
+        },
+        "improvement_percent": 5.2676056566791365
+      }
+    },
+    "progress\\Model03_Experiments\\summary.json": {
+      "sha256": "ae1a45c3ae45f377466b9f1298bcc202ad73d730011cd4487d12facd61abb8ca",
+      "data": {
+        "training_model": "01",
+        "evaluation_model": "03",
+        "retrained": false,
+        "task_count": 144,
+        "paths_per_layer": [
+          24,
+          24,
+          24,
+          24,
+          24,
+          24
+        ],
+        "greedy": {
+          "status": "PASS",
+          "makespan_s": 2227.779393915,
+          "coverage": 0.9865867493038608,
+          "iou": 0.9816089009065471,
+          "collisions": 0
+        },
+        "ppo": {
+          "status": "PASS",
+          "makespan_s": 2205.128692776,
+          "coverage": 0.9865867493038608,
+          "iou": 0.9816089009065471,
+          "collisions": 0
+        },
+        "improvement_percent": 1.0167389644086162
+      }
+    },
+    "progress\\Model04_Experiments\\ppo_dryrun_summary.json": {
+      "sha256": "8be3dbf8bec0aa8c56880cfb24adbf21fcf43d77717078e15ceefd8aab0abfaa",
+      "data": {
+        "model": "04",
+        "evaluation": "dry_run",
+        "retrained": false,
+        "layer_count": 50,
+        "task_count": 13508,
+        "greedy_makespan_s": 113437.75470285861,
+        "safety_filter_count": 120,
+        "ppo_status": "REACH_FEASIBLE",
+        "ppo_estimated_makespan_s": 113062.00213654393,
+        "improvement_percent": 0.3312411879968317
+      }
+    },
+    "progress\\Model04_Experiments\\ppo_official_summary.json": {
+      "sha256": "29df8f9919cafb60c2d2305b9555e6f9b26a47191da9449c99bbf744ba45d83d",
+      "data": {
+        "algorithm": "Constrained PPO",
+        "training_model": "01",
+        "evaluation_model": "04",
+        "retrained": false,
+        "estimated_makespan_s": 113062.00213654393,
+        "validator_status": "PASS",
+        "validator_makespan_s": 113062.002136544,
+        "coverage": 0.9613588259363238,
+        "iou": 0.9613014731195937,
+        "collisions": 0
+      }
+    },
+    "progress\\Model05_Experiments\\planning_summary.json": {
+      "sha256": "353950be1a3d9ebabe6a6227d8038e97baedb35949dd286943893f2bd221f4de",
+      "data": {
+        "model": "05",
+        "algorithm": "Raster-only + Reach-aware Greedy",
+        "layer_count": 350,
+        "task_count": 75868,
+        "required_margin_mm": 5.0,
+        "fallback_count": 0,
+        "minimum_assigned_margin_mm": 5.001252267116342,
+        "estimated_makespan_s": 409508.1900191666,
+        "validation": "NOT_RUN"
+      }
+    },
+    "progress\\Model05_Experiments\\ppo_dryrun_summary.json": {
+      "sha256": "ac5000d051d1e5aef905876b044a5f117055ad8956558b74e76e37b46d238c39",
+      "data": {
+        "model": "05",
+        "algorithm": "Constrained PPO",
+        "training_model": "01",
+        "retrained": false,
+        "layer_count": 350,
+        "task_count": 75868,
+        "greedy_makespan_s": 409508.1900191666,
+        "ppo_makespan_s": 406350.9116125472,
+        "improvement_percent": 0.7709927380137794,
+        "safety_filter_count": 217,
+        "minimum_ppo_reach_margin_mm": 5.42465506174949,
+        "official_ppo_validator": "NOT_RUN"
+      }
+    },
+    "progress\\Model06_Experiments\\summary.json": {
+      "sha256": "61313552ad5736c9a6b48f80dcd89c3d351303f24b0abc20ea4d3eb954a676d4",
+      "data": {
+        "model": "06",
+        "training_model": "01",
+        "retrained": false,
+        "checkpoint_sha256": "5712a83467ad346e3a275fd71a3ad18737db4a0f9c20eb48e4b2161c9e317d0b",
+        "validator_version": "1.0.1",
+        "path_algorithm": "adaptive_raster_y",
+        "layer_count": 51,
+        "task_count": 244,
+        "safety_filter_interventions": 3,
+        "scheduling": "One robot active at a time; original append_layer_work",
+        "geometry_analysis": "geometry_analysis.json",
+        "greedy": {
+          "status": "PASS",
+          "makespan_s": 7228.065772673,
+          "coverage": 0.9926194058500286,
+          "iou": 0.9926194058500301,
+          "collision_events": 0,
+          "minimum_assigned_margin_mm": 7.267918896277479
+        },
+        "ppo": {
+          "status": "PASS",
+          "makespan_s": 7089.325219596,
+          "coverage": 0.9926194058500286,
+          "iou": 0.9926194058500301,
+          "collision_events": 0,
+          "minimum_assigned_margin_mm": 11.086126588831121
+        },
+        "time_saved_s": 138.74055307699928,
+        "improvement_percent": 1.9194699860304654
+      }
+    },
+    "C:\\Users\\User\\Desktop\\AInAlgorithm\\sample\\0929\\code_ver.1\\model05_ppo_official_v1\\ppo_comparison_summary.json": {
+      "sha256": "c909a61e71c16164f1afd0b295a3c6de1453efeb7346ffb6d17a29cbec686c55",
+      "data": {
+        "model": "05",
+        "algorithm": "Constrained PPO",
+        "training_model": "01",
+        "retrained": false,
+        "task_count": 75868,
+        "greedy_makespan_s": 409508.1900191666,
+        "ppo_makespan_s": 406350.9116125472,
+        "improvement_percent": 0.7709927380137794,
+        "minimum_reach_margin_mm": 5.42465506174949,
+        "validator_status": "PASS",
+        "coverage": 0.9114416463246513,
+        "iou": 0.9114416462791759,
+        "collision_events": 0
+      }
+    }
+  },
+  "missing_attachment": "enviornment.py"
+}
