@@ -236,3 +236,4 @@ Raster-only 방식은 사전 형상 정확도를 유지하면서 중복 면적 �
 
 또한 대형 형상에서 반복적인 STL 슬라이싱과 경로 생성을 최소화하기 위해 중간 경로 데이터를 저장하고 재사용하는 구조를 검토한다.
 
+notepad .\progress\Model05_Experiments\README.md

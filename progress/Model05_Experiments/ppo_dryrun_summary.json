@@ -1,0 +1,14 @@
+{
+  "model": "05",
+  "algorithm": "Constrained PPO",
+  "training_model": "01",
+  "retrained": false,
+  "layer_count": 350,
+  "task_count": 75868,
+  "greedy_makespan_s": 409508.1900191666,
+  "ppo_makespan_s": 406350.9116125472,
+  "improvement_percent": 0.7709927380137794,
+  "safety_filter_count": 217,
+  "minimum_ppo_reach_margin_mm": 5.42465506174949,
+  "official_ppo_validator": "NOT_RUN"
+}
