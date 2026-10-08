@@ -1,0 +1,5 @@
+# Keep archived inputs/results byte-identical to their recorded SHA256 values.
+evidence/** -text
+benchmark_index.json -text
+benchmark_results.csv -text
+benchmark_results.json -text

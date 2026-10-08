@@ -2,5 +2,19 @@
   "folders": [{"path": ".."}],
   "settings": {
     "python.defaultInterpreterPath": "C:/Users/User/Desktop/WAAM_Validator-main/.venv/Scripts/python.exe"
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [{
+      "name": "WAAM: Model 01 공식 검증",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "C:/Users/User/Desktop/WAAM_Validator-main/.venv/Scripts/python.exe",
+      "program": "${workspaceFolder}/integration/run_pipeline.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "args": ["--job", "C:/Users/User/Desktop/WAAM_Validator-main/tests/01", "--out", "${workspaceFolder}/integration/runs/${input:runName}", "--scheduler", "layer"]
+    }],
+    "inputs": [{"id": "runName", "type": "promptString", "description": "새 결과 폴더 이름", "default": "vscode_model01_001"}]
   }
 }

@@ -221,7 +221,7 @@ def hatch_edges_parametric(poly, bead_width, layer,
 
     return edges
 
-def choose_edges(poly, bead_width, layer, sc, pixel=0.55):
+def choose_edges(poly, bead_width, layer, sc, pixel=0.55, search_mode='adaptive'):
     """
     Shape-constrained, time-oriented geometry-adaptive path search.
 
@@ -260,6 +260,8 @@ def choose_edges(poly, bead_width, layer, sc, pixel=0.55):
         return total
 
     candidates = []
+    if search_mode not in ('adaptive','exhaustive'):
+        raise ValueError('Unknown path search mode')
 
     # Coarse -> fine search.  These are bead-width ratios, never test IDs.
     # Wider spacing is tried first because it usually means less deposition time.
@@ -284,9 +286,13 @@ def choose_edges(poly, bead_width, layer, sc, pixel=0.55):
                     m,
                     path_length(edges),
                 ))
+        if search_mode == 'adaptive' and any(c[2]['iou'] >= target_iou for c in candidates):
+            break
 
     # Skeleton is retained for thin/branched layers.
-    for pf in (0.125, 0.10, 0.075, 0.0625):
+    coarse_hatch_passed = (search_mode == 'adaptive' and spacing_factor >= 0.80 and
+                          any(c[2]['iou'] >= target_iou for c in candidates))
+    for pf in (() if coarse_hatch_passed else (0.125, 0.10, 0.075, 0.0625)):
         sk_pixel = max(0.20, bead_width * pf)
         edges = skeleton_edges(poly, sk_pixel)
         if not edges:
@@ -299,6 +305,8 @@ def choose_edges(poly, bead_width, layer, sc, pixel=0.55):
                 m,
                 path_length(edges),
             ))
+            if search_mode == 'adaptive' and m['iou'] >= target_iou:
+                break
 
     if not candidates:
         raise RuntimeError(
@@ -334,7 +342,8 @@ def choose_edges(poly, bead_width, layer, sc, pixel=0.55):
 
 
 
-from shapely import MultiLineString, line_merge, get_parts
+from shapely import MultiLineString, line_merge, get_parts, set_precision
+from .reach import split_by_reach
 
 def merge_collinear(edges):
     """Remove exact collinear fragmentation without changing bead geometry."""
@@ -345,7 +354,7 @@ def merge_collinear(edges):
         result.extend((np.asarray(a), np.asarray(b)) for a, b in zip(coords, coords[1:]))
     return result
 
-def generate_scenario_tasks(stl, config):
+def generate_scenario_tasks(stl, config, reach_margin_mm=1.0):
     # Use the validator's layer indexing and slicing for both TCP conventions.
     from waam_validator.config.loader import load_config
     from waam_validator.shape.target import load_target_mesh, determine_evaluation_layers, slice_target_layers
@@ -355,16 +364,57 @@ def generate_scenario_tasks(stl, config):
     polygons = slice_target_layers(mesh, layers, c)
     records = []
     metrics = []
+    path_cache = {}
+    strategy_cache = {}
     for layer, poly in sorted(polygons.items()):
         if poly.is_empty:
             continue
-        edges, strategy, quality = choose_edges(poly, c.process.bead_width_mm, layer,
-                                                c.shape_validation.model_dump(), 0.55)
-        edges = merge_collinear(edges)
+        # Quantization identifies possible reusable paths, never proves shape.
+        # Re-evaluate the candidate against the exact official polygon below.
+        cache_key = (layer % 2, poly.geom_type,
+                     tuple(round(value, 1) for value in poly.bounds), round(poly.area, -2))
+        cached = cache_key in path_cache
+        if cached:
+            candidate, _, _, _ = path_cache[cache_key]
+            quality = path_metrics(poly, candidate, c.process.bead_width_mm,
+                                   c.shape_validation.polygon_buffer_resolution)
+            sc = c.shape_validation
+            cached = (quality['coverage'] >= sc.minimum_overall_coverage and
+                      quality['overfill'] <= sc.maximum_overall_overfill_ratio and
+                      quality['iou'] >= max(sc.minimum_layer_iou, sc.minimum_overall_iou))
+            if cached:
+                edges, strategy, _, merged_count = path_cache[cache_key]
+        if not cached:
+            import re
+            previous = strategy_cache.get(layer % 2, '')
+            match = re.fullmatch(r'hatch\(s=([0-9.]+)w,i=([0-9.]+)w\)', previous)
+            strategy_reused = False
+            if match:
+                trial = hatch_edges_parametric(poly, c.process.bead_width_mm, layer,
+                                                float(match[1]),float(match[2]))
+                trial_quality = path_metrics(poly, trial, c.process.bead_width_mm,
+                                             c.shape_validation.polygon_buffer_resolution)
+                sc = c.shape_validation
+                if (trial_quality['coverage'] >= sc.minimum_overall_coverage and
+                    trial_quality['overfill'] <= sc.maximum_overall_overfill_ratio and
+                    trial_quality['iou'] >= max(sc.minimum_layer_iou,sc.minimum_overall_iou)):
+                    edges, strategy, quality = trial, previous, trial_quality
+                    strategy_reused = True
+            if not strategy_reused:
+                edges, strategy, quality = choose_edges(poly, c.process.bead_width_mm, layer,
+                                                        c.shape_validation.model_dump(), 0.55)
+            strategy_cache[layer % 2] = strategy
+            merged = merge_collinear(edges)
+            edges = split_by_reach(merged, c.robots, reach_margin_mm)
+            path_cache[cache_key] = (edges, strategy, quality, len(merged))
+        if not cached:
+            edges, strategy, quality, merged_count = path_cache[cache_key]
         z = c.process.build_plane_z_mm + (layer + (0.5 if c.process.tcp_z_reference == 'center' else 1.0)) * c.process.layer_height_mm
         for a, b in edges:
             records.append(DepositionTask(len(records), layer, np.array([*a, z]), np.array([*b, z])))
-        metrics.append(dict(layer=layer, strategy=strategy, task_count=len(edges), **quality))
+        metrics.append(dict(layer=layer, strategy=strategy, task_count=len(edges),
+                            merged_count=merged_count, cache_hit=cached, reach_margin_mm=reach_margin_mm, **quality))
+        print(f'Layer {layer}: {strategy}, tasks={len(edges)}, cache={cached}', flush=True)
     if not records:
         raise ValueError('No deposition tasks generated')
     return records, metrics

@@ -1,2 +1,2 @@
 """Guard against accidentally training the incompatible attachment environment."""
-raise SystemExit('PPO integration is blocked: WAAMBaselineEnv is not supplied. The continuous WaamGymEnv and discrete task allocation/checkpoint contracts must be reconciled before training. Use run_pipeline.py for validated greedy scheduling.')
+raise SystemExit('WAAMBaselineEnv is implemented. PPO training remains blocked: the task-count-dependent observation differs from the preserved 13-value checkpoint, and the continuous wrapper has different action semantics. Use run_pipeline.py for validated greedy scheduling.')

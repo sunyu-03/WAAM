@@ -1,5 +1,7 @@
 # WAAM 범용화 통합 1차 결과 — 2026-10-08
 
+**후속 개발(2026-10-09): 6개 공개 모델의 전체 파이프라인 공식 PASS를 확보했다. 최신 코드는 run_pipeline.py/run_models.py이며, 결과와 실행 방법은 [DEVELOPMENT_20261009.md](DEVELOPMENT_20261009.md), benchmark_results.csv를 확인한다. 아래 내용은 2026-10-08의 최초 샘플 검증 기록이다.**
+
 프로젝트: `C:\Users\User\Desktop\AInAlgorithm\waam_generalization`
 
 독립 Git 저장소를 새 폴더에 복제하고 `integration/generalization-20261008` 브랜치를 만들었다. 기준 커밋은 `d584b29a108d1b7d70f88fe730e72b090e018719`이다. 상위 AInAlgorithm 저장소의 sample/test_1, 기존 성공 코드, 체크포인트는 수정하지 않았다. 통합 변경은 `integration/`에만 있다.
