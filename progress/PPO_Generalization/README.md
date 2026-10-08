@@ -1,4 +1,4 @@
-﻿# PPO Generalization Performance
+# PPO Generalization Performance
 
 
 
@@ -73,3 +73,12 @@ Model 05 및 Model 06에서도 동일한 PPO 정책을 평가하고, 대형·복
 
 
 
+
+## Model 06 추가 검증
+
+Model 06은 Greedy 7,228.07초, Constrained PPO 7,089.33초로 **1.92% 개선**했으며 둘 다 공식 PASS다.
+Coverage와 IoU는 99.26%, 충돌은 0건이다. 기존 그래프는 Model 02~04 기록이며, Model 06은 아래 별도 그래프와 이벤트 로그에서 확인할 수 있다.
+
+![Model 06 비교](../Model06_Experiments/comparison.svg)
+
+[Model 06 상세 결과와 TensorBoard 실행 안내](../Model06_Experiments/README.md)

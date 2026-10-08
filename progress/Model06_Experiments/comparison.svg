@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350">
+<rect width="900" height="350" fill="#f7fafc"/>
+<g font-family="Arial,sans-serif" fill="#17324d">
+<text x="40" y="45" font-size="24" font-weight="bold">Model 06 | Official Validator PASS</text>
+<text x="40" y="78" font-size="16">Frozen Model 01 PPO · identical 244 paths · 51 layers</text>
+<text x="40" y="149" font-size="17">GREEDY</text>
+<rect x="155" y="120" width="478.85935743958623" height="44" rx="6" fill="#64748b"/>
+<text x="643.8593574395862" y="148" font-size="17">7,228.07 s</text>
+<text x="40" y="225" font-size="17">PPO</text>
+<rect x="155" y="196" width="469.66779579823503" height="44" rx="6" fill="#0891b2"/>
+<text x="634.667795798235" y="224" font-size="17">7,089.33 s</text>
+<text x="40" y="295" font-size="22" font-weight="bold">1.92% faster · 138.74 s saved</text>
+<text x="40" y="325" font-size="15">Coverage / IoU 99.26% · collisions 0 · one robot active at a time</text>
+</g></svg>

@@ -1,0 +1,31 @@
+{
+  "model": "06",
+  "training_model": "01",
+  "retrained": false,
+  "checkpoint_sha256": "5712a83467ad346e3a275fd71a3ad18737db4a0f9c20eb48e4b2161c9e317d0b",
+  "validator_version": "1.0.1",
+  "path_algorithm": "adaptive_raster_y",
+  "layer_count": 51,
+  "task_count": 244,
+  "safety_filter_interventions": 3,
+  "scheduling": "One robot active at a time; original append_layer_work",
+  "geometry_analysis": "geometry_analysis.json",
+  "greedy": {
+    "status": "PASS",
+    "makespan_s": 7228.065772673,
+    "coverage": 0.9926194058500286,
+    "iou": 0.9926194058500301,
+    "collision_events": 0,
+    "minimum_assigned_margin_mm": 7.267918896277479
+  },
+  "ppo": {
+    "status": "PASS",
+    "makespan_s": 7089.325219596,
+    "coverage": 0.9926194058500286,
+    "iou": 0.9926194058500301,
+    "collision_events": 0,
+    "minimum_assigned_margin_mm": 11.086126588831121
+  },
+  "time_saved_s": 138.74055307699928,
+  "improvement_percent": 1.9194699860304654
+}
