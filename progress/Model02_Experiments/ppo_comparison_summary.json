@@ -1,0 +1,31 @@
+{
+  "training_model": "01",
+  "evaluation_model": "02",
+  "retrained": false,
+  "task_count": 24,
+  "paths_per_layer": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "greedy": {
+    "status": "PASS",
+    "makespan_s": 2468.053086456,
+    "coverage": 0.9914352311210801,
+    "iou": 0.9833197523511147,
+    "collisions": 0
+  },
+  "ppo": {
+    "status": "PASS",
+    "makespan_s": 2338.045782464,
+    "coverage": 0.9914352311210801,
+    "iou": 0.9833197523511147,
+    "collisions": 0
+  },
+  "improvement_percent": 5.2676056566791365
+}
