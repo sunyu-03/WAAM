@@ -1,0 +1,11 @@
+{
+  "model": "05",
+  "algorithm": "Raster-only + Reach-aware Greedy",
+  "layer_count": 350,
+  "task_count": 75868,
+  "required_margin_mm": 5.0,
+  "fallback_count": 0,
+  "minimum_assigned_margin_mm": 5.001252267116342,
+  "estimated_makespan_s": 409508.1900191666,
+  "validation": "NOT_RUN"
+}
