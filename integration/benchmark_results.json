@@ -1,0 +1,68 @@
+{
+  "01": {
+    "status": "PASS",
+    "makespan_s": 854.3343396007135,
+    "task_count": 2442,
+    "layer_count": 6,
+    "coverage": 0.9591774132709745,
+    "iou": 0.9215683998288922,
+    "collisions": 0,
+    "minimum_reach_margin_mm": 1.2842571079456775,
+    "elapsed_s": 38.77838639999936
+  },
+  "02": {
+    "status": "PASS",
+    "makespan_s": 2379.2277499345882,
+    "task_count": 7088,
+    "layer_count": 8,
+    "coverage": 0.9864659694683781,
+    "iou": 0.9432117169612604,
+    "collisions": 0,
+    "minimum_reach_margin_mm": 1.7873627041997224,
+    "elapsed_s": 109.8134571999999
+  },
+  "03": {
+    "status": "PASS",
+    "makespan_s": 1489.38044431836,
+    "task_count": 3894,
+    "layer_count": 6,
+    "coverage": 0.9713725783874823,
+    "iou": 0.9360366464843866,
+    "collisions": 0,
+    "minimum_reach_margin_mm": 1.7576964989941644,
+    "elapsed_s": 95.16347479999968
+  },
+  "04": {
+    "status": "PASS",
+    "makespan_s": 48267.64114730745,
+    "task_count": 4450,
+    "layer_count": 50,
+    "coverage": 0.9423783914733141,
+    "iou": 0.9409671178449649,
+    "collisions": 0,
+    "minimum_reach_margin_mm": 1.662784677767604,
+    "elapsed_s": 118.42000929999995
+  },
+  "05": {
+    "status": "PASS",
+    "makespan_s": 243307.63115610523,
+    "task_count": 64919,
+    "layer_count": 350,
+    "coverage": 0.9311609089749577,
+    "iou": 0.9072878822593222,
+    "collisions": 0,
+    "minimum_reach_margin_mm": 1.0022849829156257,
+    "elapsed_s": 961.9320298000002
+  },
+  "06": {
+    "status": "PASS",
+    "makespan_s": 5563.401691725323,
+    "task_count": 775,
+    "layer_count": 51,
+    "coverage": 0.9525078546357297,
+    "iou": 0.9525078546357308,
+    "collisions": 0,
+    "minimum_reach_margin_mm": 38.16485197543557,
+    "elapsed_s": 18.00853669999924
+  }
+}

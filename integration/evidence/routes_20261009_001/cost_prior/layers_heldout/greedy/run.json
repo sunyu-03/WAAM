@@ -1,0 +1,250 @@
+{
+  "status": "PASS",
+  "makespan_s": 70.01310056154108,
+  "trace": [
+    {
+      "task": 0,
+      "robot_id": 1,
+      "reverse": false,
+      "departure_s": 0.0,
+      "work_finish_s": 12.74562789358212,
+      "makespan_s": 22.262276333598393,
+      "home_fallback": false
+    },
+    {
+      "task": 5,
+      "robot_id": 2,
+      "reverse": true,
+      "departure_s": 0.0,
+      "work_finish_s": 12.914110383702935,
+      "makespan_s": 22.597425804098172,
+      "home_fallback": false
+    },
+    {
+      "task": 1,
+      "robot_id": 1,
+      "reverse": false,
+      "departure_s": 12.74562789358212,
+      "work_finish_s": 16.078961226915453,
+      "makespan_s": 25.702116429310493,
+      "home_fallback": false
+    },
+    {
+      "task": 4,
+      "robot_id": 2,
+      "reverse": true,
+      "departure_s": 12.914110383702935,
+      "work_finish_s": 16.24744371703627,
+      "makespan_s": 26.03545250582384,
+      "home_fallback": false
+    },
+    {
+      "task": 2,
+      "robot_id": 1,
+      "reverse": false,
+      "departure_s": 16.078961226915453,
+      "work_finish_s": 19.412294560248785,
+      "makespan_s": 29.144038722753493,
+      "home_fallback": false
+    },
+    {
+      "task": 3,
+      "robot_id": 1,
+      "reverse": false,
+      "departure_s": 19.412294560248785,
+      "work_finish_s": 24.137668761436856,
+      "makespan_s": 35.015335541031696,
+      "home_fallback": false
+    },
+    {
+      "task": 6,
+      "robot_id": 1,
+      "reverse": false,
+      "departure_s": 35.015335541031696,
+      "work_finish_s": 47.751543139420605,
+      "makespan_s": 57.258874683361825,
+      "home_fallback": false
+    },
+    {
+      "task": 11,
+      "robot_id": 2,
+      "reverse": true,
+      "departure_s": 35.015335541031696,
+      "work_finish_s": 47.92019145149164,
+      "makespan_s": 57.594350489176506,
+      "home_fallback": false
+    },
+    {
+      "task": 7,
+      "robot_id": 1,
+      "reverse": false,
+      "departure_s": 47.751543139420605,
+      "work_finish_s": 51.08487647275394,
+      "makespan_s": 60.6988179956122,
+      "home_fallback": false
+    },
+    {
+      "task": 10,
+      "robot_id": 2,
+      "reverse": true,
+      "departure_s": 47.92019145149164,
+      "work_finish_s": 51.253524784824975,
+      "makespan_s": 61.03247521955662,
+      "home_fallback": false
+    },
+    {
+      "task": 8,
+      "robot_id": 1,
+      "reverse": false,
+      "departure_s": 51.08487647275394,
+      "work_finish_s": 54.418209806087276,
+      "makespan_s": 64.14084319421829,
+      "home_fallback": false
+    },
+    {
+      "task": 9,
+      "robot_id": 1,
+      "reverse": false,
+      "departure_s": 54.418209806087276,
+      "work_finish_s": 59.143584007275344,
+      "makespan_s": 70.01310056154108,
+      "home_fallback": false
+    }
+  ],
+  "trajectory_sha256": "41b11e961d3b1ed1ffbeacf15e2b277e96a5dc85e9409b419cefd19c7452734c",
+  "validation": {
+    "schema_version": "4.0",
+    "validator_version": "1.0.1",
+    "status": "PASS",
+    "input": {
+      "directory": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\route_cost_prior_20261009_001\\layers_heldout\\greedy\\job",
+      "trajectory_rows": 29,
+      "target_watertight": true
+    },
+    "schedule": {
+      "makespan_s": 70.01310056154108,
+      "robot_completion_s": {
+        "1": 70.01310056154108,
+        "2": 70.01310056154108,
+        "3": 70.01310056154108
+      },
+      "workload_imbalance_s": 0.0,
+      "normalized_imbalance": 0.0
+    },
+    "reach": {
+      "distance_basis": "XY",
+      "passed": true,
+      "robots": [
+        {
+          "robot_id": 1,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1290.843821710146,
+          "minimum_xy_margin_mm": 1209.156178289854,
+          "xy_utilization_ratio": 0.5163375286840584,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 2,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 1076.8524112212936,
+          "minimum_xy_margin_mm": 1423.1475887787064,
+          "xy_utilization_ratio": 0.4307409644885174,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 3,
+          "passed": true,
+          "xy_reach_radius_mm": 2500.0,
+          "maximum_xy_distance_mm": 0.0,
+          "minimum_xy_margin_mm": 2500.0,
+          "xy_utilization_ratio": 0.0,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        }
+      ]
+    },
+    "collision": {
+      "passed": true,
+      "collision_event_count": 0,
+      "arm_envelope": {
+        "enabled": true,
+        "passed": true,
+        "event_count": 0,
+        "minimum_safety_margin_mm": 9.02896758842894,
+        "centerline_distance_at_worst_mm": 259.02896758842894,
+        "required_distance_at_worst_mm": 250.0,
+        "capsule_surface_clearance_at_worst_mm": 59.02896758842894,
+        "pair": [
+          1,
+          2
+        ],
+        "time_s": 51.253524784824975,
+        "closest_points_xy_mm": [
+          [
+            -125.31747436523438,
+            -30.0
+          ],
+          [
+            126.66666412353516,
+            30.0
+          ]
+        ],
+        "tcp_positions_xy_mm": [
+          [
+            -125.31747436523438,
+            -30.0
+          ],
+          [
+            126.66666412353516,
+            30.0
+          ],
+          [
+            0.0,
+            1200.0
+          ]
+        ]
+      },
+      "tcp_radius": {
+        "enabled": true,
+        "passed": true,
+        "event_count": 0,
+        "minimum_distance_mm": 259.02896758842894,
+        "required_distance_at_minimum_mm": 40.0,
+        "pair": [
+          1,
+          2
+        ],
+        "time_s": 51.253524784824975
+      }
+    },
+    "shape": {
+      "passed": true,
+      "target_volume_mm3": 2659.8866444800005,
+      "deposited_volume_mm3": 2659.88670592,
+      "intersection_volume_mm3": 2659.8862582399997,
+      "underfill_volume_mm3": 0.00038623999997563704,
+      "overfill_volume_mm3": 0.0004476799999903365,
+      "coverage": 0.9999998547908041,
+      "underfill_ratio": 1.4520919557876338e-07,
+      "overfill_ratio": 1.6830792429421612e-07,
+      "iou": 0.9999996864829324,
+      "failed_layer_count": 0,
+      "evaluated_layer_count": 2,
+      "failed_layer_ratio": 0.0,
+      "target_mesh_volume_mm3": 2659.8867904635845,
+      "target_volume_discrepancy_ratio": 5.488338242722593e-08
+    },
+    "failure_reasons": [],
+    "issues": [],
+    "output_directory": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\route_cost_prior_20261009_001\\layers_heldout\\greedy\\validation"
+  },
+  "simultaneous_motion_s": 52.05259218434877,
+  "max_moving_robots": 2
+}

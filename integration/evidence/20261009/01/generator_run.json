@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "policy": "reach-aware greedy",
+  "status": "GENERATED_NOT_VALIDATED",
+  "ppo": "NOT_CONNECTED",
+  "task_count": 2442,
+  "reach_margin_mm": 1.0,
+  "elapsed_s": 72.23016040000039,
+  "input_sha256": {
+    "target.stl": "c82bfb68b3ee385230db769eab62236205de560ed85abe3ddf3a09d910e4e146",
+    "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+  },
+  "source_commit": "c09069b0cc7b351033d27070edc4a6db38b4a76e",
+  "source_sha256": {
+    "algorithm\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "algorithm\\environment\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "algorithm\\environment\\waam_env.py": "bea3ef10aafa103b408d50012f926dc4aaf6057d0096ee58a8a66e4ac0c18973",
+    "algorithm\\preprocessing\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "algorithm\\preprocessing\\reach.py": "bfba0bc5e2aef5c07c1ebf8628879f2b77ebe38f467ceabb00a848ba47af6837",
+    "algorithm\\preprocessing\\task_generator.py": "bc98e9f1add8417500cd4c47ada7a2aa48e4482367bdb21143672ad82ceb0e71",
+    "audit_sources.py": "7eb958946e3b63c125c6e7954283c8b91a688c44942d723fef45e2f62a7ed500",
+    "originals\\gym_wrapper.py": "ffea2ffe702a15817fc12479c8bdf4b8f6f7a2c732075920804245e620811107",
+    "originals\\task_generater.py": "4895ae3e12c01420ecfeb34e60b85e835ab368e3ebc674755a44cacbcf73bd49",
+    "originals\\train.py": "1f1a53b0dd6d41f96d33923a032c4d50676e656a4a2359f85a3da36ce6585297",
+    "run_pipeline.py": "b2b51d24db0625e50a0046dbf624e07923b06e009ca41ad2aa44b34e7eebfd56",
+    "test_pipeline.py": "016879ebe18d28d4a53afb65de2558fb5ba2dbfd0798de033c854786f8c2b932",
+    "train.py": "9b285102fe389aeb01aabf55164e4524925c7658f4163802c2e3ef6eb7d745d4"
+  },
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "shapely": "2.1.2",
+    "trimesh": "5.0.0",
+    "polars": "1.44.1",
+    "pydantic": "2.13.4",
+    "PyYAML": "6.0.3",
+    "gymnasium": "1.4.0",
+    "scikit-image": "0.26.0"
+  }
+}

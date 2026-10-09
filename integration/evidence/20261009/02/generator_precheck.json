@@ -1,0 +1,90 @@
+[
+  {
+    "layer": 0,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 886,
+    "merged_count": 886,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9864624027287735,
+    "overfill": 0.04586436614330201,
+    "iou": 0.9432050236647751
+  },
+  {
+    "layer": 1,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 886,
+    "merged_count": 886,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9864626691427063,
+    "overfill": 0.0458642004666992,
+    "iou": 0.94320523534958
+  },
+  {
+    "layer": 2,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 886,
+    "merged_count": 886,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9864625378110841,
+    "overfill": 0.04586413591354572,
+    "iou": 0.9432052187659539
+  },
+  {
+    "layer": 3,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 886,
+    "merged_count": 886,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9864625700874483,
+    "overfill": 0.04586402611471703,
+    "iou": 0.943205374903486
+  },
+  {
+    "layer": 4,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 886,
+    "merged_count": 886,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9864624177590662,
+    "overfill": 0.045864096439567625,
+    "iou": 0.9432052496886809
+  },
+  {
+    "layer": 5,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 886,
+    "merged_count": 886,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.986462416708333,
+    "overfill": 0.04586401081116743,
+    "iou": 0.9432052889033469
+  },
+  {
+    "layer": 6,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 886,
+    "merged_count": 886,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9864623678212704,
+    "overfill": 0.0458638862248628,
+    "iou": 0.9432053310705534
+  },
+  {
+    "layer": 7,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 886,
+    "merged_count": 886,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9864916031704398,
+    "overfill": 0.045837169998287346,
+    "iou": 0.943257417476745
+  }
+]

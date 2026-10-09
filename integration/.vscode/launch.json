@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "WAAM PPO: 작은 모델 학습 + 공식 검증",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "C:/Users/User/Desktop/WAAM_Validator-main/.venv/Scripts/python.exe",
+      "program": "${workspaceFolder}/train.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "args": [
+        "--job",
+        "${workspaceFolder}/../TEAM_PROJECT/week1/environment/examples/sample_job",
+        "--demo-segments",
+        "8",
+        "--timesteps",
+        "8192",
+        "--out",
+        "${workspaceFolder}/runs/${input:ppoRunName}"
+      ]
+    },
+    {
+      "request": "launch",
+      "console": "integratedTerminal",
+      "args": [
+        "--dataset",
+        "${workspaceFolder}/evidence/routes_20261009_001/inputs/dataset.json",
+        "--timesteps",
+        "512",
+        "--cost-prior",
+        "--out",
+        "${workspaceFolder}/runs/${input:routeRunName}"
+      ],
+      "python": "C:/Users/User/Desktop/WAAM_Validator-main/.venv/Scripts/python.exe",
+      "type": "debugpy",
+      "name": "WAAM PPO v2: 혼합 학습 + 별도 형상 검증",
+      "program": "${workspaceFolder}/train_routes.py",
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "ppoRunName",
+      "type": "promptString",
+      "description": "새 PPO 결과 폴더 이름 (기존 이름 사용 금지)",
+      "default": "vscode_ppo_001"
+    },
+    {
+      "description": "새 v2 결과 폴더 이름",
+      "type": "promptString",
+      "default": "vscode_routes_001",
+      "id": "routeRunName"
+    }
+  ]
+}

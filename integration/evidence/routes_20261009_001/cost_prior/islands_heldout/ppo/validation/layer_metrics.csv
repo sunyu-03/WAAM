@@ -1,0 +1,2 @@
+layer_index,z_bottom_mm,z_top_mm,z_slice_mm,target_area_mm2,deposited_area_mm2,intersection_area_mm2,underfill_area_mm2,overfill_area_mm2,coverage,underfill_ratio,overfill_ratio,iou,passed
+0,0.0,2.0,1.0,664.9715030399998,664.97167648,664.97146,4.3040000000812983e-05,0.0002164800000273217,0.9999999352754222,6.472457812710813e-08,3.255477851872697e-07,0.999999609727764,true

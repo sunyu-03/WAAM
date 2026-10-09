@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "reach_margin_mm": 1.0,
+  "train": [
+    {
+      "name": "single_train",
+      "job": "single_train",
+      "tasks_json": "single_train/tasks.json"
+    },
+    {
+      "name": "islands_train",
+      "job": "islands_train",
+      "tasks_json": "islands_train/tasks.json"
+    }
+  ],
+  "evaluation": [
+    {
+      "name": "single_evaluation",
+      "job": "single_evaluation",
+      "tasks_json": "single_evaluation/tasks.json"
+    },
+    {
+      "name": "islands_heldout",
+      "job": "islands_heldout",
+      "tasks_json": "islands_heldout/tasks.json"
+    },
+    {
+      "name": "layers_heldout",
+      "job": "layers_heldout",
+      "tasks_json": "layers_heldout/tasks.json"
+    }
+  ]
+}

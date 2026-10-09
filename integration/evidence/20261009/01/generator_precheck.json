@@ -1,0 +1,68 @@
+[
+  {
+    "layer": 0,
+    "strategy": "hatch(s=0.475w,i=0.450w)",
+    "task_count": 219,
+    "merged_count": 219,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9408756899071529,
+    "overfill": 0.03758054650705786,
+    "iou": 0.9068008536843986
+  },
+  {
+    "layer": 1,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 595,
+    "merged_count": 595,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.977489058067096,
+    "overfill": 0.04405539005265596,
+    "iou": 0.9362435057933375
+  },
+  {
+    "layer": 2,
+    "strategy": "hatch(s=0.475w,i=0.450w)",
+    "task_count": 219,
+    "merged_count": 219,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9408749867022907,
+    "overfill": 0.037579949322241846,
+    "iou": 0.9068005088674995
+  },
+  {
+    "layer": 3,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 595,
+    "merged_count": 595,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9774889299041823,
+    "overfill": 0.0440555895394166,
+    "iou": 0.9362433085888717
+  },
+  {
+    "layer": 4,
+    "strategy": "hatch(s=0.475w,i=0.450w)",
+    "task_count": 219,
+    "merged_count": 219,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.940846477387824,
+    "overfill": 0.03754339718793071,
+    "iou": 0.9068049223342836
+  },
+  {
+    "layer": 5,
+    "strategy": "skeleton(pixel=1.000mm)",
+    "task_count": 595,
+    "merged_count": 595,
+    "cache_hit": false,
+    "reach_margin_mm": 1.0,
+    "coverage": 0.9774885657744922,
+    "overfill": 0.04405561403409128,
+    "iou": 0.9362429979007834
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "repeat_all_policy_tensors_exactly_equal": true,
+  "resume_policy_tensors_changed": true,
+  "optimizer_steps": [
+    [
+      1280
+    ],
+    [
+      1280
+    ],
+    [
+      1440
+    ]
+  ],
+  "optimizer_continued": true,
+  "timesteps": [
+    8192,
+    8192,
+    9216
+  ],
+  "repeat_trajectory_exactly_equal": true,
+  "task_count_mismatch_rejected": "Checkpoint contract, task list, inputs, or reach margin differs; refusing incompatible resume",
+  "margin_mismatch_rejected": "Checkpoint contract, task list, inputs, or reach margin differs; refusing incompatible resume",
+  "legacy_hashes": {
+    "C:\\Users\\User\\Desktop\\AInAlgorithm\\sample\\0929\\code_ver.1\\ppo_model_01.zip": "7b6e0bd4b99dcad32d44a35cfcb07871759a7edf8c706e90108c48991b147a32",
+    "C:\\Users\\User\\Desktop\\AInAlgorithm\\sample\\0929\\code_ver.1\\tensorboard_experiment\\ppo_model_01.zip": "5712a83467ad346e3a275fd71a3ad18737db4a0f9c20eb48e4b2161c9e317d0b"
+  },
+  "legacy_rejected_before_loading": "Checkpoint has no waam-serial-masked-v1 manifest. Preserved 13-feature legacy checkpoints are incompatible.",
+  "runs": [
+    {
+      "path": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\ppo_sample8_20261009_001",
+      "status": "PASS",
+      "before_s": 173.7366550186754,
+      "steps": 8192,
+      "mask_statistics": {
+        "1": 0,
+        "2": 0,
+        "3": 8
+      },
+      "source_changed": false,
+      "results": {
+        "ppo": {
+          "status": "PASS",
+          "makespan_s": 172.34694043458887
+        },
+        "greedy": {
+          "status": "PASS",
+          "makespan_s": 172.34694043458887
+        },
+        "random": {
+          "status": "PASS",
+          "makespan_s": 174.81761275944947
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\ppo_sample8_repeat_20261009_001",
+      "status": "PASS",
+      "before_s": 173.7366550186754,
+      "steps": 8192,
+      "mask_statistics": {
+        "1": 0,
+        "2": 0,
+        "3": 8
+      },
+      "source_changed": false,
+      "results": {
+        "ppo": {
+          "status": "PASS",
+          "makespan_s": 172.34694043458887
+        },
+        "greedy": {
+          "status": "PASS",
+          "makespan_s": 172.34694043458887
+        },
+        "random": {
+          "status": "PASS",
+          "makespan_s": 174.81761275944947
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\ppo_sample8_resume_20261009_001",
+      "status": "PASS",
+      "before_s": 172.34694043458887,
+      "steps": 9216,
+      "mask_statistics": {
+        "1": 0,
+        "2": 0,
+        "3": 8
+      },
+      "source_changed": false,
+      "results": {
+        "ppo": {
+          "status": "PASS",
+          "makespan_s": 172.34694043458887
+        },
+        "greedy": {
+          "status": "PASS",
+          "makespan_s": 172.34694043458887
+        },
+        "random": {
+          "status": "PASS",
+          "makespan_s": 174.81761275944947
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\ppo_masked_20261009_001",
+      "status": "PASS",
+      "before_s": 172.43380555382348,
+      "steps": 1024,
+      "mask_statistics": {
+        "1": 6,
+        "2": 2,
+        "3": 0
+      },
+      "source_changed": false,
+      "results": {
+        "ppo": {
+          "status": "PASS",
+          "makespan_s": 172.43380555382348
+        },
+        "greedy": {
+          "status": "PASS",
+          "makespan_s": 172.34694043458887
+        },
+        "random": {
+          "status": "PASS",
+          "makespan_s": 172.34694043458887
+        }
+      }
+    }
+  ],
+  "final_code_eval": {
+    "source_changed": false,
+    "status": "PASS",
+    "trajectory_matches_initial": true
+  },
+  "seed_mismatch_cli_rejected_before_output": true,
+  "regression_tests_passed": 13
+}

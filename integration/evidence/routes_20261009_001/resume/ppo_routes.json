@@ -1,0 +1,247 @@
+{
+  "signature": {
+    "contract": {
+      "id": "waam-route-reservations-v2",
+      "observation_size": 175,
+      "action_count": 12,
+      "slots_per_robot": 2,
+      "actions": "(robot*2+nearest_reachable_slot)*2+reverse; offline rescheduling of provisional home return",
+      "observation": "progress/layer/makespan/barrier; robot XYZ/work-finish/return-finish; candidate mask/startXYZ/endXYZ/departure/work-finish/makespan/task-fraction/length/layer",
+      "normalization": "XYZ and length / scenario coord_scale, times / serial worst-case time_scale",
+      "reward": "negative change in makespan / serial worst-case time_scale",
+      "layer_rule": "all reserved returns complete before next layer",
+      "safety": "official trajectory/reach/sampled collision checks of current-layer reservations per candidate; complete home barriers between layers; full validator on export"
+    },
+    "reach_margin_mm": 1.0,
+    "training_dataset": [
+      {
+        "name": "single_train",
+        "inputs": {
+          "target.stl": "5c1c318efb9ba85d7e40cd9f7afab77bac97b543ebe3b780cea49fd5432623f3",
+          "config.yaml": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+        },
+        "tasks": [
+          {
+            "task_id": 0,
+            "layer": 2.0,
+            "start_xyz_mm": [
+              -40.0,
+              0.0,
+              2.0
+            ],
+            "end_xyz_mm": [
+              -20.0,
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "task_id": 1,
+            "layer": 2.0,
+            "start_xyz_mm": [
+              -20.0,
+              0.0,
+              2.0
+            ],
+            "end_xyz_mm": [
+              0.0,
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "task_id": 2,
+            "layer": 2.0,
+            "start_xyz_mm": [
+              0.0,
+              0.0,
+              2.0
+            ],
+            "end_xyz_mm": [
+              20.0,
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "task_id": 3,
+            "layer": 2.0,
+            "start_xyz_mm": [
+              20.0,
+              0.0,
+              2.0
+            ],
+            "end_xyz_mm": [
+              40.0,
+              0.0,
+              2.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "islands_train",
+        "inputs": {
+          "target.stl": "5f51c9bac5d80427764744f4d90694e8d1c84ad6d54afb1b7fc57b2ec602d321",
+          "config.yaml": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+        },
+        "tasks": [
+          {
+            "task_id": 0,
+            "layer": 2.0,
+            "start_xyz_mm": [
+              -190.0,
+              0.0,
+              2.0
+            ],
+            "end_xyz_mm": [
+              -150.0,
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "task_id": 1,
+            "layer": 2.0,
+            "start_xyz_mm": [
+              -150.0,
+              0.0,
+              2.0
+            ],
+            "end_xyz_mm": [
+              -110.0,
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "task_id": 2,
+            "layer": 2.0,
+            "start_xyz_mm": [
+              110.0,
+              0.0,
+              2.0
+            ],
+            "end_xyz_mm": [
+              150.0,
+              0.0,
+              2.0
+            ]
+          },
+          {
+            "task_id": 3,
+            "layer": 2.0,
+            "start_xyz_mm": [
+              150.0,
+              0.0,
+              2.0
+            ],
+            "end_xyz_mm": [
+              190.0,
+              0.0,
+              2.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "lineage": {
+    "seed": 42,
+    "source_sha256": {
+      "integration\\algorithm\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "integration\\algorithm\\environment\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "integration\\algorithm\\environment\\ppo_env.py": "887fabb7933f749e11218045bba6cb2854e44d5887e6ce5cc4344e764fbac799",
+      "integration\\algorithm\\environment\\route_ppo_env.py": "00df20e44866cf0aaae06bca533b210fe771f7663df76c5fee3e2ab9d3eb17dc",
+      "integration\\algorithm\\environment\\waam_env.py": "8a74dd54e40c8daaaa7d18b4246c201fc85facea649d61e25f945e9ee1eb16e9",
+      "integration\\algorithm\\preprocessing\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "integration\\algorithm\\preprocessing\\reach.py": "bfba0bc5e2aef5c07c1ebf8628879f2b77ebe38f467ceabb00a848ba47af6837",
+      "integration\\algorithm\\preprocessing\\task_generator.py": "ff28fddf64190df58a40b5c23ffb3836147e65e724b31285fe05cf86e8e19fa9",
+      "integration\\algorithm\\serial_scheduler.py": "f458ed9e758858b191f6082666ad28e7044c956b9a7b1776b04296427973bcb5",
+      "integration\\audit_sources.py": "7eb958946e3b63c125c6e7954283c8b91a688c44942d723fef45e2f62a7ed500",
+      "integration\\make_route_demo.py": "7e7c5de45eada9ced7dfbf5191e82ad5cb28e9e4fbb1765c991b9c43a5e8e980",
+      "integration\\originals\\gym_wrapper.py": "ffea2ffe702a15817fc12479c8bdf4b8f6f7a2c732075920804245e620811107",
+      "integration\\originals\\task_generater.py": "4895ae3e12c01420ecfeb34e60b85e835ab368e3ebc674755a44cacbcf73bd49",
+      "integration\\originals\\train.py": "1f1a53b0dd6d41f96d33923a032c4d50676e656a4a2359f85a3da36ce6585297",
+      "integration\\run_models.py": "e836bfd32dafb592988aa70037aeba1c8de87834f66f6536eace5e96f7e14633",
+      "integration\\run_pipeline.py": "3c447fac445dd8593b234c1b1b773b953b16a1eb6c471db20e4a73c687e1eebd",
+      "integration\\test_pipeline.py": "45bd3f8299fd3c042f9d35f2719732d2582a7e3c4853ddc4f709d7ef8c1de781",
+      "integration\\test_ppo.py": "9aaa7eb36b570aeaef85deb531614c96b4ca77e41c7728e753661168471641b2",
+      "integration\\test_routes.py": "8b43d0d1249ec3aaffce6e026fca8d8ff6bcf6abc706a3d64772c4d6aa88bc57",
+      "integration\\train.py": "7a71b01e1f333474fe47590afe4899519cd9131622b5fbf497780353142b2638",
+      "integration\\train_routes.py": "4ed431bd839cae4a368d3f03cf4d2819746ba9fcd1d91f048835548582fc0f14",
+      "TEAM_PROJECT\\week1\\assignment_env.py": "5df1f5ef2ddefa0cbf20d2af4322e0808444125306e5ab85a0da59e31939bcff",
+      "TEAM_PROJECT\\week1\\environment\\env.py": "42421ff3e0b3e9b1695a4633582438612529db795c8b9ebef6b95aac8f9ae262",
+      "TEAM_PROJECT\\week1\\environment\\gym_wrapper.py": "7a8639dc9b06ccd093cbec03f3f32c98e62f105ff151c7e3731f96bb62fc27d6",
+      "TEAM_PROJECT\\week1\\environment\\scripts\\generate_benchmark_jobs.py": "531b43774631681f81116c814caa880178a2080f12586bacface1609a0cc44ac",
+      "TEAM_PROJECT\\week1\\environment\\scripts\\generate_fixtures.py": "42cbfc3e3c297f4b05a83ac39c633ce554723936827af760291c900301fcb686",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\__init__.py": "07d3464a661979de86d82ee4c762a731001956e0576e6f8e0d816e215089d9ed",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\_version.py": "99ec1e2a4b662d7e1a730d60880f43b2ddf6e3ecf9c0c7f820fd7d1fcfba46b0",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\cli.py": "86d9afdf536c1e2a4f708ad8c4738cbdfab16caa3fcacf4b848680bc184f28cd",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\collision\\__init__.py": "1614a827bd42dff907cfad55ec5ecc6b6bbc8aa9d77a182744beb94a9256d31c",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\collision\\geometry2d.py": "12c71365f6a08489d7b2d72750d831c3919c97bec5b7f810dfd5ca61273b3940",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\collision\\simulator.py": "cbaf42a234744882edbadc5c6a995d27c9ff3b0e143340772d78292f280b8d06",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\config\\__init__.py": "c4a4f918867f434c94af2329ced95b90b94a8bb1d6bce48b80318349625092bf",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\config\\loader.py": "6d940505ef9f88f6083fa19a48b7f6fc596cd97c3090430553a7a131c22ede10",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\config\\models.py": "3bd1fbe87615d4122275d7eac8583ade764ea00d7ab5ec10df246371beba03d8",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\constants.py": "5ed98c08dc9e93519e158d95e1a6ffa7b1f1d27ce0d265f3737baa4604d0e969",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\__init__.py": "9433a01696af1bc495a03d08020930b812321ba03bc1f3063d4ef1554f42cacd",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\app.py": "5f422fcd52f1e2b04ecb501d884a4432324aa2dccad165f9d4d9eb6ee865eba9",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\data.py": "195bee063615f9664bceda4c986f9e7236b777015f61b1f0b8f66cac4767d53e",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\deposited_stl_worker.py": "ddb817ab13371ea650598dfc33419c5cfc1568462274e24392c5509e16c457e2",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\folder_picker.py": "9a9c4eec5ff8f6f498304d88439f5b617ff6ced3558822d3587d41f0f081ea67",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\input_inspector.py": "787d632cad422eb0c6c617149223e317f8c4095737bcc9b2fb9dc9bc39872b75",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\preview.py": "c86f3dd10623ccc7f114c38aa05c1f55ec8e480b248428a31be9d8f6f36adbd5",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\replay_service.py": "3460f3772212f17bbe4934b8ef3ace03a36064ea335615881e3056449d8ee99d",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\replay_worker.py": "f44b609919b72f9f49dcfd4093bc2ac980001d7499875055a2d036c10dd98e95",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\runner.py": "51bd2f2a1124f5478bb6663750fbe31da4d2fe240ee8f36acb83023d4d5146b8",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\views.py": "46525b6e1172e6dd3a3ea73b062cf89f98cec142bd4f97ee99d43327f0418d76",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\dashboard\\worker.py": "1e65bc58f69888ec6877205111480df58730f1ac77c48bf4dcad80c4d761957c",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\errors.py": "79072af89b27390febbf7d2d03319b96947fb796c8fc45d3c56200acc3b2f107",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\models.py": "792a3e5ace310f6a9cb406794d8819a87e3212fef358b552852e5ee3e44c13a6",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\pipeline.py": "ecab89e9b2110c9eefa211eb9a128c1cf94f81c43c2cf8c20227619bcca8275e",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\progress.py": "2d5ea25cf3895364190ec699b5e9018a8161d82584df43931687657229907a99",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\provenance.py": "bb75a60398c5e2613ffb4da0f3ebe2798d197a1221975b0d4a0b7a2764b7f32b",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\reporting\\__init__.py": "d792fc1ece299050c0c9a73b83c82ede0bd7f16417308bbbf6f0ef4aabe0a662",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\reporting\\writers.py": "b012f84fdd185cdaddccc0c396dac11f2b015ac699d571c2499ce6a424f1f82f",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\rl_env.py": "1ffabc05763a8b136fbb9f64f50d19f8a0973b36942a8c505e1b8ced08d09773",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\schedule\\__init__.py": "4c6a99e83c8ee3d4c9ba2e44720ba1032653789d06c01b61194df6812face4a4",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\schedule\\metrics.py": "2ac2aec33a247b029731f01322fb04d6f511d04740565bada2103bdb665e606e",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\shape\\__init__.py": "16318287c70a698869f973679aea8e8d60b50ec86ae681a7849b4be9d7727558",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\shape\\deposition.py": "997cfecf62bac385700d05b8e792e611d07040c96a385a77e2d67c129a6035d0",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\shape\\layer_index.py": "be6b4eaae7d51c588a574401270826f23575aa3e468f8fabeed48eb1deeb577c",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\shape\\mesh_components.py": "6a68f9e35db4ec3af6c2b785fd009db4d052a86b7cbb22e1d28b6c153a6a0fc2",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\shape\\mesh_export.py": "fbd5bfe6f1b5a46fe25a0a336c84d369aa5c76e147bd632fd25d39c09eb7978c",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\shape\\metrics.py": "95f62c54d01dc58b676b33a178190f76c9ee010eeecce29b060e53a8190a6c4d",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\shape\\polygon_utils.py": "b211849f79dac4e5b1a56c7f760e22c04c2949389151f20816e19ac45aaf7175",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\shape\\target.py": "180d510fcdc4422b79aba135da28cbf203f769fc87146200435e4ccf0f6661d7",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\trajectory\\__init__.py": "5e111d267bcac263882b34958c60b80a32432f8c45828d2424a83740396d7e3b",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\trajectory\\interpolation.py": "06e1665321c049d6023137a4ca5ba7425bfdde6cbe0d83b1557b44c39eba5c6d",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\trajectory\\loader.py": "a6cb6fbc0ecc57a26c37273446d0c797c9b8c56bafcd2eb14ab6ac6e90157cd3",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\trajectory\\reach.py": "24a90671d13076bef67c958551051ef753d43fb8a6dd8be5dfac961fc992ef77",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\trajectory\\sampling.py": "ec8e7da0415e31f5977cd05a8a3908de6490ef6609283414b0fd7b974e95dc61",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\trajectory\\validator.py": "9786088a081db51c82a311b2685b0108e8cd955b5cb510912d32effac3ab87a5",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\visualization\\__init__.py": "5b9525d037f1243babbf94a4de703f2d38d6547180f359a213a4d20002c2c4d2",
+      "TEAM_PROJECT\\week1\\environment\\src\\waam_validator\\visualization\\replay.py": "39729d7fa403340a52f6b3e6691a18489c7e7fd7fe1cf94829f1fed618342434",
+      "TEAM_PROJECT\\week1\\environment\\test_gym_wrapper.py": "c5adceff23d97b72953328030247e425adf051311b9c7495d945a74943428397",
+      "TEAM_PROJECT\\week1\\run_assignment.py": "c1e379a241d5332a76c2ee9e575af2905a642a7fba735e1df31d3242d8dbec07",
+      "TEAM_PROJECT\\week1\\run_week1.py": "a8035e4b33b878e86ff323f686219ecbbb74adf005b92febccc2359c0be9d24e",
+      "TEAM_PROJECT\\week1\\test_assignment.py": "d2d0b72a3536bf614c813b7ba6892a59198eedb80c41c55b4468727adeddbd99",
+      "TEAM_PROJECT\\week1\\test_week1.py": "66a887dd2c9f0a135ad91c9fd1ad31c9e87a5fc237d3d3aa79451194c4a27fee",
+      "TEAM_PROJECT\\week1\\week1_env.py": "570b8ec6674d58de4adf715023d0e6b43a3ab3ab251472cc8cce7257aa5abe59"
+    },
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "stable-baselines3": "2.9.0",
+      "sb3-contrib": "2.9.0",
+      "gymnasium": "1.4.0",
+      "numpy": "2.4.6"
+    },
+    "parent_checkpoint_sha256": "972d6eb138583fb18d0730e2d5a792bdba674652d48e3e5ea2cee40c9fa48b8e",
+    "actor_initialization": "negative candidate time cost prior"
+  },
+  "checkpoint_sha256": "8f7932e96ed1dd6406bdaa575dd342ba60a3540d77e312a2e9b670df080d13c8",
+  "rng_sha256": "54729a2bf021165e462ac891625fa34d0e286021bdc6c92b45106d9ade26661d",
+  "total_timesteps": 640,
+  "resume_semantics": "Policy, optimizer, timestep counter and global RNG restored; environment resets at a new rollout. Not bitwise mid-rollout continuation. Mixed-job sampler RNG is restored; partially planned episode is not restored."
+}
