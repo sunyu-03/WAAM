@@ -1,5 +1,7 @@
 # WAAM 범용 파이프라인 개발 결과 — 2026-10-09
 
+후속 PPO 학습 연결 결과는 [PPO_20261009.md](PPO_20261009.md)를 확인한다. 아래는 PPO 연결 전 6개 모델의 Greedy 파이프라인 기록이다.
+
 저장 위치는 `C:\Users\User\Desktop\AInAlgorithm\waam_generalization`이다. 기존 팀원 파일, 원본 첨부, 성공 코드와 두 PPO 체크포인트를 보존하고 별도 통합 브랜치에서 개발했다.
 
 ## 코드에서 볼 부분

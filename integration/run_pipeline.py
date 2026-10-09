@@ -30,7 +30,7 @@ def source_hashes():
     paths.extend(backend.glob('*.py'))
     paths.extend((backend/'environment').rglob('*.py'))
     return {str(path.relative_to(ROOT.parent)): hashlib.sha256(path.read_bytes()).hexdigest()
-            for path in sorted(paths) if not any(part in ('.deps','tmp','runs','__pycache__') for part in path.parts)}
+            for path in sorted(paths) if not any(part in ('.deps','.venv','tmp','runs','__pycache__') for part in path.parts)}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)

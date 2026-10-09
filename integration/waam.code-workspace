@@ -1,20 +1,65 @@
 {
-  "folders": [{"path": ".."}],
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
   "settings": {
     "python.defaultInterpreterPath": "C:/Users/User/Desktop/WAAM_Validator-main/.venv/Scripts/python.exe"
   },
   "launch": {
     "version": "0.2.0",
-    "configurations": [{
-      "name": "WAAM: Model 01 공식 검증",
-      "type": "debugpy",
-      "request": "launch",
-      "python": "C:/Users/User/Desktop/WAAM_Validator-main/.venv/Scripts/python.exe",
-      "program": "${workspaceFolder}/integration/run_pipeline.py",
-      "cwd": "${workspaceFolder}",
-      "console": "integratedTerminal",
-      "args": ["--job", "C:/Users/User/Desktop/WAAM_Validator-main/tests/01", "--out", "${workspaceFolder}/integration/runs/${input:runName}", "--scheduler", "layer"]
-    }],
-    "inputs": [{"id": "runName", "type": "promptString", "description": "새 결과 폴더 이름", "default": "vscode_model01_001"}]
+    "configurations": [
+      {
+        "name": "WAAM: Model 01 공식 검증",
+        "type": "debugpy",
+        "request": "launch",
+        "python": "C:/Users/User/Desktop/WAAM_Validator-main/.venv/Scripts/python.exe",
+        "program": "${workspaceFolder}/integration/run_pipeline.py",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "args": [
+          "--job",
+          "C:/Users/User/Desktop/WAAM_Validator-main/tests/01",
+          "--out",
+          "${workspaceFolder}/integration/runs/${input:runName}",
+          "--scheduler",
+          "layer"
+        ]
+      },
+      {
+        "program": "${workspaceFolder}/integration/train.py",
+        "python": "C:/Users/User/Desktop/WAAM_Validator-main/.venv/Scripts/python.exe",
+        "request": "launch",
+        "console": "integratedTerminal",
+        "type": "debugpy",
+        "args": [
+          "--job",
+          "${workspaceFolder}/TEAM_PROJECT/week1/environment/examples/sample_job",
+          "--demo-segments",
+          "8",
+          "--timesteps",
+          "8192",
+          "--out",
+          "${workspaceFolder}/integration/runs/${input:ppoRunName}"
+        ],
+        "cwd": "${workspaceFolder}",
+        "name": "WAAM PPO: 작은 모델 학습 + 공식 검증"
+      }
+    ],
+    "inputs": [
+      {
+        "id": "runName",
+        "type": "promptString",
+        "description": "새 결과 폴더 이름",
+        "default": "vscode_model01_001"
+      },
+      {
+        "id": "ppoRunName",
+        "default": "vscode_ppo_001",
+        "description": "새 PPO 결과 폴더 이름",
+        "type": "promptString"
+      }
+    ]
   }
 }
