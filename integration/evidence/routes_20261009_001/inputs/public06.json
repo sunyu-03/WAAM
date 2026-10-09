@@ -1,0 +1,11 @@
+{
+  "reach_margin_mm": 1.0,
+  "evaluation": [
+    {
+      "name": "model06",
+      "job": "../../20261009/06/job",
+      "tasks_json": "../../20261009/06/tasks.json"
+    }
+  ],
+  "version": 1
+}

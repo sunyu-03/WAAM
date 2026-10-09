@@ -1,0 +1,36 @@
+{
+  "reach_margin_mm": 1.0,
+  "evaluation": [
+    {
+      "name": "model01",
+      "job": "../../20261009/01/job",
+      "tasks_json": "../../20261009/01/tasks.json"
+    },
+    {
+      "name": "model02",
+      "job": "../../20261009/02/job",
+      "tasks_json": "../../20261009/02/tasks.json"
+    },
+    {
+      "name": "model03",
+      "job": "../../20261009/03/job",
+      "tasks_json": "../../20261009/03/tasks.json"
+    },
+    {
+      "name": "model04",
+      "job": "../../20261009/04/job",
+      "tasks_json": "../../20261009/04/tasks.json"
+    },
+    {
+      "name": "model05",
+      "job": "../../20261009/05/job",
+      "tasks_json": "../../20261009/05/tasks.json"
+    },
+    {
+      "name": "model06",
+      "job": "../../20261009/06/job",
+      "tasks_json": "../../20261009/06/tasks.json"
+    }
+  ],
+  "version": 1
+}

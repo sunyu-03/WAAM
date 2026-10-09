@@ -1,0 +1,30 @@
+{
+  "optimizer_steps": [
+    [
+      40
+    ],
+    [
+      50
+    ]
+  ],
+  "timesteps": [
+    512,
+    640
+  ],
+  "resume_weights_changed": true,
+  "actor_parameters_changed_from_cost_initialization": true,
+  "changed_training_dataset_rejected": "Checkpoint contract, task list, inputs, or reach margin differs; refusing incompatible resume",
+  "v1_checkpoint_rejected": "Checkpoint contract, task list, inputs, or reach margin differs; refusing incompatible resume",
+  "sampler_restored_after_vecenv_reseeding": true,
+  "legacy_checkpoint_sha256": {
+    "C:\\Users\\User\\Desktop\\AInAlgorithm\\sample\\0929\\code_ver.1\\ppo_model_01.zip": "7b6e0bd4b99dcad32d44a35cfcb07871759a7edf8c706e90108c48991b147a32",
+    "C:\\Users\\User\\Desktop\\AInAlgorithm\\sample\\0929\\code_ver.1\\tensorboard_experiment\\ppo_model_01.zip": "5712a83467ad346e3a275fd71a3ad18737db4a0f9c20eb48e4b2161c9e317d0b"
+  },
+  "regression_tests_passed": 17,
+  "public06_ppo": {
+    "task_count": 775,
+    "status": "PASS",
+    "makespan_s": 6198.823,
+    "new_best": false
+  }
+}

@@ -1,0 +1,7117 @@
+{
+  "status": "PASS",
+  "makespan_s": 6198.8233492910795,
+  "trace": [
+    {
+      "task": 1,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 0.0,
+      "work_finish_s": 23.99628642166828,
+      "makespan_s": 32.95448758859252,
+      "home_fallback": false
+    },
+    {
+      "task": 2,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 23.99628642166828,
+      "work_finish_s": 38.799619755001615,
+      "makespan_s": 48.07612098666425,
+      "home_fallback": false
+    },
+    {
+      "task": 0,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 38.799619755001615,
+      "work_finish_s": 53.656286421668284,
+      "makespan_s": 62.58351412832283,
+      "home_fallback": false
+    },
+    {
+      "task": 4,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 53.656286421668284,
+      "work_finish_s": 68.61961975500162,
+      "makespan_s": 77.95717118922286,
+      "home_fallback": false
+    },
+    {
+      "task": 5,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 68.61961975500162,
+      "work_finish_s": 83.42295308833495,
+      "makespan_s": 92.5071234697435,
+      "home_fallback": false
+    },
+    {
+      "task": 3,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 83.42295308833495,
+      "work_finish_s": 98.96681845615385,
+      "makespan_s": 107.98759348133842,
+      "home_fallback": false
+    },
+    {
+      "task": 7,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 98.96681845615385,
+      "work_finish_s": 114.53189854765134,
+      "makespan_s": 123.68026870508828,
+      "home_fallback": false
+    },
+    {
+      "task": 8,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 114.53189854765134,
+      "work_finish_s": 129.33523188098468,
+      "makespan_s": 138.79730970907147,
+      "home_fallback": false
+    },
+    {
+      "task": 6,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 129.33523188098468,
+      "work_finish_s": 144.87909724880356,
+      "makespan_s": 154.2785128704245,
+      "home_fallback": false
+    },
+    {
+      "task": 10,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 144.87909724880356,
+      "work_finish_s": 160.44417734030105,
+      "makespan_s": 169.96969964499004,
+      "home_fallback": false
+    },
+    {
+      "task": 11,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 160.44417734030105,
+      "work_finish_s": 175.2475106736344,
+      "makespan_s": 184.52662664673193,
+      "home_fallback": false
+    },
+    {
+      "task": 9,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 175.2475106736344,
+      "work_finish_s": 190.79137604145328,
+      "makespan_s": 200.00473357885843,
+      "home_fallback": false
+    },
+    {
+      "task": 13,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 190.79137604145328,
+      "work_finish_s": 206.35645613295077,
+      "makespan_s": 215.70208532139404,
+      "home_fallback": false
+    },
+    {
+      "task": 14,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 206.35645613295077,
+      "work_finish_s": 221.1597894662841,
+      "makespan_s": 230.81448565769816,
+      "home_fallback": false
+    },
+    {
+      "task": 12,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 221.1597894662841,
+      "work_finish_s": 236.703654834103,
+      "makespan_s": 246.29338835933916,
+      "home_fallback": false
+    },
+    {
+      "task": 16,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 236.703654834103,
+      "work_finish_s": 252.26873492560048,
+      "makespan_s": 261.989130162808,
+      "home_fallback": false
+    },
+    {
+      "task": 17,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 252.26873492560048,
+      "work_finish_s": 267.0720682589338,
+      "makespan_s": 276.55292449484034,
+      "home_fallback": false
+    },
+    {
+      "task": 15,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 267.0720682589338,
+      "work_finish_s": 282.61593362675274,
+      "makespan_s": 292.02881480995734,
+      "home_fallback": false
+    },
+    {
+      "task": 19,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 282.61593362675274,
+      "work_finish_s": 298.1810137182502,
+      "makespan_s": 307.7305526243065,
+      "home_fallback": false
+    },
+    {
+      "task": 20,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 298.1810137182502,
+      "work_finish_s": 312.98434705158354,
+      "makespan_s": 322.83829043848397,
+      "home_fallback": false
+    },
+    {
+      "task": 18,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 312.98434705158354,
+      "work_finish_s": 328.52821241940245,
+      "makespan_s": 338.31502825204717,
+      "home_fallback": false
+    },
+    {
+      "task": 21,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 328.52821241940245,
+      "work_finish_s": 344.0809853913219,
+      "makespan_s": 353.9687531712932,
+      "home_fallback": false
+    },
+    {
+      "task": 22,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 353.9687531712932,
+      "work_finish_s": 378.44090885360515,
+      "makespan_s": 387.6077743059952,
+      "home_fallback": false
+    },
+    {
+      "task": 36,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 387.6077743059952,
+      "work_finish_s": 419.30626487230575,
+      "makespan_s": 429.00605094990414,
+      "home_fallback": false
+    },
+    {
+      "task": 37,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 419.30626487230575,
+      "work_finish_s": 442.1095982056391,
+      "makespan_s": 451.0401509491281,
+      "home_fallback": false
+    },
+    {
+      "task": 34,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 442.1095982056391,
+      "work_finish_s": 465.0195982056391,
+      "makespan_s": 474.75326857400785,
+      "home_fallback": false
+    },
+    {
+      "task": 35,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 465.0195982056391,
+      "work_finish_s": 487.8229315389724,
+      "makespan_s": 496.78964127082776,
+      "home_fallback": false
+    },
+    {
+      "task": 32,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 487.8229315389724,
+      "work_finish_s": 510.7329315389724,
+      "makespan_s": 520.5015334494049,
+      "home_fallback": false
+    },
+    {
+      "task": 33,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 510.7329315389724,
+      "work_finish_s": 533.5362648723058,
+      "makespan_s": 542.5402501056353,
+      "home_fallback": false
+    },
+    {
+      "task": 30,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 533.5362648723058,
+      "work_finish_s": 556.4462648723057,
+      "makespan_s": 566.2508343827179,
+      "home_fallback": false
+    },
+    {
+      "task": 31,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 556.4462648723057,
+      "work_finish_s": 579.2495982056391,
+      "makespan_s": 588.2919636209626,
+      "home_fallback": false
+    },
+    {
+      "task": 28,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 579.2495982056391,
+      "work_finish_s": 602.1595982056391,
+      "makespan_s": 612.0011600146235,
+      "home_fallback": false
+    },
+    {
+      "task": 29,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 602.1595982056391,
+      "work_finish_s": 624.9629315389724,
+      "makespan_s": 634.0447678115561,
+      "home_fallback": false
+    },
+    {
+      "task": 26,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 624.9629315389724,
+      "work_finish_s": 647.8729315389724,
+      "makespan_s": 657.7524988347184,
+      "home_fallback": false
+    },
+    {
+      "task": 27,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 647.8729315389724,
+      "work_finish_s": 671.8374364678311,
+      "makespan_s": 681.6978750965724,
+      "home_fallback": false
+    },
+    {
+      "task": 23,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 681.6978750965724,
+      "work_finish_s": 713.6076203623171,
+      "makespan_s": 722.7673656280618,
+      "home_fallback": false
+    },
+    {
+      "task": 24,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 713.6076203623171,
+      "work_finish_s": 736.4109536956505,
+      "makespan_s": 745.6073080457902,
+      "home_fallback": false
+    },
+    {
+      "task": 25,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 736.4109536956505,
+      "work_finish_s": 759.2142870289838,
+      "makespan_s": 768.4474133804545,
+      "home_fallback": false
+    },
+    {
+      "task": 39,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 768.4474133804545,
+      "work_finish_s": 792.4245106327131,
+      "makespan_s": 801.3629041829096,
+      "home_fallback": false
+    },
+    {
+      "task": 40,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 792.4245106327131,
+      "work_finish_s": 807.2278439660464,
+      "makespan_s": 816.4852186593463,
+      "home_fallback": false
+    },
+    {
+      "task": 38,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 807.2278439660464,
+      "work_finish_s": 822.0845106327131,
+      "makespan_s": 830.9918618460408,
+      "home_fallback": false
+    },
+    {
+      "task": 42,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 822.0845106327131,
+      "work_finish_s": 837.0478439660465,
+      "makespan_s": 846.3663941696907,
+      "home_fallback": false
+    },
+    {
+      "task": 43,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 837.0478439660465,
+      "work_finish_s": 851.8511772993797,
+      "makespan_s": 860.9158153301878,
+      "home_fallback": false
+    },
+    {
+      "task": 41,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 851.8511772993797,
+      "work_finish_s": 867.3950426671986,
+      "makespan_s": 876.3961477752454,
+      "home_fallback": false
+    },
+    {
+      "task": 45,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 867.3950426671986,
+      "work_finish_s": 882.9601227586961,
+      "makespan_s": 892.0890979283739,
+      "home_fallback": false
+    },
+    {
+      "task": 46,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 882.9601227586961,
+      "work_finish_s": 897.7634560920294,
+      "makespan_s": 907.2067832565347,
+      "home_fallback": false
+    },
+    {
+      "task": 44,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 897.7634560920294,
+      "work_finish_s": 913.3073214598484,
+      "makespan_s": 922.687861163889,
+      "home_fallback": false
+    },
+    {
+      "task": 48,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 913.3073214598484,
+      "work_finish_s": 928.8724015513458,
+      "makespan_s": 938.3792983262266,
+      "home_fallback": false
+    },
+    {
+      "task": 49,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 928.8724015513458,
+      "work_finish_s": 943.6757348846792,
+      "makespan_s": 952.9357297201693,
+      "home_fallback": false
+    },
+    {
+      "task": 47,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 943.6757348846792,
+      "work_finish_s": 959.219600252498,
+      "makespan_s": 968.4136998942886,
+      "home_fallback": false
+    },
+    {
+      "task": 51,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 959.219600252498,
+      "work_finish_s": 974.7846803439955,
+      "makespan_s": 984.1113247587352,
+      "home_fallback": false
+    },
+    {
+      "task": 52,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 974.7846803439955,
+      "work_finish_s": 989.588013677329,
+      "makespan_s": 999.2243340154878,
+      "home_fallback": false
+    },
+    {
+      "task": 50,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 989.588013677329,
+      "work_finish_s": 1005.1318790451478,
+      "makespan_s": 1014.703111995826,
+      "home_fallback": false
+    },
+    {
+      "task": 54,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1005.1318790451478,
+      "work_finish_s": 1020.6969591366453,
+      "makespan_s": 1030.3991029553401,
+      "home_fallback": false
+    },
+    {
+      "task": 55,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1020.6969591366453,
+      "work_finish_s": 1035.5002924699786,
+      "makespan_s": 1044.9624352546252,
+      "home_fallback": false
+    },
+    {
+      "task": 53,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1035.5002924699786,
+      "work_finish_s": 1051.0441578377975,
+      "makespan_s": 1060.4381901605138,
+      "home_fallback": false
+    },
+    {
+      "task": 57,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1051.0441578377975,
+      "work_finish_s": 1066.609237929295,
+      "makespan_s": 1076.1401982392215,
+      "home_fallback": false
+    },
+    {
+      "task": 58,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1066.609237929295,
+      "work_finish_s": 1081.4125712626283,
+      "makespan_s": 1091.2485110440293,
+      "home_fallback": false
+    },
+    {
+      "task": 56,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1081.4125712626283,
+      "work_finish_s": 1096.9564366304471,
+      "makespan_s": 1106.7251251428943,
+      "home_fallback": false
+    },
+    {
+      "task": 59,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 1096.9564366304471,
+      "work_finish_s": 1112.5092096023668,
+      "makespan_s": 1122.3790354762994,
+      "home_fallback": false
+    },
+    {
+      "task": 60,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 1122.3790354762994,
+      "work_finish_s": 1146.8329430512003,
+      "makespan_s": 1155.9804527305248,
+      "home_fallback": false
+    },
+    {
+      "task": 74,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1155.9804527305248,
+      "work_finish_s": 1187.659153959571,
+      "makespan_s": 1197.3406864918406,
+      "home_fallback": false
+    },
+    {
+      "task": 75,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1187.659153959571,
+      "work_finish_s": 1210.4624872929044,
+      "makespan_s": 1219.3732108620911,
+      "home_fallback": false
+    },
+    {
+      "task": 72,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1210.4624872929044,
+      "work_finish_s": 1233.3724872929045,
+      "makespan_s": 1243.0879677783091,
+      "home_fallback": false
+    },
+    {
+      "task": 73,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1233.3724872929045,
+      "work_finish_s": 1256.1758206262377,
+      "makespan_s": 1265.1227813189853,
+      "home_fallback": false
+    },
+    {
+      "task": 70,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1256.1758206262377,
+      "work_finish_s": 1279.0858206262376,
+      "makespan_s": 1288.8362978200332,
+      "home_fallback": false
+    },
+    {
+      "task": 71,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1279.0858206262376,
+      "work_finish_s": 1301.889153959571,
+      "makespan_s": 1310.8734720919747,
+      "home_fallback": false
+    },
+    {
+      "task": 68,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1301.889153959571,
+      "work_finish_s": 1324.799153959571,
+      "makespan_s": 1334.5856653659266,
+      "home_fallback": false
+    },
+    {
+      "task": 69,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1324.799153959571,
+      "work_finish_s": 1347.6024872929042,
+      "makespan_s": 1356.6252692655812,
+      "home_fallback": false
+    },
+    {
+      "task": 66,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1347.6024872929042,
+      "work_finish_s": 1370.5124872929043,
+      "makespan_s": 1380.3360589988717,
+      "home_fallback": false
+    },
+    {
+      "task": 67,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1370.5124872929043,
+      "work_finish_s": 1393.3158206262376,
+      "makespan_s": 1402.3781587519225,
+      "home_fallback": false
+    },
+    {
+      "task": 64,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1393.3158206262376,
+      "work_finish_s": 1416.2258206262377,
+      "makespan_s": 1426.0874671506976,
+      "home_fallback": false
+    },
+    {
+      "task": 65,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 1416.2258206262377,
+      "work_finish_s": 1440.1903255550965,
+      "makespan_s": 1450.0328085839562,
+      "home_fallback": false
+    },
+    {
+      "task": 61,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 1450.0328085839562,
+      "work_finish_s": 1481.9232218982193,
+      "makespan_s": 1491.063635212482,
+      "home_fallback": false
+    },
+    {
+      "task": 62,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 1481.9232218982193,
+      "work_finish_s": 1504.7265552315525,
+      "makespan_s": 1513.9036547491319,
+      "home_fallback": false
+    },
+    {
+      "task": 63,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 1504.7265552315525,
+      "work_finish_s": 1527.5298885648858,
+      "makespan_s": 1536.7438369283425,
+      "home_fallback": false
+    },
+    {
+      "task": 77,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1536.7438369283425,
+      "work_finish_s": 1560.701782249421,
+      "makespan_s": 1569.6204039249674,
+      "home_fallback": false
+    },
+    {
+      "task": 78,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1560.701782249421,
+      "work_finish_s": 1575.5051155827543,
+      "makespan_s": 1584.7434011133862,
+      "home_fallback": false
+    },
+    {
+      "task": 76,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1575.5051155827543,
+      "work_finish_s": 1590.361782249421,
+      "makespan_s": 1599.2492925290721,
+      "home_fallback": false
+    },
+    {
+      "task": 80,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1590.361782249421,
+      "work_finish_s": 1605.3251155827543,
+      "makespan_s": 1614.6247021988988,
+      "home_fallback": false
+    },
+    {
+      "task": 81,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1605.3251155827543,
+      "work_finish_s": 1620.1284489160876,
+      "makespan_s": 1629.1735910356404,
+      "home_fallback": false
+    },
+    {
+      "task": 79,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1620.1284489160876,
+      "work_finish_s": 1635.6723142839066,
+      "makespan_s": 1644.653785572033,
+      "home_fallback": false
+    },
+    {
+      "task": 83,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1635.6723142839066,
+      "work_finish_s": 1651.2373943754042,
+      "makespan_s": 1660.3470113257445,
+      "home_fallback": false
+    },
+    {
+      "task": 84,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1651.2373943754042,
+      "work_finish_s": 1666.0407277087374,
+      "makespan_s": 1675.4653423570514,
+      "home_fallback": false
+    },
+    {
+      "task": 82,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1666.0407277087374,
+      "work_finish_s": 1681.5845930765563,
+      "makespan_s": 1690.9462947633447,
+      "home_fallback": false
+    },
+    {
+      "task": 86,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1681.5845930765563,
+      "work_finish_s": 1697.1496731680538,
+      "makespan_s": 1706.6379827973592,
+      "home_fallback": false
+    },
+    {
+      "task": 87,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1697.1496731680538,
+      "work_finish_s": 1711.953006501387,
+      "makespan_s": 1721.193917586699,
+      "home_fallback": false
+    },
+    {
+      "task": 85,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1711.953006501387,
+      "work_finish_s": 1727.496871869206,
+      "makespan_s": 1736.671750699823,
+      "home_fallback": false
+    },
+    {
+      "task": 89,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1727.496871869206,
+      "work_finish_s": 1743.0619519607035,
+      "makespan_s": 1752.3696492791773,
+      "home_fallback": false
+    },
+    {
+      "task": 90,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1743.0619519607035,
+      "work_finish_s": 1757.8652852940368,
+      "makespan_s": 1767.4832686061948,
+      "home_fallback": false
+    },
+    {
+      "task": 88,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1757.8652852940368,
+      "work_finish_s": 1773.4091506618556,
+      "makespan_s": 1782.961921648825,
+      "home_fallback": false
+    },
+    {
+      "task": 92,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1773.4091506618556,
+      "work_finish_s": 1788.9742307533531,
+      "makespan_s": 1798.6581621870205,
+      "home_fallback": false
+    },
+    {
+      "task": 93,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1788.9742307533531,
+      "work_finish_s": 1803.7775640866867,
+      "makespan_s": 1813.221031638935,
+      "home_fallback": false
+    },
+    {
+      "task": 91,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1803.7775640866867,
+      "work_finish_s": 1819.3214294545055,
+      "makespan_s": 1828.6966508712812,
+      "home_fallback": false
+    },
+    {
+      "task": 95,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1819.3214294545055,
+      "work_finish_s": 1834.8865095460028,
+      "makespan_s": 1844.3989297303056,
+      "home_fallback": false
+    },
+    {
+      "task": 96,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1834.8865095460028,
+      "work_finish_s": 1849.6898428793363,
+      "makespan_s": 1859.5078184709073,
+      "home_fallback": false
+    },
+    {
+      "task": 94,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1849.6898428793363,
+      "work_finish_s": 1865.2337082471552,
+      "makespan_s": 1874.9843086690034,
+      "home_fallback": false
+    },
+    {
+      "task": 97,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 1865.2337082471552,
+      "work_finish_s": 1880.7864812190746,
+      "makespan_s": 1890.6384046919343,
+      "home_fallback": false
+    },
+    {
+      "task": 98,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 1890.6384046919343,
+      "work_finish_s": 1915.074103198266,
+      "makespan_s": 1924.2022939646045,
+      "home_fallback": false
+    },
+    {
+      "task": 112,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1924.2022939646045,
+      "work_finish_s": 1955.8612417185211,
+      "makespan_s": 1965.5245598141773,
+      "home_fallback": false
+    },
+    {
+      "task": 113,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1955.8612417185211,
+      "work_finish_s": 1978.6645750518544,
+      "makespan_s": 1987.5555052040322,
+      "home_fallback": false
+    },
+    {
+      "task": 110,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 1978.6645750518544,
+      "work_finish_s": 2001.5745750518545,
+      "makespan_s": 2011.2719048650931,
+      "home_fallback": false
+    },
+    {
+      "task": 111,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2001.5745750518545,
+      "work_finish_s": 2024.3779083851878,
+      "makespan_s": 2033.3051560059282,
+      "home_fallback": false
+    },
+    {
+      "task": 108,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2024.3779083851878,
+      "work_finish_s": 2047.2879083851876,
+      "makespan_s": 2057.020300175039,
+      "home_fallback": false
+    },
+    {
+      "task": 109,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2047.2879083851876,
+      "work_finish_s": 2070.091241718521,
+      "makespan_s": 2079.0559289271573,
+      "home_fallback": false
+    },
+    {
+      "task": 106,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2070.091241718521,
+      "work_finish_s": 2093.001241718521,
+      "makespan_s": 2102.7697344349626,
+      "home_fallback": false
+    },
+    {
+      "task": 107,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2093.001241718521,
+      "work_finish_s": 2115.8045750518545,
+      "makespan_s": 2124.8078099688664,
+      "home_fallback": false
+    },
+    {
+      "task": 104,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2115.8045750518545,
+      "work_finish_s": 2138.7145750518544,
+      "makespan_s": 2148.5201961696994,
+      "home_fallback": false
+    },
+    {
+      "task": 105,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2138.7145750518544,
+      "work_finish_s": 2161.5179083851876,
+      "makespan_s": 2170.560784960077,
+      "home_fallback": false
+    },
+    {
+      "task": 102,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2161.5179083851876,
+      "work_finish_s": 2184.427908385188,
+      "makespan_s": 2194.271673753066,
+      "home_fallback": false
+    },
+    {
+      "task": 103,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 2184.427908385188,
+      "work_finish_s": 2208.3924133140463,
+      "makespan_s": 2218.2169803079573,
+      "home_fallback": false
+    },
+    {
+      "task": 99,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2218.2169803079573,
+      "work_finish_s": 2250.08809866044,
+      "makespan_s": 2259.209217012923,
+      "home_fallback": false
+    },
+    {
+      "task": 100,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2250.08809866044,
+      "work_finish_s": 2272.8914319937735,
+      "makespan_s": 2282.0493138449438,
+      "home_fallback": false
+    },
+    {
+      "task": 101,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2272.8914319937735,
+      "work_finish_s": 2295.694765327107,
+      "makespan_s": 2304.889573040642,
+      "home_fallback": false
+    },
+    {
+      "task": 115,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2304.889573040642,
+      "work_finish_s": 2328.8284039016125,
+      "makespan_s": 2337.7272896828263,
+      "home_fallback": false
+    },
+    {
+      "task": 116,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2328.8284039016125,
+      "work_finish_s": 2343.6317372349463,
+      "makespan_s": 2352.850971210773,
+      "home_fallback": false
+    },
+    {
+      "task": 114,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2343.6317372349463,
+      "work_finish_s": 2358.488403901613,
+      "makespan_s": 2367.3561090459248,
+      "home_fallback": false
+    },
+    {
+      "task": 118,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2358.488403901613,
+      "work_finish_s": 2373.451737234946,
+      "makespan_s": 2382.732398137421,
+      "home_fallback": false
+    },
+    {
+      "task": 119,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2373.451737234946,
+      "work_finish_s": 2388.2550705682793,
+      "makespan_s": 2397.280753452054,
+      "home_fallback": false
+    },
+    {
+      "task": 117,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2388.2550705682793,
+      "work_finish_s": 2403.798935936098,
+      "makespan_s": 2412.760809738769,
+      "home_fallback": false
+    },
+    {
+      "task": 121,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2403.798935936098,
+      "work_finish_s": 2419.364016027596,
+      "makespan_s": 2428.4543117619205,
+      "home_fallback": false
+    },
+    {
+      "task": 122,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2419.364016027596,
+      "work_finish_s": 2434.167349360929,
+      "makespan_s": 2443.5732898681176,
+      "home_fallback": false
+    },
+    {
+      "task": 120,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2434.167349360929,
+      "work_finish_s": 2449.711214728748,
+      "makespan_s": 2459.0541165278664,
+      "home_fallback": false
+    },
+    {
+      "task": 124,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2449.711214728748,
+      "work_finish_s": 2465.2762948202453,
+      "makespan_s": 2474.746055914229,
+      "home_fallback": false
+    },
+    {
+      "task": 125,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2465.2762948202453,
+      "work_finish_s": 2480.0796281535786,
+      "makespan_s": 2489.3014931082503,
+      "home_fallback": false
+    },
+    {
+      "task": 123,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2480.0796281535786,
+      "work_finish_s": 2495.623493521398,
+      "makespan_s": 2504.77918885884,
+      "home_fallback": false
+    },
+    {
+      "task": 127,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2495.623493521398,
+      "work_finish_s": 2511.188573612895,
+      "makespan_s": 2520.477361743103,
+      "home_fallback": false
+    },
+    {
+      "task": 128,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2511.188573612895,
+      "work_finish_s": 2525.9919069462285,
+      "makespan_s": 2535.5915922821396,
+      "home_fallback": false
+    },
+    {
+      "task": 126,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2525.9919069462285,
+      "work_finish_s": 2541.5357723140473,
+      "makespan_s": 2551.0701201724505,
+      "home_fallback": false
+    },
+    {
+      "task": 130,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2541.5357723140473,
+      "work_finish_s": 2557.100852405545,
+      "makespan_s": 2566.766610708313,
+      "home_fallback": false
+    },
+    {
+      "task": 131,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2557.100852405545,
+      "work_finish_s": 2571.9041857388784,
+      "makespan_s": 2581.329016504782,
+      "home_fallback": false
+    },
+    {
+      "task": 129,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2571.9041857388784,
+      "work_finish_s": 2587.448051106697,
+      "makespan_s": 2596.8044998010005,
+      "home_fallback": false
+    },
+    {
+      "task": 133,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2587.448051106697,
+      "work_finish_s": 2603.0131311981945,
+      "makespan_s": 2612.5070499527596,
+      "home_fallback": false
+    },
+    {
+      "task": 134,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2603.0131311981945,
+      "work_finish_s": 2617.816464531528,
+      "makespan_s": 2627.616515565693,
+      "home_fallback": false
+    },
+    {
+      "task": 132,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2617.816464531528,
+      "work_finish_s": 2633.3603298993467,
+      "makespan_s": 2643.092881678922,
+      "home_fallback": false
+    },
+    {
+      "task": 135,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 2633.3603298993467,
+      "work_finish_s": 2648.9131028712663,
+      "makespan_s": 2658.7471636637692,
+      "home_fallback": false
+    },
+    {
+      "task": 136,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2658.7471636637692,
+      "work_finish_s": 2683.164692360965,
+      "makespan_s": 2692.273601308925,
+      "home_fallback": false
+    },
+    {
+      "task": 137,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2692.273601308925,
+      "work_finish_s": 2724.1254619245724,
+      "makespan_s": 2733.227322540219,
+      "home_fallback": false
+    },
+    {
+      "task": 138,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2724.1254619245724,
+      "work_finish_s": 2746.9087952579057,
+      "makespan_s": 2756.033662380226,
+      "home_fallback": false
+    },
+    {
+      "task": 139,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2746.9087952579057,
+      "work_finish_s": 2770.872586380335,
+      "makespan_s": 2780.0205236098727,
+      "home_fallback": false
+    },
+    {
+      "task": 141,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2780.0205236098727,
+      "work_finish_s": 2790.4372425979973,
+      "makespan_s": 2799.577061664193,
+      "home_fallback": false
+    },
+    {
+      "task": 142,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2790.4372425979973,
+      "work_finish_s": 2791.735242597997,
+      "makespan_s": 2800.9293529554925,
+      "home_fallback": false
+    },
+    {
+      "task": 144,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2791.735242597997,
+      "work_finish_s": 2793.1021205020015,
+      "makespan_s": 2802.3515175516973,
+      "home_fallback": false
+    },
+    {
+      "task": 145,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2793.1021205020015,
+      "work_finish_s": 2794.4001205020018,
+      "makespan_s": 2803.650831479923,
+      "home_fallback": false
+    },
+    {
+      "task": 147,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2794.4001205020018,
+      "work_finish_s": 2795.7669984060058,
+      "makespan_s": 2805.074145235951,
+      "home_fallback": false
+    },
+    {
+      "task": 148,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2795.7669984060058,
+      "work_finish_s": 2797.064998406006,
+      "makespan_s": 2806.426942798981,
+      "home_fallback": false
+    },
+    {
+      "task": 146,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2797.064998406006,
+      "work_finish_s": 2798.43187631001,
+      "makespan_s": 2807.7372219940803,
+      "home_fallback": false
+    },
+    {
+      "task": 143,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2798.43187631001,
+      "work_finish_s": 2799.8258763100102,
+      "makespan_s": 2809.020807363581,
+      "home_fallback": false
+    },
+    {
+      "task": 149,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2799.8258763100102,
+      "work_finish_s": 2801.3714916757212,
+      "makespan_s": 2810.735718426034,
+      "home_fallback": false
+    },
+    {
+      "task": 151,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2801.3714916757212,
+      "work_finish_s": 2802.7383695797257,
+      "makespan_s": 2812.160308613088,
+      "home_fallback": false
+    },
+    {
+      "task": 152,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2802.7383695797257,
+      "work_finish_s": 2804.0363695797255,
+      "makespan_s": 2813.5134148920265,
+      "home_fallback": false
+    },
+    {
+      "task": 150,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2804.0363695797255,
+      "work_finish_s": 2805.40324748373,
+      "makespan_s": 2814.822428941494,
+      "home_fallback": false
+    },
+    {
+      "task": 154,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2805.40324748373,
+      "work_finish_s": 2806.8564922731944,
+      "makespan_s": 2816.392016819255,
+      "home_fallback": false
+    },
+    {
+      "task": 153,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2806.8564922731944,
+      "work_finish_s": 2808.154492273194,
+      "makespan_s": 2817.634764403546,
+      "home_fallback": false
+    },
+    {
+      "task": 156,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2808.154492273194,
+      "work_finish_s": 2809.5484922731944,
+      "makespan_s": 2819.143100180016,
+      "home_fallback": false
+    },
+    {
+      "task": 157,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2809.5484922731944,
+      "work_finish_s": 2810.846492273194,
+      "makespan_s": 2820.4452476456245,
+      "home_fallback": false
+    },
+    {
+      "task": 155,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2810.846492273194,
+      "work_finish_s": 2812.2133701771986,
+      "makespan_s": 2821.7525848294977,
+      "home_fallback": false
+    },
+    {
+      "task": 159,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2812.2133701771986,
+      "work_finish_s": 2813.666614966663,
+      "makespan_s": 2823.3254981949085,
+      "home_fallback": false
+    },
+    {
+      "task": 160,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2813.666614966663,
+      "work_finish_s": 2814.9646149666632,
+      "makespan_s": 2824.6791577721624,
+      "home_fallback": false
+    },
+    {
+      "task": 158,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2814.9646149666632,
+      "work_finish_s": 2816.3314928706673,
+      "makespan_s": 2825.9857771736474,
+      "home_fallback": false
+    },
+    {
+      "task": 162,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2816.3314928706673,
+      "work_finish_s": 2817.7847376601317,
+      "makespan_s": 2827.560110309653,
+      "home_fallback": false
+    },
+    {
+      "task": 161,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2817.7847376601317,
+      "work_finish_s": 2819.082737660132,
+      "makespan_s": 2828.8023249833673,
+      "home_fallback": false
+    },
+    {
+      "task": 140,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2819.082737660132,
+      "work_finish_s": 2821.342939840116,
+      "makespan_s": 2830.455457181896,
+      "home_fallback": false
+    },
+    {
+      "task": 163,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 2821.342939840116,
+      "work_finish_s": 2823.6969398401156,
+      "makespan_s": 2833.5029383459064,
+      "home_fallback": false
+    },
+    {
+      "task": 164,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2833.5029383459064,
+      "work_finish_s": 2843.8874425044373,
+      "makespan_s": 2852.975801945686,
+      "home_fallback": false
+    },
+    {
+      "task": 165,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2843.8874425044373,
+      "work_finish_s": 2845.1854425044376,
+      "makespan_s": 2854.322937906473,
+      "home_fallback": false
+    },
+    {
+      "task": 166,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2854.322937906473,
+      "work_finish_s": 2886.15557824701,
+      "makespan_s": 2895.2382185875476,
+      "home_fallback": false
+    },
+    {
+      "task": 167,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2886.15557824701,
+      "work_finish_s": 2908.9389115803433,
+      "makespan_s": 2918.0446069897503,
+      "home_fallback": false
+    },
+    {
+      "task": 168,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2908.9389115803433,
+      "work_finish_s": 2932.9027027027732,
+      "makespan_s": 2942.0315166697924,
+      "home_fallback": false
+    },
+    {
+      "task": 170,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2942.0315166697924,
+      "work_finish_s": 2952.429190527514,
+      "makespan_s": 2961.549908293282,
+      "home_fallback": false
+    },
+    {
+      "task": 171,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2952.429190527514,
+      "work_finish_s": 2953.727190527514,
+      "makespan_s": 2962.9023126120314,
+      "home_fallback": false
+    },
+    {
+      "task": 173,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2953.727190527514,
+      "work_finish_s": 2955.0940684315183,
+      "makespan_s": 2964.3245909401808,
+      "home_fallback": false
+    },
+    {
+      "task": 174,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2955.0940684315183,
+      "work_finish_s": 2956.3920684315185,
+      "makespan_s": 2965.6239075547396,
+      "home_fallback": false
+    },
+    {
+      "task": 176,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2956.3920684315185,
+      "work_finish_s": 2957.7589463355225,
+      "makespan_s": 2967.047335976045,
+      "home_fallback": false
+    },
+    {
+      "task": 177,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2957.7589463355225,
+      "work_finish_s": 2959.0569463355228,
+      "makespan_s": 2968.4002435488815,
+      "home_fallback": false
+    },
+    {
+      "task": 175,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2959.0569463355228,
+      "work_finish_s": 2960.4238242395268,
+      "makespan_s": 2969.710409096192,
+      "home_fallback": false
+    },
+    {
+      "task": 172,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2960.4238242395268,
+      "work_finish_s": 2961.817824239527,
+      "makespan_s": 2970.99376871843,
+      "home_fallback": false
+    },
+    {
+      "task": 178,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2961.817824239527,
+      "work_finish_s": 2963.363439605238,
+      "makespan_s": 2972.7090237299076,
+      "home_fallback": false
+    },
+    {
+      "task": 180,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2963.363439605238,
+      "work_finish_s": 2964.7303175092425,
+      "makespan_s": 2974.1337283344906,
+      "home_fallback": false
+    },
+    {
+      "task": 181,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2964.7303175092425,
+      "work_finish_s": 2966.0283175092422,
+      "makespan_s": 2975.486942560031,
+      "home_fallback": false
+    },
+    {
+      "task": 179,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2966.0283175092422,
+      "work_finish_s": 2967.3951954132467,
+      "makespan_s": 2976.7958432278538,
+      "home_fallback": false
+    },
+    {
+      "task": 183,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2967.3951954132467,
+      "work_finish_s": 2968.848440202711,
+      "makespan_s": 2978.3656576725666,
+      "home_fallback": false
+    },
+    {
+      "task": 182,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2968.848440202711,
+      "work_finish_s": 2970.146440202711,
+      "makespan_s": 2979.608298353493,
+      "home_fallback": false
+    },
+    {
+      "task": 185,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2970.146440202711,
+      "work_finish_s": 2971.540440202711,
+      "makespan_s": 2981.116853982704,
+      "home_fallback": false
+    },
+    {
+      "task": 186,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2971.540440202711,
+      "work_finish_s": 2972.838440202711,
+      "makespan_s": 2982.4190093246243,
+      "home_fallback": false
+    },
+    {
+      "task": 184,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2972.838440202711,
+      "work_finish_s": 2974.2053181067154,
+      "makespan_s": 2983.7262327782496,
+      "home_fallback": false
+    },
+    {
+      "task": 188,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2974.2053181067154,
+      "work_finish_s": 2975.65856289618,
+      "makespan_s": 2985.299373298676,
+      "home_fallback": false
+    },
+    {
+      "task": 189,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2975.65856289618,
+      "work_finish_s": 2976.95656289618,
+      "makespan_s": 2986.6531366168238,
+      "home_fallback": false
+    },
+    {
+      "task": 187,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2976.95656289618,
+      "work_finish_s": 2978.323440800184,
+      "makespan_s": 2987.9596436520737,
+      "home_fallback": false
+    },
+    {
+      "task": 191,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2978.323440800184,
+      "work_finish_s": 2979.7766855896484,
+      "makespan_s": 2989.5342011769794,
+      "home_fallback": false
+    },
+    {
+      "task": 190,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2979.7766855896484,
+      "work_finish_s": 2981.0746855896487,
+      "makespan_s": 2990.776313171348,
+      "home_fallback": false
+    },
+    {
+      "task": 169,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 2981.0746855896487,
+      "work_finish_s": 2983.3348877696326,
+      "makespan_s": 2992.42824646179,
+      "home_fallback": false
+    },
+    {
+      "task": 192,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 2983.3348877696326,
+      "work_finish_s": 2985.6888877696324,
+      "makespan_s": 2995.4770850855616,
+      "home_fallback": false
+    },
+    {
+      "task": 193,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 2995.4770850855616,
+      "work_finish_s": 3005.8424768062846,
+      "makespan_s": 3014.911626564301,
+      "home_fallback": false
+    },
+    {
+      "task": 194,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3005.8424768062846,
+      "work_finish_s": 3007.1404768062844,
+      "makespan_s": 3016.2588660402566,
+      "home_fallback": false
+    },
+    {
+      "task": 195,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3016.2588660402566,
+      "work_finish_s": 3048.072323805738,
+      "makespan_s": 3057.1357815712195,
+      "home_fallback": false
+    },
+    {
+      "task": 196,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3048.072323805738,
+      "work_finish_s": 3070.8556571390714,
+      "makespan_s": 3079.9422186449438,
+      "home_fallback": false
+    },
+    {
+      "task": 197,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3070.8556571390714,
+      "work_finish_s": 3094.819448261501,
+      "makespan_s": 3103.929176882901,
+      "home_fallback": false
+    },
+    {
+      "task": 199,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3103.929176882901,
+      "work_finish_s": 3114.3078437751406,
+      "makespan_s": 3123.4094982832517,
+      "home_fallback": false
+    },
+    {
+      "task": 200,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3114.3078437751406,
+      "work_finish_s": 3115.6058437751403,
+      "makespan_s": 3124.762015873131,
+      "home_fallback": false
+    },
+    {
+      "task": 202,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3115.6058437751403,
+      "work_finish_s": 3116.972721679145,
+      "makespan_s": 3126.184408169964,
+      "home_fallback": false
+    },
+    {
+      "task": 203,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3116.972721679145,
+      "work_finish_s": 3118.2707216791446,
+      "makespan_s": 3127.483727476346,
+      "home_fallback": false
+    },
+    {
+      "task": 205,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3118.2707216791446,
+      "work_finish_s": 3119.637599583149,
+      "makespan_s": 3128.9072707928726,
+      "home_fallback": false
+    },
+    {
+      "task": 206,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3119.637599583149,
+      "work_finish_s": 3120.9355995831493,
+      "makespan_s": 3130.260288588118,
+      "home_fallback": false
+    },
+    {
+      "task": 204,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3120.9355995831493,
+      "work_finish_s": 3122.3024774871533,
+      "makespan_s": 3131.570340267874,
+      "home_fallback": false
+    },
+    {
+      "task": 201,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3122.3024774871533,
+      "work_finish_s": 3123.6964774871535,
+      "makespan_s": 3132.853473681438,
+      "home_fallback": false
+    },
+    {
+      "task": 207,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3123.6964774871535,
+      "work_finish_s": 3125.2420928528645,
+      "makespan_s": 3134.569073331749,
+      "home_fallback": false
+    },
+    {
+      "task": 209,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3125.2420928528645,
+      "work_finish_s": 3126.6089707568685,
+      "makespan_s": 3135.993892566379,
+      "home_fallback": false
+    },
+    {
+      "task": 210,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3126.6089707568685,
+      "work_finish_s": 3127.9069707568688,
+      "makespan_s": 3137.3472149313393,
+      "home_fallback": false
+    },
+    {
+      "task": 208,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3127.9069707568688,
+      "work_finish_s": 3129.273848660873,
+      "makespan_s": 3138.656002014795,
+      "home_fallback": false
+    },
+    {
+      "task": 212,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3129.273848660873,
+      "work_finish_s": 3130.7270934503376,
+      "makespan_s": 3140.2260434234,
+      "home_fallback": false
+    },
+    {
+      "task": 211,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3130.7270934503376,
+      "work_finish_s": 3132.0250934503374,
+      "makespan_s": 3141.4685770177366,
+      "home_fallback": false
+    },
+    {
+      "task": 214,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3132.0250934503374,
+      "work_finish_s": 3133.4190934503376,
+      "makespan_s": 3142.9773528686555,
+      "home_fallback": false
+    },
+    {
+      "task": 215,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3133.4190934503376,
+      "work_finish_s": 3134.7170934503374,
+      "makespan_s": 3144.27951609954,
+      "home_fallback": false
+    },
+    {
+      "task": 213,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3134.7170934503374,
+      "work_finish_s": 3136.083971354342,
+      "makespan_s": 3145.5866256364284,
+      "home_fallback": false
+    },
+    {
+      "task": 217,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3136.083971354342,
+      "work_finish_s": 3137.5372161438063,
+      "makespan_s": 3147.15999367626,
+      "home_fallback": false
+    },
+    {
+      "task": 218,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3137.5372161438063,
+      "work_finish_s": 3138.835216143806,
+      "makespan_s": 3148.5138608909856,
+      "home_fallback": false
+    },
+    {
+      "task": 216,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3138.835216143806,
+      "work_finish_s": 3140.2020940478105,
+      "makespan_s": 3149.820255391071,
+      "home_fallback": false
+    },
+    {
+      "task": 220,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3140.2020940478105,
+      "work_finish_s": 3141.655338837275,
+      "makespan_s": 3151.395037634426,
+      "home_fallback": false
+    },
+    {
+      "task": 219,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3141.655338837275,
+      "work_finish_s": 3142.953338837275,
+      "makespan_s": 3152.637046802524,
+      "home_fallback": false
+    },
+    {
+      "task": 198,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3142.953338837275,
+      "work_finish_s": 3145.213541017259,
+      "makespan_s": 3154.2877789757026,
+      "home_fallback": false
+    },
+    {
+      "task": 221,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 3145.213541017259,
+      "work_finish_s": 3147.567541017259,
+      "makespan_s": 3157.3379774925547,
+      "home_fallback": false
+    },
+    {
+      "task": 222,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3157.3379774925547,
+      "work_finish_s": 3167.684294793773,
+      "makespan_s": 3176.7342726697434,
+      "home_fallback": false
+    },
+    {
+      "task": 223,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3167.684294793773,
+      "work_finish_s": 3168.982294793773,
+      "makespan_s": 3178.0816158917696,
+      "home_fallback": false
+    },
+    {
+      "task": 224,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3178.0816158917696,
+      "work_finish_s": 3209.8759290221296,
+      "makespan_s": 3218.920242152489,
+      "home_fallback": false
+    },
+    {
+      "task": 225,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3209.8759290221296,
+      "work_finish_s": 3232.659262355463,
+      "makespan_s": 3241.726728006533,
+      "home_fallback": false
+    },
+    {
+      "task": 226,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3232.659262355463,
+      "work_finish_s": 3256.6230534778924,
+      "makespan_s": 3265.7137349093855,
+      "home_fallback": false
+    },
+    {
+      "task": 228,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3265.7137349093855,
+      "work_finish_s": 3276.073433239951,
+      "makespan_s": 3285.1560627727167,
+      "home_fallback": false
+    },
+    {
+      "task": 229,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3276.073433239951,
+      "work_finish_s": 3277.371433239951,
+      "makespan_s": 3286.5086938760755,
+      "home_fallback": false
+    },
+    {
+      "task": 231,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3277.371433239951,
+      "work_finish_s": 3278.7383111439553,
+      "makespan_s": 3287.931200376922,
+      "home_fallback": false
+    },
+    {
+      "task": 232,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3278.7383111439553,
+      "work_finish_s": 3280.0363111439556,
+      "makespan_s": 3289.2305223805815,
+      "home_fallback": false
+    },
+    {
+      "task": 234,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3280.0363111439556,
+      "work_finish_s": 3281.4031890479596,
+      "makespan_s": 3290.654180820782,
+      "home_fallback": false
+    },
+    {
+      "task": 235,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3281.4031890479596,
+      "work_finish_s": 3282.70118904796,
+      "makespan_s": 3292.0073090495407,
+      "home_fallback": false
+    },
+    {
+      "task": 233,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3282.70118904796,
+      "work_finish_s": 3284.0680669519643,
+      "makespan_s": 3293.3172466435212,
+      "home_fallback": false
+    },
+    {
+      "task": 230,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3284.0680669519643,
+      "work_finish_s": 3285.462066951964,
+      "makespan_s": 3294.600153389867,
+      "home_fallback": false
+    },
+    {
+      "task": 236,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3285.462066951964,
+      "work_finish_s": 3287.007682317675,
+      "makespan_s": 3296.3160983643475,
+      "home_fallback": false
+    },
+    {
+      "task": 238,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3287.007682317675,
+      "work_finish_s": 3288.3745602216795,
+      "makespan_s": 3297.7410324399198,
+      "home_fallback": false
+    },
+    {
+      "task": 239,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3288.3745602216795,
+      "work_finish_s": 3289.6725602216793,
+      "makespan_s": 3299.0944631355324,
+      "home_fallback": false
+    },
+    {
+      "task": 237,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3289.6725602216793,
+      "work_finish_s": 3291.039438125684,
+      "makespan_s": 3300.4031364335615,
+      "home_fallback": false
+    },
+    {
+      "task": 241,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3291.039438125684,
+      "work_finish_s": 3292.492682915148,
+      "makespan_s": 3301.973405199615,
+      "home_fallback": false
+    },
+    {
+      "task": 240,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3292.492682915148,
+      "work_finish_s": 3293.790682915148,
+      "makespan_s": 3303.2158315257634,
+      "home_fallback": false
+    },
+    {
+      "task": 243,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3293.790682915148,
+      "work_finish_s": 3295.184682915148,
+      "makespan_s": 3304.724827963957,
+      "home_fallback": false
+    },
+    {
+      "task": 244,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3295.184682915148,
+      "work_finish_s": 3296.482682915148,
+      "makespan_s": 3306.026999096333,
+      "home_fallback": false
+    },
+    {
+      "task": 242,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3296.482682915148,
+      "work_finish_s": 3297.8495608191524,
+      "makespan_s": 3307.3339945317844,
+      "home_fallback": false
+    },
+    {
+      "task": 246,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3297.8495608191524,
+      "work_finish_s": 3299.302805608617,
+      "makespan_s": 3308.9075904517845,
+      "home_fallback": false
+    },
+    {
+      "task": 247,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3299.302805608617,
+      "work_finish_s": 3300.600805608617,
+      "makespan_s": 3310.261561717046,
+      "home_fallback": false
+    },
+    {
+      "task": 245,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3300.600805608617,
+      "work_finish_s": 3301.967683512621,
+      "makespan_s": 3311.567843514904,
+      "home_fallback": false
+    },
+    {
+      "task": 249,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3301.967683512621,
+      "work_finish_s": 3303.4209283020855,
+      "makespan_s": 3313.1428508024796,
+      "home_fallback": false
+    },
+    {
+      "task": 248,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3303.4209283020855,
+      "work_finish_s": 3304.7189283020857,
+      "makespan_s": 3314.384756999133,
+      "home_fallback": false
+    },
+    {
+      "task": 227,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3304.7189283020857,
+      "work_finish_s": 3306.9791304820696,
+      "makespan_s": 3316.034285862896,
+      "home_fallback": false
+    },
+    {
+      "task": 250,
+      "robot_id": 3,
+      "reverse": false,
+      "departure_s": 3306.9791304820696,
+      "work_finish_s": 3309.3331304820695,
+      "makespan_s": 3319.085846686401,
+      "home_fallback": false
+    },
+    {
+      "task": 251,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3319.085846686401,
+      "work_finish_s": 3329.4131278260866,
+      "makespan_s": 3338.443971861945,
+      "home_fallback": false
+    },
+    {
+      "task": 252,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3329.4131278260866,
+      "work_finish_s": 3330.7111278260863,
+      "makespan_s": 3339.7914190597908,
+      "home_fallback": false
+    },
+    {
+      "task": 253,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3339.7914190597908,
+      "work_finish_s": 3371.5666257364023,
+      "makespan_s": 3380.591832413014,
+      "home_fallback": false
+    },
+    {
+      "task": 254,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3371.5666257364023,
+      "work_finish_s": 3394.3499590697356,
+      "makespan_s": 3403.3983671556307,
+      "home_fallback": false
+    },
+    {
+      "task": 255,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3394.3499590697356,
+      "work_finish_s": 3418.3137501921656,
+      "makespan_s": 3427.385422829802,
+      "home_fallback": false
+    },
+    {
+      "task": 257,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3427.385422829802,
+      "work_finish_s": 3437.7261912429,
+      "makespan_s": 3446.7898343236993,
+      "home_fallback": false
+    },
+    {
+      "task": 258,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3437.7261912429,
+      "work_finish_s": 3439.0241912428996,
+      "makespan_s": 3448.1425791815177,
+      "home_fallback": false
+    },
+    {
+      "task": 260,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3439.0241912428996,
+      "work_finish_s": 3440.391069146904,
+      "makespan_s": 3449.565200120258,
+      "home_fallback": false
+    },
+    {
+      "task": 261,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3440.391069146904,
+      "work_finish_s": 3441.689069146904,
+      "makespan_s": 3450.8645248266166,
+      "home_fallback": false
+    },
+    {
+      "task": 263,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3441.689069146904,
+      "work_finish_s": 3443.0559470509083,
+      "makespan_s": 3452.2882986174104,
+      "home_fallback": false
+    },
+    {
+      "task": 264,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3443.0559470509083,
+      "work_finish_s": 3444.353947050908,
+      "makespan_s": 3453.6415374892563,
+      "home_fallback": false
+    },
+    {
+      "task": 262,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3444.353947050908,
+      "work_finish_s": 3445.7208249549126,
+      "makespan_s": 3454.951360780821,
+      "home_fallback": false
+    },
+    {
+      "task": 259,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3445.7208249549126,
+      "work_finish_s": 3447.114824954913,
+      "makespan_s": 3456.23404040435,
+      "home_fallback": false
+    },
+    {
+      "task": 265,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3447.114824954913,
+      "work_finish_s": 3448.660440320624,
+      "makespan_s": 3457.950331383742,
+      "home_fallback": false
+    },
+    {
+      "task": 267,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3448.660440320624,
+      "work_finish_s": 3450.027318224628,
+      "makespan_s": 3459.375380509494,
+      "home_fallback": false
+    },
+    {
+      "task": 268,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3450.027318224628,
+      "work_finish_s": 3451.325318224628,
+      "makespan_s": 3460.728919725369,
+      "home_fallback": false
+    },
+    {
+      "task": 266,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3451.325318224628,
+      "work_finish_s": 3452.692196128632,
+      "makespan_s": 3462.037479038615,
+      "home_fallback": false
+    },
+    {
+      "task": 270,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3452.692196128632,
+      "work_finish_s": 3454.145440918097,
+      "makespan_s": 3463.6079755522132,
+      "home_fallback": false
+    },
+    {
+      "task": 269,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3454.145440918097,
+      "work_finish_s": 3455.4434409180967,
+      "makespan_s": 3464.8502944302363,
+      "home_fallback": false
+    },
+    {
+      "task": 272,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3455.4434409180967,
+      "work_finish_s": 3456.8374409180965,
+      "makespan_s": 3466.3595118178,
+      "home_fallback": false
+    },
+    {
+      "task": 273,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3456.8374409180965,
+      "work_finish_s": 3458.1354409180967,
+      "makespan_s": 3467.6616908640667,
+      "home_fallback": false
+    },
+    {
+      "task": 271,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3458.1354409180967,
+      "work_finish_s": 3459.502318822101,
+      "makespan_s": 3468.968572015206,
+      "home_fallback": false
+    },
+    {
+      "task": 275,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3459.502318822101,
+      "work_finish_s": 3460.9555636115656,
+      "makespan_s": 3470.542396172438,
+      "home_fallback": false
+    },
+    {
+      "task": 276,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3460.9555636115656,
+      "work_finish_s": 3462.2535636115654,
+      "makespan_s": 3471.896471640434,
+      "home_fallback": false
+    },
+    {
+      "task": 274,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3462.2535636115654,
+      "work_finish_s": 3463.62044151557,
+      "makespan_s": 3473.2026405709066,
+      "home_fallback": false
+    },
+    {
+      "task": 278,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3463.62044151557,
+      "work_finish_s": 3465.0736863050342,
+      "makespan_s": 3474.777873224624,
+      "home_fallback": false
+    },
+    {
+      "task": 277,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3465.0736863050342,
+      "work_finish_s": 3466.371686305034,
+      "makespan_s": 3476.0196763064455,
+      "home_fallback": false
+    },
+    {
+      "task": 256,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3466.371686305034,
+      "work_finish_s": 3468.6318884850184,
+      "makespan_s": 3477.667999686059,
+      "home_fallback": false
+    },
+    {
+      "task": 279,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3477.667999686059,
+      "work_finish_s": 3487.926970918484,
+      "makespan_s": 3496.9824914201204,
+      "home_fallback": false
+    },
+    {
+      "task": 280,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3487.926970918484,
+      "work_finish_s": 3489.2249709184844,
+      "makespan_s": 3498.236719398478,
+      "home_fallback": false
+    },
+    {
+      "task": 281,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3489.2249709184844,
+      "work_finish_s": 3490.522970918484,
+      "makespan_s": 3499.5842708007062,
+      "home_fallback": false
+    },
+    {
+      "task": 282,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3499.5842708007062,
+      "work_finish_s": 3531.3404094479474,
+      "makespan_s": 3540.346548095189,
+      "home_fallback": false
+    },
+    {
+      "task": 283,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3531.3404094479474,
+      "work_finish_s": 3554.1237427812807,
+      "makespan_s": 3563.153131834072,
+      "home_fallback": false
+    },
+    {
+      "task": 284,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3554.1237427812807,
+      "work_finish_s": 3578.0875339037107,
+      "makespan_s": 3587.140236385413,
+      "home_fallback": false
+    },
+    {
+      "task": 286,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3587.140236385413,
+      "work_finish_s": 3597.4621137671606,
+      "makespan_s": 3606.506809161978,
+      "home_fallback": false
+    },
+    {
+      "task": 287,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3597.4621137671606,
+      "work_finish_s": 3598.760113767161,
+      "makespan_s": 3607.859668013827,
+      "home_fallback": false
+    },
+    {
+      "task": 289,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3598.760113767161,
+      "work_finish_s": 3600.1269916711653,
+      "makespan_s": 3609.282403622855,
+      "home_fallback": false
+    },
+    {
+      "task": 290,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3600.1269916711653,
+      "work_finish_s": 3601.424991671165,
+      "makespan_s": 3610.5817310372963,
+      "home_fallback": false
+    },
+    {
+      "task": 292,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3601.424991671165,
+      "work_finish_s": 3602.7918695751696,
+      "makespan_s": 3612.005620404033,
+      "home_fallback": false
+    },
+    {
+      "task": 293,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3602.7918695751696,
+      "work_finish_s": 3604.0898695751694,
+      "makespan_s": 3613.35897012697,
+      "home_fallback": false
+    },
+    {
+      "task": 291,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3604.0898695751694,
+      "work_finish_s": 3605.456747479174,
+      "makespan_s": 3614.6686789010996,
+      "home_fallback": false
+    },
+    {
+      "task": 288,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3605.456747479174,
+      "work_finish_s": 3606.8507474791736,
+      "makespan_s": 3615.9511309492336,
+      "home_fallback": false
+    },
+    {
+      "task": 294,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3606.8507474791736,
+      "work_finish_s": 3608.3963628448846,
+      "makespan_s": 3617.667768609573,
+      "home_fallback": false
+    },
+    {
+      "task": 296,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3608.3963628448846,
+      "work_finish_s": 3609.763240748889,
+      "makespan_s": 3619.0929329930427,
+      "home_fallback": false
+    },
+    {
+      "task": 297,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3609.763240748889,
+      "work_finish_s": 3611.0612407488893,
+      "makespan_s": 3620.4465809171315,
+      "home_fallback": false
+    },
+    {
+      "task": 295,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3611.0612407488893,
+      "work_finish_s": 3612.4281186528933,
+      "makespan_s": 3621.7550260479793,
+      "home_fallback": false
+    },
+    {
+      "task": 299,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3612.4281186528933,
+      "work_finish_s": 3613.8813634423577,
+      "makespan_s": 3623.3257506956816,
+      "home_fallback": false
+    },
+    {
+      "task": 298,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3613.8813634423577,
+      "work_finish_s": 3615.179363442358,
+      "makespan_s": 3624.5679619473394,
+      "home_fallback": false
+    },
+    {
+      "task": 301,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3615.179363442358,
+      "work_finish_s": 3616.5733634423577,
+      "makespan_s": 3626.077400642825,
+      "home_fallback": false
+    },
+    {
+      "task": 302,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3616.5733634423577,
+      "work_finish_s": 3617.871363442358,
+      "makespan_s": 3627.3795876152503,
+      "home_fallback": false
+    },
+    {
+      "task": 300,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3617.871363442358,
+      "work_finish_s": 3619.238241346362,
+      "makespan_s": 3628.686354301067,
+      "home_fallback": false
+    },
+    {
+      "task": 304,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3619.238241346362,
+      "work_finish_s": 3620.691486135827,
+      "makespan_s": 3630.2604070488187,
+      "home_fallback": false
+    },
+    {
+      "task": 305,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3620.691486135827,
+      "work_finish_s": 3621.9894861358266,
+      "makespan_s": 3631.614586869954,
+      "home_fallback": false
+    },
+    {
+      "task": 303,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3621.9894861358266,
+      "work_finish_s": 3623.356364039831,
+      "makespan_s": 3632.920642769823,
+      "home_fallback": false
+    },
+    {
+      "task": 307,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3623.356364039831,
+      "work_finish_s": 3624.8096088292955,
+      "makespan_s": 3634.496101107681,
+      "home_fallback": false
+    },
+    {
+      "task": 306,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3624.8096088292955,
+      "work_finish_s": 3626.1076088292953,
+      "makespan_s": 3635.737800933102,
+      "home_fallback": false
+    },
+    {
+      "task": 285,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3626.1076088292953,
+      "work_finish_s": 3628.367811009279,
+      "makespan_s": 3637.384916671656,
+      "home_fallback": false
+    },
+    {
+      "task": 308,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3637.384916671656,
+      "work_finish_s": 3647.6248249890723,
+      "makespan_s": 3656.661380773465,
+      "home_fallback": false
+    },
+    {
+      "task": 309,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3647.6248249890723,
+      "work_finish_s": 3648.9228249890725,
+      "makespan_s": 3657.915516441333,
+      "home_fallback": false
+    },
+    {
+      "task": 310,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3648.9228249890725,
+      "work_finish_s": 3650.2208249890723,
+      "makespan_s": 3659.263172275283,
+      "home_fallback": false
+    },
+    {
+      "task": 311,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3659.263172275283,
+      "work_finish_s": 3691.000281562108,
+      "makespan_s": 3699.9873908489326,
+      "home_fallback": false
+    },
+    {
+      "task": 312,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3691.000281562108,
+      "work_finish_s": 3713.783614895441,
+      "makespan_s": 3722.794023691199,
+      "home_fallback": false
+    },
+    {
+      "task": 313,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3713.783614895441,
+      "work_finish_s": 3737.747406017871,
+      "makespan_s": 3746.7811772249706,
+      "home_fallback": false
+    },
+    {
+      "task": 315,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3746.7811772249706,
+      "work_finish_s": 3757.084202704918,
+      "makespan_s": 3766.109989423877,
+      "home_fallback": false
+    },
+    {
+      "task": 316,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3757.084202704918,
+      "work_finish_s": 3758.382202704918,
+      "makespan_s": 3767.4629625078824,
+      "home_fallback": false
+    },
+    {
+      "task": 318,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3758.382202704918,
+      "work_finish_s": 3759.749080608922,
+      "makespan_s": 3768.885813018064,
+      "home_fallback": false
+    },
+    {
+      "task": 319,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3759.749080608922,
+      "work_finish_s": 3761.0470806089224,
+      "makespan_s": 3770.185143145936,
+      "home_fallback": false
+    },
+    {
+      "task": 321,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3761.0470806089224,
+      "work_finish_s": 3762.4139585129265,
+      "makespan_s": 3771.609148312354,
+      "home_fallback": false
+    },
+    {
+      "task": 322,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3762.4139585129265,
+      "work_finish_s": 3763.7119585129267,
+      "makespan_s": 3772.9626090927777,
+      "home_fallback": false
+    },
+    {
+      "task": 320,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3763.7119585129267,
+      "work_finish_s": 3765.078836416931,
+      "makespan_s": 3774.2722031361136,
+      "home_fallback": false
+    },
+    {
+      "task": 317,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3765.078836416931,
+      "work_finish_s": 3766.472836416931,
+      "makespan_s": 3775.5544271593753,
+      "home_fallback": false
+    },
+    {
+      "task": 323,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3766.472836416931,
+      "work_finish_s": 3768.018451782642,
+      "makespan_s": 3777.2714121718695,
+      "home_fallback": false
+    },
+    {
+      "task": 325,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3768.018451782642,
+      "work_finish_s": 3769.3853296866464,
+      "makespan_s": 3778.696692018858,
+      "home_fallback": false
+    },
+    {
+      "task": 326,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3769.3853296866464,
+      "work_finish_s": 3770.683329686646,
+      "makespan_s": 3780.050448837417,
+      "home_fallback": false
+    },
+    {
+      "task": 324,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3770.683329686646,
+      "work_finish_s": 3772.0502075906506,
+      "makespan_s": 3781.3587795900294,
+      "home_fallback": false
+    },
+    {
+      "task": 328,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3772.0502075906506,
+      "work_finish_s": 3773.503452380115,
+      "makespan_s": 3782.9297327547833,
+      "home_fallback": false
+    },
+    {
+      "task": 327,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3773.503452380115,
+      "work_finish_s": 3774.8014523801153,
+      "makespan_s": 3784.171836203569,
+      "home_fallback": false
+    },
+    {
+      "task": 330,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3774.8014523801153,
+      "work_finish_s": 3776.195452380115,
+      "makespan_s": 3785.6814965619105,
+      "home_fallback": false
+    },
+    {
+      "task": 331,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3776.195452380115,
+      "work_finish_s": 3777.493452380115,
+      "makespan_s": 3786.9836914726297,
+      "home_fallback": false
+    },
+    {
+      "task": 329,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3777.493452380115,
+      "work_finish_s": 3778.8603302841193,
+      "makespan_s": 3788.2903435140133,
+      "home_fallback": false
+    },
+    {
+      "task": 333,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3778.8603302841193,
+      "work_finish_s": 3780.3135750735837,
+      "makespan_s": 3789.864625201722,
+      "home_fallback": false
+    },
+    {
+      "task": 334,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3780.3135750735837,
+      "work_finish_s": 3781.611575073584,
+      "makespan_s": 3791.218909524576,
+      "home_fallback": false
+    },
+    {
+      "task": 332,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3781.611575073584,
+      "work_finish_s": 3782.978452977588,
+      "makespan_s": 3792.5248522326,
+      "home_fallback": false
+    },
+    {
+      "task": 336,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3782.978452977588,
+      "work_finish_s": 3784.431697767053,
+      "makespan_s": 3794.1005365686015,
+      "home_fallback": false
+    },
+    {
+      "task": 335,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3784.431697767053,
+      "work_finish_s": 3785.7296977670526,
+      "makespan_s": 3795.342132997905,
+      "home_fallback": false
+    },
+    {
+      "task": 314,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3785.7296977670526,
+      "work_finish_s": 3787.9898999470365,
+      "makespan_s": 3796.9880389567193,
+      "home_fallback": false
+    },
+    {
+      "task": 337,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3796.9880389567193,
+      "work_finish_s": 3807.2089231197583,
+      "makespan_s": 3816.2265531607145,
+      "home_fallback": false
+    },
+    {
+      "task": 338,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3807.2089231197583,
+      "work_finish_s": 3808.5069231197585,
+      "makespan_s": 3817.4805963178787,
+      "home_fallback": false
+    },
+    {
+      "task": 339,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3808.5069231197585,
+      "work_finish_s": 3809.8049231197583,
+      "makespan_s": 3818.8283568096326,
+      "home_fallback": false
+    },
+    {
+      "task": 340,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3818.8283568096326,
+      "work_finish_s": 3850.5464756511487,
+      "makespan_s": 3859.514594492665,
+      "home_fallback": false
+    },
+    {
+      "task": 341,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3850.5464756511487,
+      "work_finish_s": 3873.329808984482,
+      "makespan_s": 3882.3212765448357,
+      "home_fallback": false
+    },
+    {
+      "task": 342,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3873.329808984482,
+      "work_finish_s": 3897.2936001069115,
+      "makespan_s": 3906.3084791656925,
+      "home_fallback": false
+    },
+    {
+      "task": 344,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3906.3084791656925,
+      "work_finish_s": 3916.592692118347,
+      "makespan_s": 3925.59960941726,
+      "home_fallback": false
+    },
+    {
+      "task": 345,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3916.592692118347,
+      "work_finish_s": 3917.890692118347,
+      "makespan_s": 3926.95269697006,
+      "home_fallback": false
+    },
+    {
+      "task": 347,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3917.890692118347,
+      "work_finish_s": 3919.257570022351,
+      "makespan_s": 3928.375662610694,
+      "home_fallback": false
+    },
+    {
+      "task": 348,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3919.257570022351,
+      "work_finish_s": 3920.5555700223513,
+      "makespan_s": 3929.674995457306,
+      "home_fallback": false
+    },
+    {
+      "task": 350,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3920.5555700223513,
+      "work_finish_s": 3921.9224479263557,
+      "makespan_s": 3931.0991166454946,
+      "home_fallback": false
+    },
+    {
+      "task": 351,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3921.9224479263557,
+      "work_finish_s": 3923.2204479263555,
+      "makespan_s": 3932.452688688155,
+      "home_fallback": false
+    },
+    {
+      "task": 349,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3923.2204479263555,
+      "work_finish_s": 3924.58732583036,
+      "makespan_s": 3933.7621677890374,
+      "home_fallback": false
+    },
+    {
+      "task": 346,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3924.58732583036,
+      "work_finish_s": 3925.9813258303598,
+      "makespan_s": 3935.044163341128,
+      "home_fallback": false
+    },
+    {
+      "task": 352,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3925.9813258303598,
+      "work_finish_s": 3927.5269411960708,
+      "makespan_s": 3936.761496372036,
+      "home_fallback": false
+    },
+    {
+      "task": 354,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3927.5269411960708,
+      "work_finish_s": 3928.8938191000752,
+      "makespan_s": 3938.1868918865684,
+      "home_fallback": false
+    },
+    {
+      "task": 355,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3928.8938191000752,
+      "work_finish_s": 3930.191819100075,
+      "makespan_s": 3939.540757784122,
+      "home_fallback": false
+    },
+    {
+      "task": 353,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3930.191819100075,
+      "work_finish_s": 3931.5586970040795,
+      "makespan_s": 3940.84897396448,
+      "home_fallback": false
+    },
+    {
+      "task": 357,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3931.5586970040795,
+      "work_finish_s": 3933.011941793544,
+      "makespan_s": 3942.420156025543,
+      "home_fallback": false
+    },
+    {
+      "task": 356,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3933.011941793544,
+      "work_finish_s": 3934.309941793544,
+      "makespan_s": 3943.66215149672,
+      "home_fallback": false
+    },
+    {
+      "task": 359,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3934.309941793544,
+      "work_finish_s": 3935.703941793544,
+      "makespan_s": 3945.1720338691584,
+      "home_fallback": false
+    },
+    {
+      "task": 360,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3935.703941793544,
+      "work_finish_s": 3937.001941793544,
+      "makespan_s": 3946.4742367301697,
+      "home_fallback": false
+    },
+    {
+      "task": 358,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3937.001941793544,
+      "work_finish_s": 3938.368819697548,
+      "makespan_s": 3947.7807739499503,
+      "home_fallback": false
+    },
+    {
+      "task": 362,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3938.368819697548,
+      "work_finish_s": 3939.8220644870125,
+      "makespan_s": 3949.355284923127,
+      "home_fallback": false
+    },
+    {
+      "task": 363,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3939.8220644870125,
+      "work_finish_s": 3941.1200644870128,
+      "makespan_s": 3950.7096738944156,
+      "home_fallback": false
+    },
+    {
+      "task": 361,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3941.1200644870128,
+      "work_finish_s": 3942.4869423910172,
+      "makespan_s": 3952.015503251369,
+      "home_fallback": false
+    },
+    {
+      "task": 365,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3942.4869423910172,
+      "work_finish_s": 3943.9401871804816,
+      "makespan_s": 3953.591413895447,
+      "home_fallback": false
+    },
+    {
+      "task": 364,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3943.9401871804816,
+      "work_finish_s": 3945.2381871804814,
+      "makespan_s": 3954.8329067908016,
+      "home_fallback": false
+    },
+    {
+      "task": 343,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 3945.2381871804814,
+      "work_finish_s": 3947.4983893604654,
+      "makespan_s": 3956.4776008498393,
+      "home_fallback": false
+    },
+    {
+      "task": 366,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3956.4776008498393,
+      "work_finish_s": 3966.679499866249,
+      "makespan_s": 3975.678243383479,
+      "home_fallback": false
+    },
+    {
+      "task": 367,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3966.679499866249,
+      "work_finish_s": 3967.977499866249,
+      "makespan_s": 3976.932193830869,
+      "home_fallback": false
+    },
+    {
+      "task": 368,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3967.977499866249,
+      "work_finish_s": 3969.275499866249,
+      "makespan_s": 3978.2800592052113,
+      "home_fallback": false
+    },
+    {
+      "task": 369,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 3978.2800592052113,
+      "work_finish_s": 4009.979226764264,
+      "makespan_s": 4018.9283943233168,
+      "home_fallback": false
+    },
+    {
+      "task": 370,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4009.979226764264,
+      "work_finish_s": 4032.762560097597,
+      "makespan_s": 4041.735125691302,
+      "home_fallback": false
+    },
+    {
+      "task": 371,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4032.762560097597,
+      "work_finish_s": 4056.726351220027,
+      "makespan_s": 4065.722377503275,
+      "home_fallback": false
+    },
+    {
+      "task": 373,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4065.722377503275,
+      "work_finish_s": 4075.9878175496324,
+      "makespan_s": 4084.9759049315517,
+      "home_fallback": false
+    },
+    {
+      "task": 374,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4075.9878175496324,
+      "work_finish_s": 4077.285817549632,
+      "makespan_s": 4086.3291071882554,
+      "home_fallback": false
+    },
+    {
+      "task": 376,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4077.285817549632,
+      "work_finish_s": 4078.6526954536366,
+      "makespan_s": 4087.7521881870334,
+      "home_fallback": false
+    },
+    {
+      "task": 377,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4078.6526954536366,
+      "work_finish_s": 4079.9506954536364,
+      "makespan_s": 4089.051523757657,
+      "home_fallback": false
+    },
+    {
+      "task": 379,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4079.9506954536364,
+      "work_finish_s": 4081.317573357641,
+      "makespan_s": 4090.475761188013,
+      "home_fallback": false
+    },
+    {
+      "task": 380,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4081.317573357641,
+      "work_finish_s": 4082.615573357641,
+      "makespan_s": 4091.829444695976,
+      "home_fallback": false
+    },
+    {
+      "task": 378,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4082.615573357641,
+      "work_finish_s": 4083.982451261645,
+      "makespan_s": 4093.138808644484,
+      "home_fallback": false
+    },
+    {
+      "task": 375,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4083.982451261645,
+      "work_finish_s": 4085.3764512616453,
+      "makespan_s": 4094.420575282364,
+      "home_fallback": false
+    },
+    {
+      "task": 381,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4085.3764512616453,
+      "work_finish_s": 4086.9220666273563,
+      "makespan_s": 4096.138256992876,
+      "home_fallback": false
+    },
+    {
+      "task": 383,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4086.9220666273563,
+      "work_finish_s": 4088.2889445313604,
+      "makespan_s": 4097.56376837716,
+      "home_fallback": false
+    },
+    {
+      "task": 384,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4088.2889445313604,
+      "work_finish_s": 4089.5869445313606,
+      "makespan_s": 4098.917743536464,
+      "home_fallback": false
+    },
+    {
+      "task": 382,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4089.5869445313606,
+      "work_finish_s": 4090.953822435365,
+      "makespan_s": 4100.225844952405,
+      "home_fallback": false
+    },
+    {
+      "task": 386,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4090.953822435365,
+      "work_finish_s": 4092.4070672248295,
+      "makespan_s": 4101.7972562852665,
+      "home_fallback": false
+    },
+    {
+      "task": 385,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4092.4070672248295,
+      "work_finish_s": 4093.7050672248292,
+      "makespan_s": 4103.039143605904,
+      "home_fallback": false
+    },
+    {
+      "task": 388,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4093.7050672248292,
+      "work_finish_s": 4095.0990672248295,
+      "makespan_s": 4104.549248339912,
+      "home_fallback": false
+    },
+    {
+      "task": 389,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4095.0990672248295,
+      "work_finish_s": 4096.39706722483,
+      "makespan_s": 4105.851459163076,
+      "home_fallback": false
+    },
+    {
+      "task": 387,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4096.39706722483,
+      "work_finish_s": 4097.763945128833,
+      "makespan_s": 4107.1578813860615,
+      "home_fallback": false
+    },
+    {
+      "task": 391,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4097.763945128833,
+      "work_finish_s": 4099.217189918298,
+      "makespan_s": 4108.7326219862125,
+      "home_fallback": false
+    },
+    {
+      "task": 392,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4099.217189918298,
+      "work_finish_s": 4100.515189918298,
+      "makespan_s": 4110.087115750757,
+      "home_fallback": false
+    },
+    {
+      "task": 390,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4100.515189918298,
+      "work_finish_s": 4101.882067822303,
+      "makespan_s": 4111.392831599464,
+      "home_fallback": false
+    },
+    {
+      "task": 394,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4101.882067822303,
+      "work_finish_s": 4103.335312611767,
+      "makespan_s": 4112.96896885741,
+      "home_fallback": false
+    },
+    {
+      "task": 393,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4103.335312611767,
+      "work_finish_s": 4104.633312611767,
+      "makespan_s": 4114.210358082903,
+      "home_fallback": false
+    },
+    {
+      "task": 372,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4104.633312611767,
+      "work_finish_s": 4106.893514791751,
+      "makespan_s": 4115.853838141187,
+      "home_fallback": false
+    },
+    {
+      "task": 395,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4115.853838141187,
+      "work_finish_s": 4126.036791267425,
+      "makespan_s": 4135.0166877281,
+      "home_fallback": false
+    },
+    {
+      "task": 396,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4126.036791267425,
+      "work_finish_s": 4127.334791267424,
+      "makespan_s": 4136.270545267818,
+      "home_fallback": false
+    },
+    {
+      "task": 397,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4127.334791267424,
+      "work_finish_s": 4128.632791267425,
+      "makespan_s": 4137.618515748202,
+      "home_fallback": false
+    },
+    {
+      "task": 398,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4137.618515748202,
+      "work_finish_s": 4169.298771436965,
+      "makespan_s": 4178.229027125726,
+      "home_fallback": false
+    },
+    {
+      "task": 399,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4169.298771436965,
+      "work_finish_s": 4192.0821047702975,
+      "makespan_s": 4201.035807914807,
+      "home_fallback": false
+    },
+    {
+      "task": 400,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4192.0821047702975,
+      "work_finish_s": 4216.0458958927275,
+      "makespan_s": 4225.023109021286,
+      "home_fallback": false
+    },
+    {
+      "task": 402,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4225.023109021286,
+      "work_finish_s": 4235.269816030366,
+      "makespan_s": 4244.239113247138,
+      "home_fallback": false
+    },
+    {
+      "task": 403,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4235.269816030366,
+      "work_finish_s": 4236.567816030366,
+      "makespan_s": 4245.592430441287,
+      "home_fallback": false
+    },
+    {
+      "task": 405,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4236.567816030366,
+      "work_finish_s": 4237.93469393437,
+      "makespan_s": 4247.015627024253,
+      "home_fallback": false
+    },
+    {
+      "task": 406,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4237.93469393437,
+      "work_finish_s": 4239.23269393437,
+      "makespan_s": 4248.314965324119,
+      "home_fallback": false
+    },
+    {
+      "task": 408,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4239.23269393437,
+      "work_finish_s": 4240.599571838375,
+      "makespan_s": 4249.739319215309,
+      "home_fallback": false
+    },
+    {
+      "task": 409,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4240.599571838375,
+      "work_finish_s": 4241.897571838375,
+      "makespan_s": 4251.093114389914,
+      "home_fallback": false
+    },
+    {
+      "task": 407,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4241.897571838375,
+      "work_finish_s": 4243.264449742379,
+      "makespan_s": 4252.402362977908,
+      "home_fallback": false
+    },
+    {
+      "task": 404,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4243.264449742379,
+      "work_finish_s": 4244.658449742379,
+      "makespan_s": 4253.683900261878,
+      "home_fallback": false
+    },
+    {
+      "task": 410,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4244.658449742379,
+      "work_finish_s": 4246.204065108091,
+      "makespan_s": 4255.401931307991,
+      "home_fallback": false
+    },
+    {
+      "task": 412,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4246.204065108091,
+      "work_finish_s": 4247.570943012094,
+      "makespan_s": 4256.827558762378,
+      "home_fallback": false
+    },
+    {
+      "task": 413,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4247.570943012094,
+      "work_finish_s": 4248.868943012095,
+      "makespan_s": 4258.181643364377,
+      "home_fallback": false
+    },
+    {
+      "task": 411,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4248.868943012095,
+      "work_finish_s": 4250.235820916099,
+      "makespan_s": 4259.489629825639,
+      "home_fallback": false
+    },
+    {
+      "task": 415,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4250.235820916099,
+      "work_finish_s": 4251.689065705564,
+      "makespan_s": 4261.061270801939,
+      "home_fallback": false
+    },
+    {
+      "task": 414,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4251.689065705564,
+      "work_finish_s": 4252.9870657055635,
+      "makespan_s": 4262.303049800951,
+      "home_fallback": false
+    },
+    {
+      "task": 417,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4252.9870657055635,
+      "work_finish_s": 4254.381065705564,
+      "makespan_s": 4263.813377240158,
+      "home_fallback": false
+    },
+    {
+      "task": 418,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4254.381065705564,
+      "work_finish_s": 4255.6790657055635,
+      "makespan_s": 4265.1155960371925,
+      "home_fallback": false
+    },
+    {
+      "task": 416,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4255.6790657055635,
+      "work_finish_s": 4257.045943609568,
+      "makespan_s": 4266.4219030902095,
+      "home_fallback": false
+    },
+    {
+      "task": 420,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4257.045943609568,
+      "work_finish_s": 4258.499188399032,
+      "makespan_s": 4267.996873654761,
+      "home_fallback": false
+    },
+    {
+      "task": 421,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4258.499188399032,
+      "work_finish_s": 4259.797188399032,
+      "makespan_s": 4269.351472355451,
+      "home_fallback": false
+    },
+    {
+      "task": 419,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4259.797188399032,
+      "work_finish_s": 4261.164066303037,
+      "makespan_s": 4270.657074540827,
+      "home_fallback": false
+    },
+    {
+      "task": 423,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4261.164066303037,
+      "work_finish_s": 4262.617311092501,
+      "makespan_s": 4272.23343871421,
+      "home_fallback": false
+    },
+    {
+      "task": 422,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4262.617311092501,
+      "work_finish_s": 4263.915311092501,
+      "makespan_s": 4273.474724135884,
+      "home_fallback": false
+    },
+    {
+      "task": 401,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4263.915311092501,
+      "work_finish_s": 4266.175513272485,
+      "makespan_s": 4275.116988111919,
+      "home_fallback": false
+    },
+    {
+      "task": 424,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4275.116988111919,
+      "work_finish_s": 4285.281034854748,
+      "makespan_s": 4294.242123975063,
+      "home_fallback": false
+    },
+    {
+      "task": 425,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4285.281034854748,
+      "work_finish_s": 4286.579034854748,
+      "makespan_s": 4295.495888410422,
+      "home_fallback": false
+    },
+    {
+      "task": 426,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4286.579034854748,
+      "work_finish_s": 4287.877034854748,
+      "makespan_s": 4296.84396421893,
+      "home_fallback": false
+    },
+    {
+      "task": 427,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4296.84396421893,
+      "work_finish_s": 4328.505347700498,
+      "makespan_s": 4337.416731182065,
+      "home_fallback": false
+    },
+    {
+      "task": 428,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4328.505347700498,
+      "work_finish_s": 4351.2886810338305,
+      "makespan_s": 4360.223561496875,
+      "home_fallback": false
+    },
+    {
+      "task": 429,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4351.2886810338305,
+      "work_finish_s": 4375.25247215626,
+      "makespan_s": 4384.210912000588,
+      "home_fallback": false
+    },
+    {
+      "task": 431,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4384.210912000588,
+      "work_finish_s": 4394.438926090978,
+      "makespan_s": 4403.389473144806,
+      "home_fallback": false
+    },
+    {
+      "task": 432,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4394.438926090978,
+      "work_finish_s": 4395.736926090978,
+      "makespan_s": 4404.742905508332,
+      "home_fallback": false
+    },
+    {
+      "task": 434,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4395.736926090978,
+      "work_finish_s": 4397.103803994983,
+      "makespan_s": 4406.166217899839,
+      "home_fallback": false
+    },
+    {
+      "task": 435,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4397.103803994983,
+      "work_finish_s": 4398.401803994982,
+      "makespan_s": 4407.465558934136,
+      "home_fallback": false
+    },
+    {
+      "task": 437,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4398.401803994982,
+      "work_finish_s": 4399.768681898987,
+      "makespan_s": 4408.890029503051,
+      "home_fallback": false
+    },
+    {
+      "task": 438,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4399.768681898987,
+      "work_finish_s": 4401.066681898987,
+      "makespan_s": 4410.243936543877,
+      "home_fallback": false
+    },
+    {
+      "task": 436,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4401.066681898987,
+      "work_finish_s": 4402.433559802991,
+      "makespan_s": 4411.553069565037,
+      "home_fallback": false
+    },
+    {
+      "task": 433,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4402.433559802991,
+      "work_finish_s": 4403.827559802991,
+      "makespan_s": 4412.834377058821,
+      "home_fallback": false
+    },
+    {
+      "task": 439,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4403.827559802991,
+      "work_finish_s": 4405.373175168702,
+      "makespan_s": 4414.552758091214,
+      "home_fallback": false
+    },
+    {
+      "task": 441,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4405.373175168702,
+      "work_finish_s": 4406.740053072706,
+      "makespan_s": 4415.9785018141565,
+      "home_fallback": false
+    },
+    {
+      "task": 442,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4406.740053072706,
+      "work_finish_s": 4408.038053072706,
+      "makespan_s": 4417.332696037953,
+      "home_fallback": false
+    },
+    {
+      "task": 440,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4408.038053072706,
+      "work_finish_s": 4409.404930976711,
+      "makespan_s": 4418.640567356208,
+      "home_fallback": false
+    },
+    {
+      "task": 444,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4409.404930976711,
+      "work_finish_s": 4410.858175766175,
+      "makespan_s": 4420.212438343659,
+      "home_fallback": false
+    },
+    {
+      "task": 443,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4410.858175766175,
+      "work_finish_s": 4412.156175766175,
+      "makespan_s": 4421.454108851841,
+      "home_fallback": false
+    },
+    {
+      "task": 446,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4412.156175766175,
+      "work_finish_s": 4413.550175766175,
+      "makespan_s": 4422.964659335954,
+      "home_fallback": false
+    },
+    {
+      "task": 447,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4413.550175766175,
+      "work_finish_s": 4414.848175766175,
+      "makespan_s": 4424.266886118435,
+      "home_fallback": false
+    },
+    {
+      "task": 445,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4414.848175766175,
+      "work_finish_s": 4416.215053670179,
+      "makespan_s": 4425.573077830366,
+      "home_fallback": false
+    },
+    {
+      "task": 449,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4416.215053670179,
+      "work_finish_s": 4417.668298459644,
+      "makespan_s": 4427.148278692581,
+      "home_fallback": false
+    },
+    {
+      "task": 450,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4417.668298459644,
+      "work_finish_s": 4418.966298459644,
+      "makespan_s": 4428.502982470341,
+      "home_fallback": false
+    },
+    {
+      "task": 448,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4418.966298459644,
+      "work_finish_s": 4420.333176363648,
+      "makespan_s": 4429.808470839429,
+      "home_fallback": false
+    },
+    {
+      "task": 452,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4420.333176363648,
+      "work_finish_s": 4421.786421153112,
+      "makespan_s": 4431.385062225525,
+      "home_fallback": false
+    },
+    {
+      "task": 451,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4421.786421153112,
+      "work_finish_s": 4423.084421153113,
+      "makespan_s": 4432.626243711408,
+      "home_fallback": false
+    },
+    {
+      "task": 430,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4423.084421153113,
+      "work_finish_s": 4425.344623333097,
+      "makespan_s": 4434.26728954361,
+      "home_fallback": false
+    },
+    {
+      "task": 453,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4434.26728954361,
+      "work_finish_s": 4444.412469661704,
+      "makespan_s": 4453.354791408444,
+      "home_fallback": false
+    },
+    {
+      "task": 454,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4444.412469661704,
+      "work_finish_s": 4445.710469661703,
+      "makespan_s": 4454.608462543996,
+      "home_fallback": false
+    },
+    {
+      "task": 455,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4445.710469661703,
+      "work_finish_s": 4447.008469661704,
+      "makespan_s": 4455.956643901302,
+      "home_fallback": false
+    },
+    {
+      "task": 456,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4455.956643901302,
+      "work_finish_s": 4487.599195091297,
+      "makespan_s": 4496.491746281291,
+      "home_fallback": false
+    },
+    {
+      "task": 457,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4487.599195091297,
+      "work_finish_s": 4510.3825284246295,
+      "makespan_s": 4519.298626225798,
+      "home_fallback": false
+    },
+    {
+      "task": 458,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4510.3825284246295,
+      "work_finish_s": 4534.3463195470595,
+      "makespan_s": 4543.2860262287995,
+      "home_fallback": false
+    },
+    {
+      "task": 460,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4543.2860262287995,
+      "work_finish_s": 4553.495387770196,
+      "makespan_s": 4562.427224915209,
+      "home_fallback": false
+    },
+    {
+      "task": 461,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4553.495387770196,
+      "work_finish_s": 4554.793387770196,
+      "makespan_s": 4563.78077267839,
+      "home_fallback": false
+    },
+    {
+      "task": 463,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4554.793387770196,
+      "work_finish_s": 4556.160265674201,
+      "makespan_s": 4565.204201101057,
+      "home_fallback": false
+    },
+    {
+      "task": 464,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4556.160265674201,
+      "work_finish_s": 4557.458265674201,
+      "makespan_s": 4566.503544874937,
+      "home_fallback": false
+    },
+    {
+      "task": 466,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4557.458265674201,
+      "work_finish_s": 4558.825143578205,
+      "makespan_s": 4567.92813233665,
+      "home_fallback": false
+    },
+    {
+      "task": 467,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4558.825143578205,
+      "work_finish_s": 4560.123143578206,
+      "makespan_s": 4569.282151441472,
+      "home_fallback": false
+    },
+    {
+      "task": 465,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4560.123143578206,
+      "work_finish_s": 4561.490021482209,
+      "makespan_s": 4570.5911686913405,
+      "home_fallback": false
+    },
+    {
+      "task": 462,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4561.490021482209,
+      "work_finish_s": 4562.884021482209,
+      "makespan_s": 4571.872245962169,
+      "home_fallback": false
+    },
+    {
+      "task": 468,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4562.884021482209,
+      "work_finish_s": 4564.429636847921,
+      "makespan_s": 4573.590977626076,
+      "home_fallback": false
+    },
+    {
+      "task": 470,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4564.429636847921,
+      "work_finish_s": 4565.796514751925,
+      "makespan_s": 4575.016837814086,
+      "home_fallback": false
+    },
+    {
+      "task": 471,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4565.796514751925,
+      "work_finish_s": 4567.094514751925,
+      "makespan_s": 4576.371141836897,
+      "home_fallback": false
+    },
+    {
+      "task": 469,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4567.094514751925,
+      "work_finish_s": 4568.46139265593,
+      "makespan_s": 4577.6788978257955,
+      "home_fallback": false
+    },
+    {
+      "task": 473,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4568.46139265593,
+      "work_finish_s": 4569.914637445394,
+      "makespan_s": 4579.250999188104,
+      "home_fallback": false
+    },
+    {
+      "task": 472,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4569.914637445394,
+      "work_finish_s": 4571.212637445394,
+      "makespan_s": 4580.492561038169,
+      "home_fallback": false
+    },
+    {
+      "task": 475,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4571.212637445394,
+      "work_finish_s": 4572.606637445394,
+      "makespan_s": 4582.003334902898,
+      "home_fallback": false
+    },
+    {
+      "task": 476,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4572.606637445394,
+      "work_finish_s": 4573.904637445394,
+      "makespan_s": 4583.305569682251,
+      "home_fallback": false
+    },
+    {
+      "task": 474,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4573.904637445394,
+      "work_finish_s": 4575.271515349398,
+      "makespan_s": 4584.611645884078,
+      "home_fallback": false
+    },
+    {
+      "task": 478,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4575.271515349398,
+      "work_finish_s": 4576.724760138863,
+      "makespan_s": 4586.187077372982,
+      "home_fallback": false
+    },
+    {
+      "task": 479,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4576.724760138863,
+      "work_finish_s": 4578.022760138862,
+      "makespan_s": 4587.541886366732,
+      "home_fallback": false
+    },
+    {
+      "task": 477,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4578.022760138862,
+      "work_finish_s": 4579.389638042867,
+      "makespan_s": 4588.847260768742,
+      "home_fallback": false
+    },
+    {
+      "task": 481,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4579.389638042867,
+      "work_finish_s": 4580.842882832331,
+      "makespan_s": 4590.424079660454,
+      "home_fallback": false
+    },
+    {
+      "task": 480,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4580.842882832331,
+      "work_finish_s": 4582.140882832331,
+      "makespan_s": 4591.665157080599,
+      "home_fallback": false
+    },
+    {
+      "task": 459,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4582.140882832331,
+      "work_finish_s": 4584.401085012315,
+      "makespan_s": 4593.304982727724,
+      "home_fallback": false
+    },
+    {
+      "task": 482,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4593.304982727724,
+      "work_finish_s": 4603.431336233278,
+      "makespan_s": 4612.354930825393,
+      "home_fallback": false
+    },
+    {
+      "task": 483,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4603.431336233278,
+      "work_finish_s": 4604.7293362332775,
+      "makespan_s": 4613.6085084669685,
+      "home_fallback": false
+    },
+    {
+      "task": 484,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4604.7293362332775,
+      "work_finish_s": 4606.027336233277,
+      "makespan_s": 4614.9567955923,
+      "home_fallback": false
+    },
+    {
+      "task": 485,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4614.9567955923,
+      "work_finish_s": 4646.580554660474,
+      "makespan_s": 4655.454313728648,
+      "home_fallback": false
+    },
+    {
+      "task": 486,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4646.580554660474,
+      "work_finish_s": 4669.363887993808,
+      "makespan_s": 4678.261243406138,
+      "home_fallback": false
+    },
+    {
+      "task": 487,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4669.363887993808,
+      "work_finish_s": 4693.327679116237,
+      "makespan_s": 4702.248693009786,
+      "home_fallback": false
+    },
+    {
+      "task": 489,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4702.248693009786,
+      "work_finish_s": 4712.43944262455,
+      "makespan_s": 4721.35261036837,
+      "home_fallback": false
+    },
+    {
+      "task": 490,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4712.43944262455,
+      "work_finish_s": 4713.73744262455,
+      "makespan_s": 4722.706273759791,
+      "home_fallback": false
+    },
+    {
+      "task": 492,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4713.73744262455,
+      "work_finish_s": 4715.104320528554,
+      "makespan_s": 4724.129818434465,
+      "home_fallback": false
+    },
+    {
+      "task": 493,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4715.104320528554,
+      "work_finish_s": 4716.402320528555,
+      "makespan_s": 4725.429164953031,
+      "home_fallback": false
+    },
+    {
+      "task": 495,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4716.402320528555,
+      "work_finish_s": 4717.769198432558,
+      "makespan_s": 4726.853869520762,
+      "home_fallback": false
+    },
+    {
+      "task": 496,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4717.769198432558,
+      "work_finish_s": 4719.067198432559,
+      "makespan_s": 4728.208000885507,
+      "home_fallback": false
+    },
+    {
+      "task": 494,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4719.067198432559,
+      "work_finish_s": 4720.4340763365635,
+      "makespan_s": 4729.516902161531,
+      "home_fallback": false
+    },
+    {
+      "task": 491,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4720.4340763365635,
+      "work_finish_s": 4721.828076336563,
+      "makespan_s": 4730.7977487802245,
+      "home_fallback": false
+    },
+    {
+      "task": 497,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4721.828076336563,
+      "work_finish_s": 4723.373691702274,
+      "makespan_s": 4732.516831715308,
+      "home_fallback": false
+    },
+    {
+      "task": 499,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4723.373691702274,
+      "work_finish_s": 4724.740569606279,
+      "makespan_s": 4733.942808562916,
+      "home_fallback": false
+    },
+    {
+      "task": 500,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4724.740569606279,
+      "work_finish_s": 4726.0385696062785,
+      "makespan_s": 4735.297222560033,
+      "home_fallback": false
+    },
+    {
+      "task": 498,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4726.0385696062785,
+      "work_finish_s": 4727.405447510283,
+      "makespan_s": 4736.604863035247,
+      "home_fallback": false
+    },
+    {
+      "task": 502,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4727.405447510283,
+      "work_finish_s": 4728.858692299747,
+      "makespan_s": 4738.177195132026,
+      "home_fallback": false
+    },
+    {
+      "task": 501,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4728.858692299747,
+      "work_finish_s": 4730.156692299747,
+      "makespan_s": 4739.418648158646,
+      "home_fallback": false
+    },
+    {
+      "task": 504,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4730.156692299747,
+      "work_finish_s": 4731.550692299747,
+      "makespan_s": 4740.929645735622,
+      "home_fallback": false
+    },
+    {
+      "task": 505,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4731.550692299747,
+      "work_finish_s": 4732.848692299747,
+      "makespan_s": 4742.231888523125,
+      "home_fallback": false
+    },
+    {
+      "task": 503,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4732.848692299747,
+      "work_finish_s": 4734.215570203752,
+      "makespan_s": 4743.537849047967,
+      "home_fallback": false
+    },
+    {
+      "task": 507,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4734.215570203752,
+      "work_finish_s": 4735.668814993216,
+      "makespan_s": 4745.113511488263,
+      "home_fallback": false
+    },
+    {
+      "task": 508,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4735.668814993216,
+      "work_finish_s": 4736.966814993216,
+      "makespan_s": 4746.468425834886,
+      "home_fallback": false
+    },
+    {
+      "task": 506,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4736.966814993216,
+      "work_finish_s": 4738.33369289722,
+      "makespan_s": 4747.773686121234,
+      "home_fallback": false
+    },
+    {
+      "task": 510,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4738.33369289722,
+      "work_finish_s": 4739.786937686685,
+      "makespan_s": 4749.350732807015,
+      "home_fallback": false
+    },
+    {
+      "task": 509,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4739.786937686685,
+      "work_finish_s": 4741.0849376866845,
+      "makespan_s": 4750.591706033534,
+      "home_fallback": false
+    },
+    {
+      "task": 488,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4741.0849376866845,
+      "work_finish_s": 4743.345139866668,
+      "makespan_s": 4752.230309475118,
+      "home_fallback": false
+    },
+    {
+      "task": 511,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4752.230309475118,
+      "work_finish_s": 4762.337876635462,
+      "makespan_s": 4771.242784545647,
+      "home_fallback": false
+    },
+    {
+      "task": 512,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4762.337876635462,
+      "work_finish_s": 4763.6358766354615,
+      "makespan_s": 4772.496268500385,
+      "home_fallback": false
+    },
+    {
+      "task": 513,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4763.6358766354615,
+      "work_finish_s": 4764.933876635461,
+      "makespan_s": 4773.8446616114825,
+      "home_fallback": false
+    },
+    {
+      "task": 514,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4773.8446616114825,
+      "work_finish_s": 4805.449668983335,
+      "makespan_s": 4814.3046763551865,
+      "home_fallback": false
+    },
+    {
+      "task": 515,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4805.449668983335,
+      "work_finish_s": 4828.233002316668,
+      "makespan_s": 4837.111655868242,
+      "home_fallback": false
+    },
+    {
+      "task": 516,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4828.233002316668,
+      "work_finish_s": 4852.196793439098,
+      "makespan_s": 4861.0991551731795,
+      "home_fallback": false
+    },
+    {
+      "task": 518,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4861.0991551731795,
+      "work_finish_s": 4871.27133373789,
+      "makespan_s": 4880.165872843213,
+      "home_fallback": false
+    },
+    {
+      "task": 519,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4871.27133373789,
+      "work_finish_s": 4872.56933373789,
+      "makespan_s": 4881.519652089722,
+      "home_fallback": false
+    },
+    {
+      "task": 521,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4872.56933373789,
+      "work_finish_s": 4873.936211641894,
+      "makespan_s": 4882.943313235429,
+      "home_fallback": false
+    },
+    {
+      "task": 522,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4873.936211641894,
+      "work_finish_s": 4875.234211641894,
+      "makespan_s": 4884.242662503744,
+      "home_fallback": false
+    },
+    {
+      "task": 524,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4875.234211641894,
+      "work_finish_s": 4876.6010895458985,
+      "makespan_s": 4885.667484388806,
+      "home_fallback": false
+    },
+    {
+      "task": 525,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4876.6010895458985,
+      "work_finish_s": 4877.899089545898,
+      "makespan_s": 4887.021728207519,
+      "home_fallback": false
+    },
+    {
+      "task": 523,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4877.899089545898,
+      "work_finish_s": 4879.265967449903,
+      "makespan_s": 4888.3305133090935,
+      "home_fallback": false
+    },
+    {
+      "task": 520,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4879.265967449903,
+      "work_finish_s": 4880.659967449903,
+      "makespan_s": 4889.611128850149,
+      "home_fallback": false
+    },
+    {
+      "task": 526,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4880.659967449903,
+      "work_finish_s": 4882.2055828156135,
+      "makespan_s": 4891.330563690367,
+      "home_fallback": false
+    },
+    {
+      "task": 528,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4882.2055828156135,
+      "work_finish_s": 4883.572460719618,
+      "makespan_s": 4892.75665739008,
+      "home_fallback": false
+    },
+    {
+      "task": 529,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4883.572460719618,
+      "work_finish_s": 4884.870460719618,
+      "makespan_s": 4894.111181534832,
+      "home_fallback": false
+    },
+    {
+      "task": 527,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4884.870460719618,
+      "work_finish_s": 4886.237338623622,
+      "makespan_s": 4895.418706314093,
+      "home_fallback": false
+    },
+    {
+      "task": 531,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4886.237338623622,
+      "work_finish_s": 4887.690583413087,
+      "makespan_s": 4896.991269500782,
+      "home_fallback": false
+    },
+    {
+      "task": 530,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4887.690583413087,
+      "work_finish_s": 4888.988583413086,
+      "makespan_s": 4898.232613540626,
+      "home_fallback": false
+    },
+    {
+      "task": 533,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4888.988583413086,
+      "work_finish_s": 4890.382583413087,
+      "makespan_s": 4899.743835157324,
+      "home_fallback": false
+    },
+    {
+      "task": 534,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4890.382583413087,
+      "work_finish_s": 4891.680583413086,
+      "makespan_s": 4901.046085964103,
+      "home_fallback": false
+    },
+    {
+      "task": 532,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4891.680583413086,
+      "work_finish_s": 4893.047461317091,
+      "makespan_s": 4902.351930647255,
+      "home_fallback": false
+    },
+    {
+      "task": 536,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4893.047461317091,
+      "work_finish_s": 4894.500706106555,
+      "makespan_s": 4903.927824359246,
+      "home_fallback": false
+    },
+    {
+      "task": 537,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4894.500706106555,
+      "work_finish_s": 4895.798706106556,
+      "makespan_s": 4905.282844193552,
+      "home_fallback": false
+    },
+    {
+      "task": 535,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4895.798706106556,
+      "work_finish_s": 4897.1655840105595,
+      "makespan_s": 4906.587990217899,
+      "home_fallback": false
+    },
+    {
+      "task": 539,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4897.1655840105595,
+      "work_finish_s": 4898.618828800025,
+      "makespan_s": 4908.165264981675,
+      "home_fallback": false
+    },
+    {
+      "task": 538,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4898.618828800025,
+      "work_finish_s": 4899.916828800025,
+      "makespan_s": 4909.406133888772,
+      "home_fallback": false
+    },
+    {
+      "task": 517,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 4899.916828800025,
+      "work_finish_s": 4902.177030980009,
+      "makespan_s": 4911.043513125571,
+      "home_fallback": false
+    },
+    {
+      "task": 540,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4911.043513125571,
+      "work_finish_s": 4921.132334464792,
+      "makespan_s": 4930.018596421067,
+      "home_fallback": false
+    },
+    {
+      "task": 541,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4921.132334464792,
+      "work_finish_s": 4922.4303344647915,
+      "makespan_s": 4931.271986497453,
+      "home_fallback": false
+    },
+    {
+      "task": 542,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4922.4303344647915,
+      "work_finish_s": 4923.728334464791,
+      "makespan_s": 4932.620485810532,
+      "home_fallback": false
+    },
+    {
+      "task": 543,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4932.620485810532,
+      "work_finish_s": 4964.206782168924,
+      "makespan_s": 4973.0430785273165,
+      "home_fallback": false
+    },
+    {
+      "task": 544,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4964.206782168924,
+      "work_finish_s": 4986.990115502257,
+      "makespan_s": 4995.8501079778,
+      "home_fallback": false
+    },
+    {
+      "task": 545,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 4986.990115502257,
+      "work_finish_s": 5010.953906624687,
+      "makespan_s": 5019.837657083937,
+      "home_fallback": false
+    },
+    {
+      "task": 547,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5019.837657083937,
+      "work_finish_s": 5029.99130573095,
+      "makespan_s": 5038.867257217131,
+      "home_fallback": false
+    },
+    {
+      "task": 548,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5029.99130573095,
+      "work_finish_s": 5031.289305730951,
+      "makespan_s": 5040.22115254379,
+      "home_fallback": false
+    },
+    {
+      "task": 550,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5031.289305730951,
+      "work_finish_s": 5032.656183634955,
+      "makespan_s": 5041.644930377696,
+      "home_fallback": false
+    },
+    {
+      "task": 551,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5032.656183634955,
+      "work_finish_s": 5033.954183634955,
+      "makespan_s": 5042.944282400778,
+      "home_fallback": false
+    },
+    {
+      "task": 553,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5033.954183634955,
+      "work_finish_s": 5035.32106153896,
+      "makespan_s": 5044.369221812539,
+      "home_fallback": false
+    },
+    {
+      "task": 554,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5035.32106153896,
+      "work_finish_s": 5036.61906153896,
+      "makespan_s": 5045.723578277336,
+      "home_fallback": false
+    },
+    {
+      "task": 552,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5036.61906153896,
+      "work_finish_s": 5037.985939442964,
+      "makespan_s": 5047.032247005846,
+      "home_fallback": false
+    },
+    {
+      "task": 549,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5037.985939442964,
+      "work_finish_s": 5039.379939442963,
+      "makespan_s": 5048.312631047522,
+      "home_fallback": false
+    },
+    {
+      "task": 555,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5039.379939442963,
+      "work_finish_s": 5040.925554808675,
+      "makespan_s": 5050.032418421,
+      "home_fallback": false
+    },
+    {
+      "task": 557,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5040.925554808675,
+      "work_finish_s": 5042.292432712679,
+      "makespan_s": 5051.458629163259,
+      "home_fallback": false
+    },
+    {
+      "task": 558,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5042.292432712679,
+      "work_finish_s": 5043.590432712679,
+      "makespan_s": 5052.813263626971,
+      "home_fallback": false
+    },
+    {
+      "task": 556,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5043.590432712679,
+      "work_finish_s": 5044.957310616684,
+      "makespan_s": 5054.120672530114,
+      "home_fallback": false
+    },
+    {
+      "task": 560,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5044.957310616684,
+      "work_finish_s": 5046.410555406148,
+      "makespan_s": 5055.693467157896,
+      "home_fallback": false
+    },
+    {
+      "task": 559,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5046.410555406148,
+      "work_finish_s": 5047.708555406148,
+      "makespan_s": 5056.934702049668,
+      "home_fallback": false
+    },
+    {
+      "task": 562,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5047.708555406148,
+      "work_finish_s": 5049.102555406148,
+      "makespan_s": 5058.446148029324,
+      "home_fallback": false
+    },
+    {
+      "task": 563,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5049.102555406148,
+      "work_finish_s": 5050.400555406148,
+      "makespan_s": 5059.748406866349,
+      "home_fallback": false
+    },
+    {
+      "task": 561,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5050.400555406148,
+      "work_finish_s": 5051.767433310152,
+      "makespan_s": 5061.054135545331,
+      "home_fallback": false
+    },
+    {
+      "task": 565,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5051.767433310152,
+      "work_finish_s": 5053.220678099617,
+      "makespan_s": 5062.630260844834,
+      "home_fallback": false
+    },
+    {
+      "task": 566,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5053.220678099617,
+      "work_finish_s": 5054.518678099616,
+      "makespan_s": 5063.98538629952,
+      "home_fallback": false
+    },
+    {
+      "task": 564,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5054.518678099616,
+      "work_finish_s": 5055.885556003621,
+      "makespan_s": 5065.290417917811,
+      "home_fallback": false
+    },
+    {
+      "task": 568,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5055.885556003621,
+      "work_finish_s": 5057.338800793085,
+      "makespan_s": 5066.867921038902,
+      "home_fallback": false
+    },
+    {
+      "task": 567,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5057.338800793085,
+      "work_finish_s": 5058.636800793085,
+      "makespan_s": 5068.108685502911,
+      "home_fallback": false
+    },
+    {
+      "task": 546,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5058.636800793085,
+      "work_finish_s": 5060.897002973069,
+      "makespan_s": 5069.74483855735,
+      "home_fallback": false
+    },
+    {
+      "task": 569,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5069.74483855735,
+      "work_finish_s": 5079.814954857919,
+      "makespan_s": 5088.68261184522,
+      "home_fallback": false
+    },
+    {
+      "task": 570,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5079.814954857919,
+      "work_finish_s": 5081.112954857918,
+      "makespan_s": 5089.935907853121,
+      "home_fallback": false
+    },
+    {
+      "task": 571,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5081.112954857918,
+      "work_finish_s": 5082.410954857918,
+      "makespan_s": 5091.284513582829,
+      "home_fallback": false
+    },
+    {
+      "task": 572,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5091.284513582829,
+      "work_finish_s": 5122.85213986961,
+      "makespan_s": 5131.669766156391,
+      "home_fallback": false
+    },
+    {
+      "task": 573,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5122.85213986961,
+      "work_finish_s": 5145.635473202944,
+      "makespan_s": 5154.476845645425,
+      "home_fallback": false
+    },
+    {
+      "task": 574,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5145.635473202944,
+      "work_finish_s": 5169.599264325373,
+      "makespan_s": 5178.464444651921,
+      "home_fallback": false
+    },
+    {
+      "task": 576,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5178.464444651921,
+      "work_finish_s": 5188.599604770939,
+      "makespan_s": 5197.45700991557,
+      "home_fallback": false
+    },
+    {
+      "task": 577,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5188.599604770939,
+      "work_finish_s": 5189.897604770938,
+      "makespan_s": 5198.811021545618,
+      "home_fallback": false
+    },
+    {
+      "task": 579,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5189.897604770938,
+      "work_finish_s": 5191.264482674943,
+      "makespan_s": 5200.234916282983,
+      "home_fallback": false
+    },
+    {
+      "task": 580,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5191.264482674943,
+      "work_finish_s": 5192.562482674943,
+      "makespan_s": 5201.534271065803,
+      "home_fallback": false
+    },
+    {
+      "task": 582,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5192.562482674943,
+      "work_finish_s": 5193.929360578947,
+      "makespan_s": 5202.959328211641,
+      "home_fallback": false
+    },
+    {
+      "task": 583,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5193.929360578947,
+      "work_finish_s": 5195.227360578948,
+      "makespan_s": 5204.313797512669,
+      "home_fallback": false
+    },
+    {
+      "task": 581,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5195.227360578948,
+      "work_finish_s": 5196.594238482951,
+      "makespan_s": 5205.622349671533,
+      "home_fallback": false
+    },
+    {
+      "task": 578,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5196.594238482951,
+      "work_finish_s": 5197.988238482952,
+      "makespan_s": 5206.9025017959375,
+      "home_fallback": false
+    },
+    {
+      "task": 584,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5197.988238482952,
+      "work_finish_s": 5199.533853848663,
+      "makespan_s": 5208.622642324835,
+      "home_fallback": false
+    },
+    {
+      "task": 586,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5199.533853848663,
+      "work_finish_s": 5200.900731752667,
+      "makespan_s": 5210.0489702979685,
+      "home_fallback": false
+    },
+    {
+      "task": 587,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5200.900731752667,
+      "work_finish_s": 5202.198731752667,
+      "makespan_s": 5211.403715249922,
+      "home_fallback": false
+    },
+    {
+      "task": 585,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5202.198731752667,
+      "work_finish_s": 5203.565609656672,
+      "makespan_s": 5212.711008098927,
+      "home_fallback": false
+    },
+    {
+      "task": 589,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5203.565609656672,
+      "work_finish_s": 5205.018854446136,
+      "makespan_s": 5214.284034514642,
+      "home_fallback": false
+    },
+    {
+      "task": 588,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5205.018854446136,
+      "work_finish_s": 5206.316854446136,
+      "makespan_s": 5215.525160099124,
+      "home_fallback": false
+    },
+    {
+      "task": 591,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5206.316854446136,
+      "work_finish_s": 5207.710854446136,
+      "makespan_s": 5217.036830760655,
+      "home_fallback": false
+    },
+    {
+      "task": 592,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5207.710854446136,
+      "work_finish_s": 5209.008854446136,
+      "makespan_s": 5218.339097638737,
+      "home_fallback": false
+    },
+    {
+      "task": 590,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5209.008854446136,
+      "work_finish_s": 5210.37573235014,
+      "makespan_s": 5219.644710153327,
+      "home_fallback": false
+    },
+    {
+      "task": 594,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5210.37573235014,
+      "work_finish_s": 5211.828977139605,
+      "makespan_s": 5221.221067351597,
+      "home_fallback": false
+    },
+    {
+      "task": 595,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5211.828977139605,
+      "work_finish_s": 5213.126977139605,
+      "makespan_s": 5222.57629855721,
+      "home_fallback": false
+    },
+    {
+      "task": 593,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5213.126977139605,
+      "work_finish_s": 5214.493855043609,
+      "makespan_s": 5223.881215627719,
+      "home_fallback": false
+    },
+    {
+      "task": 597,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5214.493855043609,
+      "work_finish_s": 5215.9470998330735,
+      "makespan_s": 5225.458947380755,
+      "home_fallback": false
+    },
+    {
+      "task": 596,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5215.9470998330735,
+      "work_finish_s": 5217.245099833073,
+      "makespan_s": 5226.699607280177,
+      "home_fallback": false
+    },
+    {
+      "task": 575,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5217.245099833073,
+      "work_finish_s": 5219.505302013057,
+      "makespan_s": 5228.334532196804,
+      "home_fallback": false
+    },
+    {
+      "task": 598,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5228.334532196804,
+      "work_finish_s": 5238.385984501206,
+      "makespan_s": 5247.235077762978,
+      "home_fallback": false
+    },
+    {
+      "task": 599,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5238.385984501206,
+      "work_finish_s": 5239.6839845012055,
+      "makespan_s": 5248.488279513679,
+      "home_fallback": false
+    },
+    {
+      "task": 600,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5239.6839845012055,
+      "work_finish_s": 5240.981984501205,
+      "makespan_s": 5249.836991873058,
+      "home_fallback": false
+    },
+    {
+      "task": 601,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5249.836991873058,
+      "work_finish_s": 5281.385989290693,
+      "makespan_s": 5290.184986708328,
+      "home_fallback": false
+    },
+    {
+      "task": 602,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5281.385989290693,
+      "work_finish_s": 5304.169322624027,
+      "makespan_s": 5312.992116336275,
+      "home_fallback": false
+    },
+    {
+      "task": 603,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5304.169322624027,
+      "work_finish_s": 5328.133113746456,
+      "makespan_s": 5336.97976534152,
+      "home_fallback": false
+    },
+    {
+      "task": 605,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5336.97976534152,
+      "work_finish_s": 5347.096478581155,
+      "makespan_s": 5355.935378921664,
+      "home_fallback": false
+    },
+    {
+      "task": 606,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5347.096478581155,
+      "work_finish_s": 5348.3944785811545,
+      "makespan_s": 5357.28950707647,
+      "home_fallback": false
+    },
+    {
+      "task": 608,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5348.3944785811545,
+      "work_finish_s": 5349.761356485159,
+      "makespan_s": 5358.713518930601,
+      "home_fallback": false
+    },
+    {
+      "task": 609,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5349.761356485159,
+      "work_finish_s": 5351.059356485159,
+      "makespan_s": 5360.012876478084,
+      "home_fallback": false
+    },
+    {
+      "task": 611,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5351.059356485159,
+      "work_finish_s": 5352.426234389163,
+      "makespan_s": 5361.438051563342,
+      "home_fallback": false
+    },
+    {
+      "task": 612,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5352.426234389163,
+      "work_finish_s": 5353.724234389163,
+      "makespan_s": 5362.792633888735,
+      "home_fallback": false
+    },
+    {
+      "task": 610,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5353.724234389163,
+      "work_finish_s": 5355.0911122931675,
+      "makespan_s": 5364.101069283448,
+      "home_fallback": false
+    },
+    {
+      "task": 607,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5355.0911122931675,
+      "work_finish_s": 5356.485112293168,
+      "makespan_s": 5365.3809890766315,
+      "home_fallback": false
+    },
+    {
+      "task": 613,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5356.485112293168,
+      "work_finish_s": 5358.030727658878,
+      "makespan_s": 5367.101483377006,
+      "home_fallback": false
+    },
+    {
+      "task": 615,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5358.030727658878,
+      "work_finish_s": 5359.397605562883,
+      "makespan_s": 5368.527928767187,
+      "home_fallback": false
+    },
+    {
+      "task": 616,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5359.397605562883,
+      "work_finish_s": 5360.6956055628825,
+      "makespan_s": 5369.8827843745785,
+      "home_fallback": false
+    },
+    {
+      "task": 614,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5360.6956055628825,
+      "work_finish_s": 5362.062483466887,
+      "makespan_s": 5371.189960993616,
+      "home_fallback": false
+    },
+    {
+      "task": 618,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5362.062483466887,
+      "work_finish_s": 5363.515728256351,
+      "makespan_s": 5372.763219539677,
+      "home_fallback": false
+    },
+    {
+      "task": 617,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5363.515728256351,
+      "work_finish_s": 5364.813728256351,
+      "makespan_s": 5374.004235659764,
+      "home_fallback": false
+    },
+    {
+      "task": 620,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5364.813728256351,
+      "work_finish_s": 5366.207728256351,
+      "makespan_s": 5375.516131317689,
+      "home_fallback": false
+    },
+    {
+      "task": 621,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5366.207728256351,
+      "work_finish_s": 5367.505728256351,
+      "makespan_s": 5376.818406247478,
+      "home_fallback": false
+    },
+    {
+      "task": 619,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5367.505728256351,
+      "work_finish_s": 5368.872606160356,
+      "makespan_s": 5378.123902439759,
+      "home_fallback": false
+    },
+    {
+      "task": 623,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5368.872606160356,
+      "work_finish_s": 5370.32585094982,
+      "makespan_s": 5379.700491843399,
+      "home_fallback": false
+    },
+    {
+      "task": 624,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5370.32585094982,
+      "work_finish_s": 5371.62385094982,
+      "makespan_s": 5381.055828928301,
+      "home_fallback": false
+    },
+    {
+      "task": 622,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5371.62385094982,
+      "work_finish_s": 5372.990728853824,
+      "makespan_s": 5382.360631311664,
+      "home_fallback": false
+    },
+    {
+      "task": 626,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5372.990728853824,
+      "work_finish_s": 5374.443973643289,
+      "makespan_s": 5383.938591966511,
+      "home_fallback": false
+    },
+    {
+      "task": 625,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5374.443973643289,
+      "work_finish_s": 5375.741973643289,
+      "makespan_s": 5385.179147182049,
+      "home_fallback": false
+    },
+    {
+      "task": 604,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5375.741973643289,
+      "work_finish_s": 5378.002175823273,
+      "makespan_s": 5386.812842027988,
+      "home_fallback": false
+    },
+    {
+      "task": 627,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5386.812842027988,
+      "work_finish_s": 5396.8456716403625,
+      "makespan_s": 5405.676242680159,
+      "home_fallback": false
+    },
+    {
+      "task": 628,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5396.8456716403625,
+      "work_finish_s": 5398.143671640362,
+      "makespan_s": 5406.929349986398,
+      "home_fallback": false
+    },
+    {
+      "task": 629,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5398.143671640362,
+      "work_finish_s": 5399.441671640362,
+      "makespan_s": 5408.278169186839,
+      "home_fallback": false
+    },
+    {
+      "task": 630,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5408.278169186839,
+      "work_finish_s": 5439.808579200044,
+      "makespan_s": 5448.58898921325,
+      "home_fallback": false
+    },
+    {
+      "task": 631,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5439.808579200044,
+      "work_finish_s": 5462.591912533378,
+      "makespan_s": 5471.396169079692,
+      "home_fallback": false
+    },
+    {
+      "task": 632,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5462.591912533378,
+      "work_finish_s": 5486.555703655807,
+      "makespan_s": 5495.383868181284,
+      "home_fallback": false
+    },
+    {
+      "task": 634,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5495.383868181284,
+      "work_finish_s": 5505.482176450635,
+      "makespan_s": 5514.302613785882,
+      "home_fallback": false
+    },
+    {
+      "task": 635,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5505.482176450635,
+      "work_finish_s": 5506.780176450635,
+      "makespan_s": 5515.656858684895,
+      "home_fallback": false
+    },
+    {
+      "task": 637,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5506.780176450635,
+      "work_finish_s": 5508.147054354639,
+      "makespan_s": 5517.080987867104,
+      "home_fallback": false
+    },
+    {
+      "task": 638,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5508.147054354639,
+      "work_finish_s": 5509.445054354639,
+      "makespan_s": 5518.380348184126,
+      "home_fallback": false
+    },
+    {
+      "task": 640,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5509.445054354639,
+      "work_finish_s": 5510.8119322586435,
+      "makespan_s": 5519.805641412067,
+      "home_fallback": false
+    },
+    {
+      "task": 641,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5510.8119322586435,
+      "work_finish_s": 5512.109932258643,
+      "makespan_s": 5521.160336947904,
+      "home_fallback": false
+    },
+    {
+      "task": 639,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5512.109932258643,
+      "work_finish_s": 5513.476810162648,
+      "makespan_s": 5522.468655386086,
+      "home_fallback": false
+    },
+    {
+      "task": 636,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5513.476810162648,
+      "work_finish_s": 5514.870810162648,
+      "makespan_s": 5523.748342438125,
+      "home_fallback": false
+    },
+    {
+      "task": 642,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5514.870810162648,
+      "work_finish_s": 5516.416425528359,
+      "makespan_s": 5525.469191119796,
+      "home_fallback": false
+    },
+    {
+      "task": 644,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5516.416425528359,
+      "work_finish_s": 5517.783303432363,
+      "makespan_s": 5526.895754111002,
+      "home_fallback": false
+    },
+    {
+      "task": 645,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5517.783303432363,
+      "work_finish_s": 5519.081303432364,
+      "makespan_s": 5528.250720538898,
+      "home_fallback": false
+    },
+    {
+      "task": 643,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5519.081303432364,
+      "work_finish_s": 5520.448181336367,
+      "makespan_s": 5529.557780754372,
+      "home_fallback": false
+    },
+    {
+      "task": 647,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5520.448181336367,
+      "work_finish_s": 5521.901426125832,
+      "makespan_s": 5531.131271768677,
+      "home_fallback": false
+    },
+    {
+      "task": 646,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5521.901426125832,
+      "work_finish_s": 5523.199426125832,
+      "makespan_s": 5532.372178269422,
+      "home_fallback": false
+    },
+    {
+      "task": 649,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5523.199426125832,
+      "work_finish_s": 5524.593426125832,
+      "makespan_s": 5533.884299233773,
+      "home_fallback": false
+    },
+    {
+      "task": 650,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5524.593426125832,
+      "work_finish_s": 5525.891426125832,
+      "makespan_s": 5535.186582225758,
+      "home_fallback": false
+    },
+    {
+      "task": 648,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5525.891426125832,
+      "work_finish_s": 5527.258304029836,
+      "makespan_s": 5536.491961940159,
+      "home_fallback": false
+    },
+    {
+      "task": 652,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5527.258304029836,
+      "work_finish_s": 5528.711548819301,
+      "makespan_s": 5538.068783851034,
+      "home_fallback": false
+    },
+    {
+      "task": 653,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5528.711548819301,
+      "work_finish_s": 5530.009548819301,
+      "makespan_s": 5539.424226941366,
+      "home_fallback": false
+    },
+    {
+      "task": 651,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5530.009548819301,
+      "work_finish_s": 5531.3764267233055,
+      "makespan_s": 5540.728914500629,
+      "home_fallback": false
+    },
+    {
+      "task": 655,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5531.3764267233055,
+      "work_finish_s": 5532.82967151277,
+      "makespan_s": 5542.3071043223035,
+      "home_fallback": false
+    },
+    {
+      "task": 654,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5532.82967151277,
+      "work_finish_s": 5534.12767151277,
+      "makespan_s": 5543.547554736898,
+      "home_fallback": false
+    },
+    {
+      "task": 633,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5534.12767151277,
+      "work_finish_s": 5536.387873692754,
+      "makespan_s": 5545.180017602316,
+      "home_fallback": false
+    },
+    {
+      "task": 656,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5545.180017602316,
+      "work_finish_s": 5555.194266090096,
+      "makespan_s": 5564.006356673179,
+      "home_fallback": false
+    },
+    {
+      "task": 657,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5555.194266090096,
+      "work_finish_s": 5556.492266090097,
+      "makespan_s": 5565.259369349187,
+      "home_fallback": false
+    },
+    {
+      "task": 658,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5556.492266090097,
+      "work_finish_s": 5557.790266090096,
+      "makespan_s": 5566.608295600392,
+      "home_fallback": false
+    },
+    {
+      "task": 659,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5566.608295600392,
+      "work_finish_s": 5598.120159937773,
+      "makespan_s": 5606.8820242751535,
+      "home_fallback": false
+    },
+    {
+      "task": 660,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5598.120159937773,
+      "work_finish_s": 5620.9034932711065,
+      "makespan_s": 5629.689254478879,
+      "home_fallback": false
+    },
+    {
+      "task": 661,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5620.9034932711065,
+      "work_finish_s": 5644.867284393536,
+      "makespan_s": 5653.677003773604,
+      "home_fallback": false
+    },
+    {
+      "task": 663,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5653.677003773604,
+      "work_finish_s": 5663.756949243834,
+      "makespan_s": 5672.558965635708,
+      "home_fallback": false
+    },
+    {
+      "task": 664,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5663.756949243834,
+      "work_finish_s": 5665.054949243835,
+      "makespan_s": 5673.913327496416,
+      "home_fallback": false
+    },
+    {
+      "task": 666,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5665.054949243835,
+      "work_finish_s": 5666.4218271478385,
+      "makespan_s": 5675.337574215972,
+      "home_fallback": false
+    },
+    {
+      "task": 667,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5666.4218271478385,
+      "work_finish_s": 5667.719827147839,
+      "makespan_s": 5676.63693730736,
+      "home_fallback": false
+    },
+    {
+      "task": 669,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5667.719827147839,
+      "work_finish_s": 5669.086705051844,
+      "makespan_s": 5678.062348879122,
+      "home_fallback": false
+    },
+    {
+      "task": 670,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5669.086705051844,
+      "work_finish_s": 5670.384705051843,
+      "makespan_s": 5679.417157809382,
+      "home_fallback": false
+    },
+    {
+      "task": 668,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5670.384705051843,
+      "work_finish_s": 5671.751582955848,
+      "makespan_s": 5680.725359100818,
+      "home_fallback": false
+    },
+    {
+      "task": 665,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5671.751582955848,
+      "work_finish_s": 5673.145582955847,
+      "makespan_s": 5682.004813005909,
+      "home_fallback": false
+    },
+    {
+      "task": 671,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5673.145582955847,
+      "work_finish_s": 5674.691198321559,
+      "makespan_s": 5683.726016672321,
+      "home_fallback": false
+    },
+    {
+      "task": 673,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5674.691198321559,
+      "work_finish_s": 5676.058076225563,
+      "makespan_s": 5685.152697446284,
+      "home_fallback": false
+    },
+    {
+      "task": 674,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5676.058076225563,
+      "work_finish_s": 5677.356076225563,
+      "makespan_s": 5686.507774857588,
+      "home_fallback": false
+    },
+    {
+      "task": 672,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5677.356076225563,
+      "work_finish_s": 5678.722954129567,
+      "makespan_s": 5687.814718498174,
+      "home_fallback": false
+    },
+    {
+      "task": 676,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5678.722954129567,
+      "work_finish_s": 5680.176198919032,
+      "makespan_s": 5689.388442314021,
+      "home_fallback": false
+    },
+    {
+      "task": 675,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5680.176198919032,
+      "work_finish_s": 5681.474198919032,
+      "makespan_s": 5690.629239042675,
+      "home_fallback": false
+    },
+    {
+      "task": 678,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5681.474198919032,
+      "work_finish_s": 5682.868198919032,
+      "makespan_s": 5692.141585618919,
+      "home_fallback": false
+    },
+    {
+      "task": 679,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5682.868198919032,
+      "work_finish_s": 5684.166198919032,
+      "makespan_s": 5693.443876683416,
+      "home_fallback": false
+    },
+    {
+      "task": 677,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5684.166198919032,
+      "work_finish_s": 5685.533076823036,
+      "makespan_s": 5694.749139766757,
+      "home_fallback": false
+    },
+    {
+      "task": 681,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5685.533076823036,
+      "work_finish_s": 5686.9863216125,
+      "makespan_s": 5696.326194481918,
+      "home_fallback": false
+    },
+    {
+      "task": 682,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5686.9863216125,
+      "work_finish_s": 5688.2843216125,
+      "makespan_s": 5697.681743701557,
+      "home_fallback": false
+    },
+    {
+      "task": 680,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5688.2843216125,
+      "work_finish_s": 5689.651199516505,
+      "makespan_s": 5698.98631630221,
+      "home_fallback": false
+    },
+    {
+      "task": 684,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5689.651199516505,
+      "work_finish_s": 5691.104444305969,
+      "makespan_s": 5700.564735550799,
+      "home_fallback": false
+    },
+    {
+      "task": 683,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5691.104444305969,
+      "work_finish_s": 5692.402444305969,
+      "makespan_s": 5701.805081049671,
+      "home_fallback": false
+    },
+    {
+      "task": 662,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5692.402444305969,
+      "work_finish_s": 5694.662646485953,
+      "makespan_s": 5703.436310048242,
+      "home_fallback": false
+    },
+    {
+      "task": 685,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5703.436310048242,
+      "work_finish_s": 5713.432019243804,
+      "makespan_s": 5722.225671398752,
+      "home_fallback": false
+    },
+    {
+      "task": 686,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5713.432019243804,
+      "work_finish_s": 5714.730019243804,
+      "makespan_s": 5723.478589260289,
+      "home_fallback": false
+    },
+    {
+      "task": 687,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5714.730019243804,
+      "work_finish_s": 5716.028019243804,
+      "makespan_s": 5724.827622770226,
+      "home_fallback": false
+    },
+    {
+      "task": 688,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5724.827622770226,
+      "work_finish_s": 5756.320983425921,
+      "makespan_s": 5765.064344081617,
+      "home_fallback": false
+    },
+    {
+      "task": 689,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5756.320983425921,
+      "work_finish_s": 5779.104316759254,
+      "makespan_s": 5787.871624720589,
+      "home_fallback": false
+    },
+    {
+      "task": 690,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5779.104316759254,
+      "work_finish_s": 5803.068107881684,
+      "makespan_s": 5811.859424304407,
+      "home_fallback": false
+    },
+    {
+      "task": 692,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5811.859424304407,
+      "work_finish_s": 5821.921049410325,
+      "makespan_s": 5830.704687185347,
+      "home_fallback": false
+    },
+    {
+      "task": 693,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5821.921049410325,
+      "work_finish_s": 5823.219049410325,
+      "makespan_s": 5832.05916622323,
+      "home_fallback": false
+    },
+    {
+      "task": 695,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5823.219049410325,
+      "work_finish_s": 5824.58592731433,
+      "makespan_s": 5833.483530687313,
+      "home_fallback": false
+    },
+    {
+      "task": 696,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5824.58592731433,
+      "work_finish_s": 5825.883927314329,
+      "makespan_s": 5834.782896557846,
+      "home_fallback": false
+    },
+    {
+      "task": 698,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5825.883927314329,
+      "work_finish_s": 5827.250805218334,
+      "makespan_s": 5836.20842667239,
+      "home_fallback": false
+    },
+    {
+      "task": 699,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5827.250805218334,
+      "work_finish_s": 5828.548805218334,
+      "makespan_s": 5837.56334917891,
+      "home_fallback": false
+    },
+    {
+      "task": 697,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5828.548805218334,
+      "work_finish_s": 5829.915683122338,
+      "makespan_s": 5838.8714331356005,
+      "home_fallback": false
+    },
+    {
+      "task": 694,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5829.915683122338,
+      "work_finish_s": 5831.309683122338,
+      "makespan_s": 5840.150653492152,
+      "home_fallback": false
+    },
+    {
+      "task": 700,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5831.309683122338,
+      "work_finish_s": 5832.855298488049,
+      "makespan_s": 5841.872212740235,
+      "home_fallback": false
+    },
+    {
+      "task": 702,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5832.855298488049,
+      "work_finish_s": 5834.222176392053,
+      "makespan_s": 5843.299011476399,
+      "home_fallback": false
+    },
+    {
+      "task": 703,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5834.222176392053,
+      "work_finish_s": 5835.520176392053,
+      "makespan_s": 5844.654200031798,
+      "home_fallback": false
+    },
+    {
+      "task": 701,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5835.520176392053,
+      "work_finish_s": 5836.887054296058,
+      "makespan_s": 5845.9610269284985,
+      "home_fallback": false
+    },
+    {
+      "task": 705,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5836.887054296058,
+      "work_finish_s": 5838.340299085522,
+      "makespan_s": 5847.534983874492,
+      "home_fallback": false
+    },
+    {
+      "task": 704,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5838.340299085522,
+      "work_finish_s": 5839.638299085522,
+      "makespan_s": 5848.775670680544,
+      "home_fallback": false
+    },
+    {
+      "task": 707,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5839.638299085522,
+      "work_finish_s": 5841.032299085522,
+      "makespan_s": 5850.288243169495,
+      "home_fallback": false
+    },
+    {
+      "task": 708,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5841.032299085522,
+      "work_finish_s": 5842.330299085522,
+      "makespan_s": 5851.590542316656,
+      "home_fallback": false
+    },
+    {
+      "task": 706,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5842.330299085522,
+      "work_finish_s": 5843.697176989526,
+      "makespan_s": 5852.895688618189,
+      "home_fallback": false
+    },
+    {
+      "task": 710,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5843.697176989526,
+      "work_finish_s": 5845.150421778991,
+      "makespan_s": 5854.472976429776,
+      "home_fallback": false
+    },
+    {
+      "task": 711,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5845.150421778991,
+      "work_finish_s": 5846.448421778991,
+      "makespan_s": 5855.828631900298,
+      "home_fallback": false
+    },
+    {
+      "task": 709,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5846.448421778991,
+      "work_finish_s": 5847.815299682995,
+      "makespan_s": 5857.133089410327,
+      "home_fallback": false
+    },
+    {
+      "task": 713,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5847.815299682995,
+      "work_finish_s": 5849.268544472459,
+      "makespan_s": 5858.711738340903,
+      "home_fallback": false
+    },
+    {
+      "task": 712,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5849.268544472459,
+      "work_finish_s": 5850.56654447246,
+      "makespan_s": 5859.951978811583,
+      "home_fallback": false
+    },
+    {
+      "task": 691,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5850.56654447246,
+      "work_finish_s": 5852.826746652444,
+      "makespan_s": 5861.581972080966,
+      "home_fallback": false
+    },
+    {
+      "task": 714,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5861.581972080966,
+      "work_finish_s": 5871.559184083279,
+      "makespan_s": 5880.334440103603,
+      "home_fallback": false
+    },
+    {
+      "task": 715,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5871.559184083279,
+      "work_finish_s": 5872.85718408328,
+      "makespan_s": 5881.587262967994,
+      "home_fallback": false
+    },
+    {
+      "task": 716,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5872.85718408328,
+      "work_finish_s": 5874.15518408328,
+      "makespan_s": 5882.9364039428565,
+      "home_fallback": false
+    },
+    {
+      "task": 717,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5882.9364039428565,
+      "work_finish_s": 5914.411303178187,
+      "makespan_s": 5923.136202413517,
+      "home_fallback": false
+    },
+    {
+      "task": 718,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5914.411303178187,
+      "work_finish_s": 5937.19463651152,
+      "makespan_s": 5945.943533584866,
+      "home_fallback": false
+    },
+    {
+      "task": 719,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 5937.19463651152,
+      "work_finish_s": 5961.15842763395,
+      "makespan_s": 5969.931383552884,
+      "home_fallback": false
+    },
+    {
+      "task": 721,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5969.931383552884,
+      "work_finish_s": 5979.974730994528,
+      "makespan_s": 5988.740032745467,
+      "home_fallback": false
+    },
+    {
+      "task": 722,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5979.974730994528,
+      "work_finish_s": 5981.272730994528,
+      "makespan_s": 5990.094629173946,
+      "home_fallback": false
+    },
+    {
+      "task": 724,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5981.272730994528,
+      "work_finish_s": 5982.639608898532,
+      "makespan_s": 5991.519111587599,
+      "home_fallback": false
+    },
+    {
+      "task": 725,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5982.639608898532,
+      "work_finish_s": 5983.937608898532,
+      "makespan_s": 5992.818480242002,
+      "home_fallback": false
+    },
+    {
+      "task": 727,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5983.937608898532,
+      "work_finish_s": 5985.304486802536,
+      "makespan_s": 5994.244129096072,
+      "home_fallback": false
+    },
+    {
+      "task": 728,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5985.304486802536,
+      "work_finish_s": 5986.602486802536,
+      "makespan_s": 5995.599165358502,
+      "home_fallback": false
+    },
+    {
+      "task": 726,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5986.602486802536,
+      "work_finish_s": 5987.969364706541,
+      "makespan_s": 5996.907131794705,
+      "home_fallback": false
+    },
+    {
+      "task": 723,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5987.969364706541,
+      "work_finish_s": 5989.363364706541,
+      "makespan_s": 5998.186118205429,
+      "home_fallback": false
+    },
+    {
+      "task": 729,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5989.363364706541,
+      "work_finish_s": 5990.908980072251,
+      "makespan_s": 5999.908033625459,
+      "home_fallback": false
+    },
+    {
+      "task": 731,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5990.908980072251,
+      "work_finish_s": 5992.275857976256,
+      "makespan_s": 6001.334950500931,
+      "home_fallback": false
+    },
+    {
+      "task": 732,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5992.275857976256,
+      "work_finish_s": 5993.573857976256,
+      "makespan_s": 6002.690250358862,
+      "home_fallback": false
+    },
+    {
+      "task": 730,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5993.573857976256,
+      "work_finish_s": 5994.94073588026,
+      "makespan_s": 6003.996960345042,
+      "home_fallback": false
+    },
+    {
+      "task": 734,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5994.94073588026,
+      "work_finish_s": 5996.393980669724,
+      "makespan_s": 6005.571150745011,
+      "home_fallback": false
+    },
+    {
+      "task": 733,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5996.393980669724,
+      "work_finish_s": 5997.691980669725,
+      "makespan_s": 6006.811727480231,
+      "home_fallback": false
+    },
+    {
+      "task": 736,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5997.691980669725,
+      "work_finish_s": 5999.085980669724,
+      "makespan_s": 6008.324526177967,
+      "home_fallback": false
+    },
+    {
+      "task": 737,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 5999.085980669724,
+      "work_finish_s": 6000.383980669725,
+      "makespan_s": 6009.626833417767,
+      "home_fallback": false
+    },
+    {
+      "task": 735,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6000.383980669725,
+      "work_finish_s": 6001.750858573729,
+      "makespan_s": 6010.93186278922,
+      "home_fallback": false
+    },
+    {
+      "task": 739,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6001.750858573729,
+      "work_finish_s": 6003.204103363193,
+      "makespan_s": 6012.509383984384,
+      "home_fallback": false
+    },
+    {
+      "task": 740,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6003.204103363193,
+      "work_finish_s": 6004.502103363194,
+      "makespan_s": 6013.865145825027,
+      "home_fallback": false
+    },
+    {
+      "task": 738,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6004.502103363194,
+      "work_finish_s": 6005.868981267197,
+      "makespan_s": 6015.169488114944,
+      "home_fallback": false
+    },
+    {
+      "task": 742,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6005.868981267197,
+      "work_finish_s": 6007.322226056663,
+      "makespan_s": 6016.748366977486,
+      "home_fallback": false
+    },
+    {
+      "task": 741,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6007.322226056663,
+      "work_finish_s": 6008.620226056662,
+      "makespan_s": 6017.9885023098595,
+      "home_fallback": false
+    },
+    {
+      "task": 720,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6008.620226056662,
+      "work_finish_s": 6010.880428236646,
+      "makespan_s": 6019.617258012169,
+      "home_fallback": false
+    },
+    {
+      "task": 743,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6019.617258012169,
+      "work_finish_s": 6029.576015188458,
+      "makespan_s": 6038.332917634211,
+      "home_fallback": false
+    },
+    {
+      "task": 744,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6029.576015188458,
+      "work_finish_s": 6030.874015188458,
+      "makespan_s": 6039.585645320388,
+      "home_fallback": false
+    },
+    {
+      "task": 745,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6030.874015188458,
+      "work_finish_s": 6032.172015188457,
+      "makespan_s": 6040.934893964547,
+      "home_fallback": false
+    },
+    {
+      "task": 746,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6040.934893964547,
+      "work_finish_s": 6072.391374309669,
+      "makespan_s": 6081.097854654791,
+      "home_fallback": false
+    },
+    {
+      "task": 747,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6072.391374309669,
+      "work_finish_s": 6095.174707643003,
+      "makespan_s": 6103.905236454783,
+      "home_fallback": false
+    },
+    {
+      "task": 748,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6095.174707643003,
+      "work_finish_s": 6119.138498765432,
+      "makespan_s": 6127.893136901237,
+      "home_fallback": false
+    },
+    {
+      "task": 750,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6127.893136901237,
+      "work_finish_s": 6137.918249645465,
+      "makespan_s": 6146.665258232946,
+      "home_fallback": false
+    },
+    {
+      "task": 751,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6137.918249645465,
+      "work_finish_s": 6139.216249645465,
+      "makespan_s": 6148.019972263339,
+      "home_fallback": false
+    },
+    {
+      "task": 753,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6139.216249645465,
+      "work_finish_s": 6140.583127549469,
+      "makespan_s": 6149.444572829421,
+      "home_fallback": false
+    },
+    {
+      "task": 754,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6140.583127549469,
+      "work_finish_s": 6141.881127549469,
+      "makespan_s": 6150.743944272369,
+      "home_fallback": false
+    },
+    {
+      "task": 756,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6141.881127549469,
+      "work_finish_s": 6143.2480054534735,
+      "makespan_s": 6152.169712060442,
+      "home_fallback": false
+    },
+    {
+      "task": 757,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6143.2480054534735,
+      "work_finish_s": 6144.546005453473,
+      "makespan_s": 6153.524862256198,
+      "home_fallback": false
+    },
+    {
+      "task": 755,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6144.546005453473,
+      "work_finish_s": 6145.912883357478,
+      "makespan_s": 6154.832710988476,
+      "home_fallback": false
+    },
+    {
+      "task": 752,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6145.912883357478,
+      "work_finish_s": 6147.306883357478,
+      "makespan_s": 6156.111463060484,
+      "home_fallback": false
+    },
+    {
+      "task": 758,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6147.306883357478,
+      "work_finish_s": 6148.852498723189,
+      "makespan_s": 6157.833735235939,
+      "home_fallback": false
+    },
+    {
+      "task": 760,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6148.852498723189,
+      "work_finish_s": 6150.219376627193,
+      "makespan_s": 6159.260770425445,
+      "home_fallback": false
+    },
+    {
+      "task": 761,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6150.219376627193,
+      "work_finish_s": 6151.517376627193,
+      "makespan_s": 6160.616181742046,
+      "home_fallback": false
+    },
+    {
+      "task": 759,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6151.517376627193,
+      "work_finish_s": 6152.884254531197,
+      "makespan_s": 6161.9227746534825,
+      "home_fallback": false
+    },
+    {
+      "task": 763,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6152.884254531197,
+      "work_finish_s": 6154.337499320662,
+      "makespan_s": 6163.497198826388,
+      "home_fallback": false
+    },
+    {
+      "task": 762,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6154.337499320662,
+      "work_finish_s": 6155.635499320662,
+      "makespan_s": 6164.737665344866,
+      "home_fallback": false
+    },
+    {
+      "task": 765,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6155.635499320662,
+      "work_finish_s": 6157.029499320662,
+      "makespan_s": 6166.250690542642,
+      "home_fallback": false
+    },
+    {
+      "task": 766,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6157.029499320662,
+      "work_finish_s": 6158.327499320662,
+      "makespan_s": 6167.55300588488,
+      "home_fallback": false
+    },
+    {
+      "task": 764,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6158.327499320662,
+      "work_finish_s": 6159.694377224666,
+      "makespan_s": 6168.8579181805035,
+      "home_fallback": false
+    },
+    {
+      "task": 768,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6159.694377224666,
+      "work_finish_s": 6161.14762201413,
+      "makespan_s": 6170.435673041313,
+      "home_fallback": false
+    },
+    {
+      "task": 769,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6161.14762201413,
+      "work_finish_s": 6162.445622014131,
+      "makespan_s": 6171.791541368937,
+      "home_fallback": false
+    },
+    {
+      "task": 767,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6162.445622014131,
+      "work_finish_s": 6163.8124999181355,
+      "makespan_s": 6173.095768311833,
+      "home_fallback": false
+    },
+    {
+      "task": 771,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6163.8124999181355,
+      "work_finish_s": 6165.2657447076,
+      "makespan_s": 6174.674877351136,
+      "home_fallback": false
+    },
+    {
+      "task": 770,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6165.2657447076,
+      "work_finish_s": 6166.5637447076,
+      "makespan_s": 6175.914907437478,
+      "home_fallback": false
+    },
+    {
+      "task": 749,
+      "robot_id": 3,
+      "reverse": true,
+      "departure_s": 6166.5637447076,
+      "work_finish_s": 6168.823946887584,
+      "makespan_s": 6177.542423759774,
+      "home_fallback": false
+    },
+    {
+      "task": 772,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6177.542423759774,
+      "work_finish_s": 6187.482768747172,
+      "makespan_s": 6196.221360446575,
+      "home_fallback": false
+    },
+    {
+      "task": 773,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6187.482768747172,
+      "work_finish_s": 6188.780768747171,
+      "makespan_s": 6197.473992775114,
+      "home_fallback": false
+    },
+    {
+      "task": 774,
+      "robot_id": 1,
+      "reverse": true,
+      "departure_s": 6188.780768747171,
+      "work_finish_s": 6190.078768747171,
+      "makespan_s": 6198.8233492910795,
+      "home_fallback": false
+    }
+  ],
+  "trajectory_sha256": "57e229bedf0a165ea579f741c2dbe09e69a2c4459cf82ab7212e44a93297b184",
+  "validation": {
+    "schema_version": "4.0",
+    "validator_version": "1.0.1",
+    "status": "PASS",
+    "input": {
+      "directory": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\route_public06_ppo_20261009_001\\model06\\ppo\\job",
+      "trajectory_rows": 1764,
+      "target_watertight": true
+    },
+    "schedule": {
+      "makespan_s": 6198.8233492910795,
+      "robot_completion_s": {
+        "1": 6198.8233492910795,
+        "2": 6198.8233492910795,
+        "3": 6198.8233492910795
+      },
+      "workload_imbalance_s": 0.0,
+      "normalized_imbalance": 0.0
+    },
+    "reach": {
+      "distance_basis": "XY",
+      "passed": true,
+      "robots": [
+        {
+          "robot_id": 1,
+          "passed": true,
+          "xy_reach_radius_mm": 1500.0,
+          "maximum_xy_distance_mm": 1461.4739135543953,
+          "minimum_xy_margin_mm": 38.52608644560473,
+          "xy_utilization_ratio": 0.9743159423695968,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 2,
+          "passed": true,
+          "xy_reach_radius_mm": 1500.0,
+          "maximum_xy_distance_mm": 400.00004144903704,
+          "minimum_xy_margin_mm": 1099.999958550963,
+          "xy_utilization_ratio": 0.266666694299358,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        },
+        {
+          "robot_id": 3,
+          "passed": true,
+          "xy_reach_radius_mm": 1500.0,
+          "maximum_xy_distance_mm": 1496.385432750319,
+          "minimum_xy_margin_mm": 3.614567249680931,
+          "xy_utilization_ratio": 0.9975902885002127,
+          "xy_violation_point_count": 0,
+          "first_xy_violation_s": null,
+          "last_xy_violation_s": null
+        }
+      ]
+    },
+    "collision": {
+      "passed": true,
+      "collision_event_count": 0,
+      "arm_envelope": {
+        "enabled": true,
+        "passed": true,
+        "event_count": 0,
+        "minimum_safety_margin_mm": 644.6917659805715,
+        "centerline_distance_at_worst_mm": 894.6917659805715,
+        "required_distance_at_worst_mm": 250.0,
+        "capsule_surface_clearance_at_worst_mm": 694.6917659805715,
+        "pair": [
+          2,
+          3
+        ],
+        "time_s": 419.3595982056391,
+        "closest_points_xy_mm": [
+          [
+            500.0,
+            866.025390625
+          ],
+          [
+            53.0,
+            91.0
+          ]
+        ],
+        "tcp_positions_xy_mm": [
+          [
+            -1000.0,
+            0.0
+          ],
+          [
+            500.0,
+            866.025390625
+          ],
+          [
+            53.0,
+            91.0
+          ]
+        ]
+      },
+      "tcp_radius": {
+        "enabled": true,
+        "passed": true,
+        "event_count": 0,
+        "minimum_distance_mm": 894.6917659805715,
+        "required_distance_at_minimum_mm": 200.0,
+        "pair": [
+          2,
+          3
+        ],
+        "time_s": 419.3595982056391
+      }
+    },
+    "shape": {
+      "passed": true,
+      "target_volume_mm3": 636120.0,
+      "deposited_volume_mm3": 605909.2964908795,
+      "intersection_volume_mm3": 605909.2964908804,
+      "underfill_volume_mm3": 30210.703509120016,
+      "overfill_volume_mm3": 0.0,
+      "coverage": 0.9525078546357297,
+      "underfill_ratio": 0.04749214536427092,
+      "overfill_ratio": 0.0,
+      "iou": 0.9525078546357312,
+      "failed_layer_count": 0,
+      "evaluated_layer_count": 51,
+      "failed_layer_ratio": 0.0,
+      "target_mesh_volume_mm3": 636119.9999999999,
+      "target_volume_discrepancy_ratio": 1.8300842895512612e-16
+    },
+    "failure_reasons": [],
+    "issues": [],
+    "output_directory": "C:\\Users\\User\\Desktop\\AInAlgorithm\\waam_generalization\\integration\\runs\\route_public06_ppo_20261009_001\\model06\\ppo\\validation"
+  },
+  "simultaneous_motion_s": 0.0,
+  "max_moving_robots": 1
+}
